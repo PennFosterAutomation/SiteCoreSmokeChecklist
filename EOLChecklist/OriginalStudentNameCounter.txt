@@ -619,3 +619,5 @@ boh
 boi
 boj
 bok
+bol
+bom
