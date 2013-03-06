@@ -1,11 +1,42 @@
 browser: chrome
 appurl:  http://s-enroll.pennfoster.com/testlinks.htm
-appurl1: http://stage.www.pennfoster.edu/urm.aspx?source=Q174859&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Education-and-Child-Care/Early-Childhood-Education-Associate-Degree.aspx?semkey=Q174859
-appurl2: http://stage.www.pennfoster.edu/urm.aspx?source=Q084069&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/High-School/High-School-Diploma.aspx?semkey=Q084069
-appurl3: http://stage.www.pennfoster.edu/urm.aspx?source=Q084006&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Apparel-and-Textile/Dressmaking-and-Design-Career-Diploma.aspx?semkey=Q084006
 ajax_timeout: 30
 logFilePath: logs/Reports
 
+
+##########################################################################################
+#
+#******* Configurations for Domestic Site Core URL *******
+#
+##########################################################################################
+# Possible values for RunType
+# RunType: Multiple
+# RunType: Single
+# 
+# 
+# If selected RunType as 'Multiple'. TotalCourse Field would be mandatory.
+# Total course contain the total number of course for those script have to be run
+
+SiteCoreApp:
+  RunType: Multiple
+  TotalActiveURL: "2"
+
+  URL1: "http://stage.www.pennfoster.edu/urm.aspx?source=Q174859&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Education-and-Child-Care/Early-Childhood-Education-Associate-Degree.aspx?semkey=Q174859"
+  URL2: "http://stage.www.pennfoster.edu/urm.aspx?source=Q084069&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/High-School/High-School-Diploma.aspx?semkey=Q084069"
+  URL3: "http://stage.www.pennfoster.edu/urm.aspx?source=Q084006&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Apparel-and-Textile/Dressmaking-and-Design-Career-Diploma.aspx?semkey=Q084006"
+  
+  StudentInformation:
+    FirstName: Final
+    LastName: tests
+    Email: mail
+    EmailExt: pennfoster.com
+    PrimaryPhone: (248)246-1109
+    Address: 925 Oak St
+    City: Scranton
+    State: Pennsylvania
+    ZIP: "18515"  
+    
+    
 ##########################################################################################
 #
 #******* Configurations for Domestic URL�s Receive Information (no course) *******
