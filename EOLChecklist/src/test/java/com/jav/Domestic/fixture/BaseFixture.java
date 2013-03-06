@@ -18,6 +18,7 @@ import com.jav.Domestic.pageobjects.EOLDomesticReceiveInfo_UI;
 import com.jav.Domestic.pageobjects.EOLDomesticReceiveInfo_nocourse_UI;
 import com.jav.Domestic.pageobjects.EOLEnrollNow_UI;
 import com.jav.Domestic.pageobjects.EOLEnrollNow_nocourse_UI;
+import com.jav.Domestic.pageobjects.SiteCoreULR_Feature_UI;
 import com.jav.Domestic.util.Utilities;
 
 
@@ -32,6 +33,7 @@ public class BaseFixture {
 	EOLDomesticReceiveInfo_UI DomReciveInfo;
 	EOLEnrollNow_UI DomEnrollNow;
 	EOLEnrollNow_nocourse_UI DomEnrollNowNoCourse;
+	SiteCoreULR_Feature_UI SiteCore;
 	
 	public void startBrowserSession()
 	{
@@ -75,6 +77,7 @@ public class BaseFixture {
 		DomReciveInfo = new EOLDomesticReceiveInfo_UI(driver);
 		DomEnrollNow = new EOLEnrollNow_UI(driver);
 		DomEnrollNowNoCourse = new EOLEnrollNow_nocourse_UI(driver);
+		SiteCore = new SiteCoreULR_Feature_UI(driver);
 	}
 	
 	public void launchUrl(String url)
