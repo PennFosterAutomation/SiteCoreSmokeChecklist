@@ -76130,3 +76130,3521 @@ Mon, 4 Mar 2013 17:02:18 IST  ########## Start Verify Elements Display On Review
 
 Mon, 4 Mar 2013 17:02:18 IST  ########## Stop Browser Session ###########
 
+Tue, 5 Mar 2013 13:17:44 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 13:17:52 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 13:17:52 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:18:10 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:18:10 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:18:24 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 13:18:24 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 13:18:24 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:18:24 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:18:25 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 13:18:34 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 13:18:35 IST  Enter Last Name  --> bob
+
+Tue, 5 Mar 2013 13:18:35 IST  Enter Email  --> mail051744032@pennfoster.com
+
+Tue, 5 Mar 2013 13:18:35 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 13:18:35 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 13:18:35 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 13:18:35 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 13:18:35 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 13:18:56 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:18:56 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:18:56 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 13:18:57 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 13:18:57 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:18:57 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 13:18:57 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 13:18:57 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 13:18:57 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:18:57 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 13:18:57 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 13:18:59 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:19:00 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:19:00 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 13:19:00 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 13:19:02 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 13:19:02 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 13:19:03 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 13:19:03 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 13:19:03 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 13:19:12 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 13:19:12 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:19:12 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:19:13 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:19:17 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 13:19:18 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 13:20:49 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 13:25:05 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 13:25:09 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 13:25:09 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:25:16 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:25:17 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:25:24 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 13:25:24 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 13:25:24 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:25:24 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:25:24 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 13:25:32 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 13:25:32 IST  Enter Last Name  --> boc
+
+Tue, 5 Mar 2013 13:25:32 IST  Enter Email  --> mail052505077@pennfoster.com
+
+Tue, 5 Mar 2013 13:25:32 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 13:25:32 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 13:25:32 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 13:25:32 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 13:25:32 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 13:25:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:25:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:25:47 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 13:25:47 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 13:25:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:25:47 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 13:25:47 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 13:25:47 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 13:25:47 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:25:47 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 13:25:47 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 13:25:49 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:25:49 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:25:49 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 13:25:49 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 13:25:51 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 13:25:51 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 13:25:51 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 13:25:51 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 13:25:51 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 13:25:57 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 13:25:57 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:25:57 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:25:57 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:25:58 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 13:25:58 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 13:27:16 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 13:38:15 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 13:38:19 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 13:38:19 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:38:26 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:38:26 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:38:38 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 13:38:38 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 13:38:38 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:38:38 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:38:38 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 13:38:47 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 13:38:47 IST  Enter Last Name  --> bod
+
+Tue, 5 Mar 2013 13:38:47 IST  Enter Email  --> mail053815562@pennfoster.com
+
+Tue, 5 Mar 2013 13:38:47 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 13:38:47 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 13:38:47 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 13:38:47 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 13:38:47 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 13:39:22 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:39:22 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:39:23 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 13:39:23 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 13:39:23 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:39:23 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 13:39:23 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 13:39:23 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 13:39:23 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:39:23 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 13:39:23 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 13:39:25 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:39:26 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:39:26 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 13:39:26 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 13:39:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 13:39:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 13:39:28 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 13:39:28 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 13:39:28 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 13:39:33 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 13:39:34 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:39:34 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:39:34 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:39:35 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 13:39:35 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 13:40:48 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 13:41:02 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 13:41:07 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 13:41:07 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:41:14 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:41:14 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:41:22 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 13:41:22 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 13:41:22 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:41:22 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:41:22 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 13:41:30 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 13:41:30 IST  Enter Last Name  --> boe
+
+Tue, 5 Mar 2013 13:41:30 IST  Enter Email  --> mail054102464@pennfoster.com
+
+Tue, 5 Mar 2013 13:41:30 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 13:41:30 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 13:41:30 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 13:41:30 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 13:41:30 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 13:41:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:41:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:41:47 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 13:41:47 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 13:41:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:41:47 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 13:41:47 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 13:41:47 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 13:41:48 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:41:48 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 13:41:48 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 13:41:50 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:41:50 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:41:50 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 13:41:50 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 13:41:51 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 13:41:51 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 13:41:52 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 13:41:52 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 13:41:52 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 13:42:00 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 13:42:00 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:42:00 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:42:01 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:42:01 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 13:42:02 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 13:43:17 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 13:44:37 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 13:44:43 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 13:44:43 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:44:50 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:44:50 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:45:01 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 13:45:01 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 13:45:01 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:45:01 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:45:01 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 13:45:10 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 13:45:10 IST  Enter Last Name  --> bof
+
+Tue, 5 Mar 2013 13:45:10 IST  Enter Email  --> mail054436770@pennfoster.com
+
+Tue, 5 Mar 2013 13:45:10 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 13:45:10 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 13:45:10 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 13:45:10 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 13:45:10 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 13:45:24 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:45:24 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:45:24 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 13:45:24 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 13:45:24 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:45:24 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 13:45:24 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 13:45:24 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 13:45:24 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:45:24 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 13:45:24 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 13:45:26 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:45:26 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:45:26 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 13:45:26 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 13:45:28 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 13:45:28 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 13:45:29 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 13:45:29 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 13:45:29 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 13:45:33 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 13:45:33 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:45:33 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:45:33 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:45:34 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 13:45:34 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 13:46:03 IST  Final Student ID is 40392192 - Pass
+
+Tue, 5 Mar 2013 13:46:03 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Tue, 5 Mar 2013 13:46:03 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 13:55:02 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 13:55:04 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 13:55:04 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:55:12 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:55:12 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:55:23 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 13:55:23 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 13:55:23 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:55:23 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:55:24 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 13:55:32 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 13:55:32 IST  Enter Last Name  --> bog
+
+Tue, 5 Mar 2013 13:55:32 IST  Enter Email  --> mail055501862@pennfoster.com
+
+Tue, 5 Mar 2013 13:55:32 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 13:55:32 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 13:55:32 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 13:55:32 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 13:55:32 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 13:56:03 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:56:03 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:56:04 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 13:56:04 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 13:56:04 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 13:56:04 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 13:56:04 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 13:56:04 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 13:56:04 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:56:04 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 13:56:04 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 13:56:07 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:56:07 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 13:56:07 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 13:56:07 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 13:56:09 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 13:56:09 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 13:56:09 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 13:56:09 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 13:56:09 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 13:56:15 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 13:56:15 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:56:15 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:56:15 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 13:56:16 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 13:56:16 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 13:57:48 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 13:59:33 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 13:59:36 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 13:59:36 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:59:43 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:59:43 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 13:59:54 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 13:59:54 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 13:59:54 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 13:59:54 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 13:59:55 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 14:00:03 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 14:00:03 IST  Enter Last Name  --> boh
+
+Tue, 5 Mar 2013 14:00:03 IST  Enter Email  --> mail055933341@pennfoster.com
+
+Tue, 5 Mar 2013 14:00:03 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 14:00:03 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 14:00:03 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 14:00:03 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 14:00:03 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 14:00:20 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:00:20 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:00:20 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 14:00:20 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 14:00:20 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:00:20 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 14:00:20 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 14:00:20 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 14:00:21 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:00:21 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 14:00:21 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 14:00:24 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:00:24 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:00:24 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 14:00:24 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 14:00:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 14:00:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 14:00:28 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 14:00:28 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 14:00:28 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 14:00:34 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 14:00:34 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:00:34 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:00:34 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:00:35 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 14:00:35 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 14:01:52 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 14:02:55 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 14:02:59 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 14:02:59 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:03:05 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:03:05 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:03:16 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 14:03:16 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 14:03:16 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:03:16 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:03:17 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 14:03:25 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 14:03:25 IST  Enter Last Name  --> boi
+
+Tue, 5 Mar 2013 14:03:25 IST  Enter Email  --> mail050254932@pennfoster.com
+
+Tue, 5 Mar 2013 14:03:25 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 14:03:25 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 14:03:25 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 14:03:25 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 14:03:25 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 14:03:39 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:03:39 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:03:39 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 14:03:39 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 14:03:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:03:40 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 14:03:40 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 14:03:40 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 14:03:40 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:03:40 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 14:03:40 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 14:03:42 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:03:42 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:03:42 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 14:03:42 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 14:03:44 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 14:03:44 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 14:03:44 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 14:03:44 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 14:03:44 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 14:03:49 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 14:03:49 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:03:49 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:03:49 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:03:50 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 14:03:50 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 14:04:07 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 14:17:18 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 14:17:25 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 14:17:25 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:17:32 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:17:32 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:17:40 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 14:17:40 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 14:17:40 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:17:40 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:17:40 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 14:17:49 IST  Enter First Name --> Test
+
+Tue, 5 Mar 2013 14:17:49 IST  Enter Last Name  --> boj
+
+Tue, 5 Mar 2013 14:17:49 IST  Enter Email  --> mail051718395@pennfoster.com
+
+Tue, 5 Mar 2013 14:17:49 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 14:17:49 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 14:17:49 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 14:17:49 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 14:17:49 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 14:18:19 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:18:19 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:18:19 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 14:18:19 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 14:18:19 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:18:19 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 14:18:19 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 14:18:19 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 14:18:19 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:18:19 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 14:18:19 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 14:18:21 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:18:21 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:18:22 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 14:18:22 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 14:18:23 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 14:18:23 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 14:18:24 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 14:18:24 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 14:18:24 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 14:18:30 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 14:18:30 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:18:30 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:18:30 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:18:31 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 14:18:31 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 14:19:16 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 14:21:23 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 14:21:26 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 14:21:26 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:21:32 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:21:32 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:21:44 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 14:21:44 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 14:21:44 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:21:44 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:21:44 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 14:21:45 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 14:23:25 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 14:23:27 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 14:23:27 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:23:34 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:23:34 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:23:41 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 14:23:42 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 14:23:42 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:23:42 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:23:42 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 14:23:50 IST  Enter First Name --> TestQAE
+
+Tue, 5 Mar 2013 14:23:50 IST  Enter Last Name  --> bol
+
+Tue, 5 Mar 2013 14:23:50 IST  Enter Email  --> mail052324768@pennfoster.com
+
+Tue, 5 Mar 2013 14:23:50 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 14:23:50 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 14:23:50 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 14:23:50 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 14:23:50 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 14:24:04 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:24:04 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:24:05 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 14:24:05 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 14:24:05 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:24:05 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 14:24:05 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 14:24:05 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 14:24:05 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:24:05 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 14:24:05 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 14:24:07 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:24:07 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:24:07 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 14:24:07 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 14:24:09 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 14:24:09 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 14:24:10 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 14:24:10 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 14:24:10 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 14:24:13 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 14:24:14 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:24:14 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:24:14 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:24:15 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 14:24:15 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 14:24:39 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 14:27:54 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 14:28:01 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 14:28:01 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:28:07 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:28:07 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:28:14 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 14:28:14 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 14:28:14 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:28:14 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:28:14 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 14:28:23 IST  Enter First Name --> TestQAE
+
+Tue, 5 Mar 2013 14:28:23 IST  Enter Last Name  --> bom
+
+Tue, 5 Mar 2013 14:28:23 IST  Enter Email  --> mail052753818@pennfoster.com
+
+Tue, 5 Mar 2013 14:28:23 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 14:28:23 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 14:28:23 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 14:28:23 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 14:28:23 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 14:28:37 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:28:37 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:28:37 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 14:28:37 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 14:28:37 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:28:37 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 14:28:37 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 14:28:37 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 14:28:37 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:28:37 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 14:28:37 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 14:28:39 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:28:39 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:28:39 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 14:28:39 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 14:28:41 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 14:28:41 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 14:28:42 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 14:28:42 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 14:28:42 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 14:28:46 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 14:28:46 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:28:46 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:28:46 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:28:47 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 14:28:47 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 14:29:03 IST  ########## Stop Browser Session ###########
+
+Tue, 5 Mar 2013 14:31:14 IST  ########## Start browser session STARTS ###########
+
+Tue, 5 Mar 2013 14:31:17 IST  ########## Start browser session ENDS ###########
+
+Tue, 5 Mar 2013 14:31:17 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:31:23 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:31:23 IST  ########## Start Launch Home Page STARTS ###########
+
+Tue, 5 Mar 2013 14:31:35 IST Click on Receive Information (No course) - Pass
+
+Tue, 5 Mar 2013 14:31:35 IST  Penn Foster School Image Verify - Pass
+
+Tue, 5 Mar 2013 14:31:35 IST  ########## Start Launch Home Page ENDS ###########
+
+Tue, 5 Mar 2013 14:31:35 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:31:35 IST  Enter Information on Step1 page - Pass
+
+Tue, 5 Mar 2013 14:31:44 IST  Enter First Name --> TestQAE
+
+Tue, 5 Mar 2013 14:31:44 IST  Enter Last Name  --> bon
+
+Tue, 5 Mar 2013 14:31:44 IST  Enter Email  --> mail053113612@pennfoster.com
+
+Tue, 5 Mar 2013 14:31:44 IST  Enter Phone Number  --> (248)246-1109
+
+Tue, 5 Mar 2013 14:31:44 IST  Enter Address  --> 925 Oak St
+
+Tue, 5 Mar 2013 14:31:44 IST  Enter City  --> Scranton
+
+Tue, 5 Mar 2013 14:31:44 IST  Enter Zip  --> 18515
+
+Tue, 5 Mar 2013 14:31:44 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Tue, 5 Mar 2013 14:31:59 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:31:59 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Tue, 5 Mar 2013 14:31:59 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Tue, 5 Mar 2013 14:31:59 IST Verify Promo COde Link display on Page - PASS
+
+Tue, 5 Mar 2013 14:31:59 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Tue, 5 Mar 2013 14:31:59 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Tue, 5 Mar 2013 14:31:59 IST Verify Step Text - PASS
+
+Tue, 5 Mar 2013 14:31:59 IST Verify Footer Image Secure Transaction - PASS
+
+Tue, 5 Mar 2013 14:31:59 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:31:59 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Tue, 5 Mar 2013 14:31:59 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Tue, 5 Mar 2013 14:32:02 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:32:02 IST Select savings account option display on Payment Information Page - PASS
+
+Tue, 5 Mar 2013 14:32:02 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Tue, 5 Mar 2013 14:32:02 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Tue, 5 Mar 2013 14:32:04 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Tue, 5 Mar 2013 14:32:04 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Tue, 5 Mar 2013 14:32:04 IST Click on Proceed to Final Step button - PASS 
+
+Tue, 5 Mar 2013 14:32:04 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Tue, 5 Mar 2013 14:32:04 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Tue, 5 Mar 2013 14:32:10 IST Verify redirect user to review & submit page - PASS 
+
+Tue, 5 Mar 2013 14:32:10 IST Information Display under Personal Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:32:10 IST Information Display under Program Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:32:10 IST Information Display under Payment Information Heading - PASS 
+
+Tue, 5 Mar 2013 14:32:11 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Tue, 5 Mar 2013 14:32:11 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Tue, 5 Mar 2013 14:32:29 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 09:42:44 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 09:42:52 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 09:42:52 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 09:43:03 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 09:43:03 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 09:43:31 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 09:43:31 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 09:43:31 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 09:43:31 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 09:43:31 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 09:43:40 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 09:43:40 IST  Enter Last Name  --> boo
+
+Wed, 6 Mar 2013 09:43:40 IST  Enter Email  --> mail064244340@pennfoster.com
+
+Wed, 6 Mar 2013 09:43:40 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 09:43:40 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 09:43:40 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 09:43:40 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 09:43:40 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 09:44:22 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 09:44:22 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 09:44:23 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 09:44:23 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 09:44:23 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 09:44:23 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 09:44:23 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 09:44:23 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 09:44:23 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:44:23 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 09:44:23 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 09:44:25 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:44:25 IST Select savings account option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:44:25 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 09:44:25 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 09:44:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 09:44:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 09:44:27 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 09:44:28 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 09:44:28 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 09:45:20 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 09:46:31 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 09:46:34 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 09:46:34 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 09:46:41 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 09:46:41 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 09:46:48 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 09:46:48 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 09:46:48 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 09:46:48 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 09:46:48 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 09:46:57 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 09:46:57 IST  Enter Last Name  --> bop
+
+Wed, 6 Mar 2013 09:46:57 IST  Enter Email  --> mail064630971@pennfoster.com
+
+Wed, 6 Mar 2013 09:46:57 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 09:46:57 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 09:46:57 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 09:46:57 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 09:46:57 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 09:47:11 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 09:47:11 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 09:47:11 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 09:47:11 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 09:47:11 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 09:47:11 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 09:47:11 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 09:47:11 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 09:47:11 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:47:11 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 09:47:11 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 09:47:14 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:47:14 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:47:14 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 09:47:14 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 09:47:17 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:47:17 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 09:47:17 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 09:47:21 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 09:47:22 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 09:47:22 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 09:47:22 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 09:47:22 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 09:47:22 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 09:47:22 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 09:47:26 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 09:47:26 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 09:47:26 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 09:47:26 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 09:47:27 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 09:47:27 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 09:48:03 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 09:55:29 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 09:55:32 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 09:55:32 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 09:55:39 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 09:55:39 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 09:55:50 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 09:55:50 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 09:55:50 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 09:55:50 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 09:55:50 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 09:55:59 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 09:55:59 IST  Enter Last Name  --> boq
+
+Wed, 6 Mar 2013 09:55:59 IST  Enter Email  --> mail065529009@pennfoster.com
+
+Wed, 6 Mar 2013 09:55:59 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 09:55:59 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 09:55:59 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 09:55:59 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 09:55:59 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 09:56:10 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 09:56:10 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 09:56:11 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 09:56:11 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 09:56:11 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 09:56:11 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 09:56:11 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 09:56:11 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 09:56:11 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:56:11 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 09:56:11 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 09:56:13 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:56:13 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:56:13 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 09:56:13 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 09:56:16 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:56:16 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 09:56:16 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 09:56:21 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 09:56:22 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 09:56:22 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 09:56:22 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 09:56:22 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 09:56:22 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 09:56:22 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 09:56:26 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 09:56:26 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 09:56:26 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 09:56:26 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 09:56:27 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 09:56:27 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 09:56:41 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 09:59:07 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 09:59:10 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 09:59:10 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 09:59:17 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 09:59:17 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 09:59:24 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 09:59:24 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 09:59:24 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 09:59:24 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 09:59:25 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 09:59:33 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 09:59:33 IST  Enter Last Name  --> bor
+
+Wed, 6 Mar 2013 09:59:33 IST  Enter Email  --> mail065907505@pennfoster.com
+
+Wed, 6 Mar 2013 09:59:33 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 09:59:33 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 09:59:33 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 09:59:33 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 09:59:33 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 09:59:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 09:59:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 09:59:47 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 09:59:47 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 09:59:47 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 09:59:47 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 09:59:47 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 09:59:47 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 09:59:47 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:59:47 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 09:59:47 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 09:59:50 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:59:50 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:59:50 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 09:59:50 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 09:59:53 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 09:59:53 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 09:59:53 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 09:59:57 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 09:59:58 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 09:59:58 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 09:59:58 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 09:59:58 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 09:59:58 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 09:59:58 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 10:00:02 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 10:00:02 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:00:02 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:00:02 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:00:03 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 10:00:03 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 10:00:18 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 10:24:18 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 10:24:22 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 10:24:22 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:24:29 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:24:29 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:24:46 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 10:24:46 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 10:24:46 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:24:46 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:24:46 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:24:55 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 10:24:55 IST  Enter Last Name  --> bos
+
+Wed, 6 Mar 2013 10:24:55 IST  Enter Email  --> mail062418625@pennfoster.com
+
+Wed, 6 Mar 2013 10:24:55 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 10:24:55 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 10:24:55 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 10:24:55 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 10:24:55 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 10:25:12 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:25:12 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:25:12 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 10:25:12 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 10:25:12 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:25:12 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 10:25:12 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 10:25:12 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 10:25:13 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:25:13 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 10:25:13 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 10:25:15 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:25:15 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:25:15 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 10:25:15 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 10:25:18 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:25:18 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 10:25:18 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 10:25:23 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 10:25:23 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 10:25:23 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 10:25:23 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 10:25:23 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 10:25:23 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 10:25:23 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 10:25:27 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 10:25:28 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:25:28 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:25:28 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:25:29 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 10:25:29 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 10:25:45 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 10:29:43 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 10:29:48 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 10:29:48 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:29:55 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:29:55 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:30:06 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 10:30:06 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 10:30:06 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:30:06 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:30:07 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:30:15 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 10:30:15 IST  Enter Last Name  --> bot
+
+Wed, 6 Mar 2013 10:30:15 IST  Enter Email  --> mail062943042@pennfoster.com
+
+Wed, 6 Mar 2013 10:30:15 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 10:30:15 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 10:30:15 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 10:30:16 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 10:30:16 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 10:30:29 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:30:29 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:30:29 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 10:30:29 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 10:30:29 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:30:29 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 10:30:29 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 10:30:29 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 10:30:30 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:30:30 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 10:30:30 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 10:30:32 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:30:32 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:30:32 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 10:30:32 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 10:30:35 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:30:35 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 10:30:35 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 10:30:40 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 10:30:40 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 10:30:40 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 10:30:40 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 10:30:40 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 10:30:40 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 10:30:40 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 10:30:45 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 10:30:45 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:30:45 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:30:45 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:30:46 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 10:30:46 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 10:31:02 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 10:34:19 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 10:34:23 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 10:34:23 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:34:30 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:34:30 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:34:37 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 10:34:37 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 10:34:37 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:34:37 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:34:37 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:34:46 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 10:34:46 IST  Enter Last Name  --> bou
+
+Wed, 6 Mar 2013 10:34:46 IST  Enter Email  --> mail063418687@pennfoster.com
+
+Wed, 6 Mar 2013 10:34:46 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 10:34:46 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 10:34:46 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 10:34:47 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 10:34:47 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 10:35:00 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:35:00 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:35:00 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 10:35:00 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 10:35:00 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:35:00 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 10:35:00 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 10:35:00 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 10:35:01 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:35:01 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 10:35:01 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 10:35:03 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:35:03 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:35:03 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 10:35:03 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 10:35:06 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:35:06 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 10:35:06 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 10:35:10 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 10:35:11 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 10:35:11 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 10:35:11 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 10:35:11 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 10:35:11 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 10:35:11 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 10:35:15 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 10:35:15 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:35:15 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:35:15 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:35:16 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 10:35:16 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 10:35:47 IST  Final Student ID is 40392571 - Pass
+
+Wed, 6 Mar 2013 10:35:47 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 10:35:47 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 10:47:48 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 10:47:52 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 10:47:52 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:47:59 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:47:59 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:48:04 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 10:48:04 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 10:48:04 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:48:04 IST  ########## Start Get Number Of Course Available STARTS ###########
+
+Wed, 6 Mar 2013 10:48:04 IST Total number of Course under Receive Information (No course) is --> 185 - Pass
+
+Wed, 6 Mar 2013 10:48:07 IST  ########## Start Get Number Of Course Available ENDS ###########
+
+Wed, 6 Mar 2013 10:48:07 IST  ########## Start Select Course From Available Courses STARTS ###########
+
+Wed, 6 Mar 2013 10:48:07 IST  Select a course from dropdown - Pass
+
+Wed, 6 Mar 2013 10:48:12 IST  Click on Continue button - Pass
+
+Wed, 6 Mar 2013 10:48:12 IST  ########## Start Select Course From Available Courses ENDS ###########
+
+Wed, 6 Mar 2013 10:48:12 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:48:12 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:48:21 IST  Enter First Name --> Final
+
+Wed, 6 Mar 2013 10:48:21 IST  Enter Last Name  --> bov
+
+Wed, 6 Mar 2013 10:48:21 IST  Enter Email  --> mail064748483@pennfoster.com
+
+Wed, 6 Mar 2013 10:48:21 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 10:48:21 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 10:48:21 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 10:48:21 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 10:48:21 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 10:48:32 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:48:32 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:48:32 IST Verify Course Name display on page i.e. A.S. DEGREE INTERIOR DESIGN - PASS
+
+Wed, 6 Mar 2013 10:48:32 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 10:48:32 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:48:32 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 10:48:33 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 10:48:33 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 10:48:33 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:48:33 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 10:48:33 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 10:48:35 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:48:36 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:48:36 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 10:48:36 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 10:48:39 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:48:39 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 10:48:39 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 10:48:44 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 10:48:44 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 10:48:44 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 10:48:44 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 10:48:44 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 10:48:44 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 10:48:44 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 10:48:49 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 10:48:49 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:48:49 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:48:49 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 10:48:50 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 10:48:50 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 10:49:29 IST  Final Student ID not genrated application display only is Congratulations page
+
+Wed, 6 Mar 2013 10:49:29 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 10:49:29 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 10:54:39 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 10:54:46 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 10:54:46 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:54:53 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:54:53 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:55:00 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 10:55:00 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 10:55:01 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:55:01 IST  ########## Start Verify Elements Display On Step1 Enrollment Process STARTS ###########
+
+Wed, 6 Mar 2013 10:55:01 IST  Fill form for Course --> PENN FOSTER HIGH SCHOOL - Pass
+
+Wed, 6 Mar 2013 10:55:02 IST  Verify Elements display on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:55:02 IST  ########## Start Verify Elements Display On Step1 Enrollment Process ENDS ###########
+
+Wed, 6 Mar 2013 10:55:02 IST  ########## Start Enter Student Information On Step1 Page STARTS ###########
+
+Wed, 6 Mar 2013 10:55:02 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:55:27 IST  Enter First Name --> Test
+
+Wed, 6 Mar 2013 10:55:27 IST  Enter Last Name  --> bow
+
+Wed, 6 Mar 2013 10:55:27 IST  Enter Email  --> mail065439628@pennfoster.com
+
+Wed, 6 Mar 2013 10:55:27 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 10:55:27 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 10:55:27 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 10:55:27 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 10:55:27 IST  ########## Start Enter Student Information On Step1 Page ENDS ###########
+
+Wed, 6 Mar 2013 10:55:27 IST  ########## Start Redirect To ThankYou Page And Click Enroll OnLine STARTS ###########
+
+Wed, 6 Mar 2013 10:55:27 IST Verify thankyou page displayed  - PASS 
+
+Wed, 6 Mar 2013 10:55:34 IST Click on Enroll OnLine Link  - PASS 
+
+Wed, 6 Mar 2013 10:55:34 IST  ########## Start Redirect To ThankYou Page And Click Enroll OnLine ENDS ###########
+
+Wed, 6 Mar 2013 10:55:34 IST  ########## Start Verify Element Display On Personal Information Page STARTS ###########
+
+Wed, 6 Mar 2013 10:55:36 IST Verify textboxes and Labels display on Personal Information Page  - PASS 
+
+Wed, 6 Mar 2013 10:55:36 IST  ########## Start Verify Element Display On Personal Information Page ENDS ###########
+
+Wed, 6 Mar 2013 10:55:36 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:55:36 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:55:50 IST  Enter First Name --> Test
+
+Wed, 6 Mar 2013 10:55:50 IST  Enter Last Name  --> bow
+
+Wed, 6 Mar 2013 10:55:50 IST  Enter Email  --> mail065439628@pennfoster.com
+
+Wed, 6 Mar 2013 10:55:50 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 10:55:50 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 10:55:50 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 10:55:51 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 10:55:52 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 10:56:00 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:56:00 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:56:00 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 10:56:00 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 10:56:00 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:56:00 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 10:56:00 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 10:56:01 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 10:56:31 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 10:57:39 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 10:57:43 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 10:57:43 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:57:50 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:57:50 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 10:58:01 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 10:58:01 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 10:58:01 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 10:58:01 IST  ########## Start Verify Elements Display On Step1 Enrollment Process STARTS ###########
+
+Wed, 6 Mar 2013 10:58:01 IST  Fill form for Course --> PENN FOSTER HIGH SCHOOL - Pass
+
+Wed, 6 Mar 2013 10:58:03 IST  Verify Elements display on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:58:03 IST  ########## Start Verify Elements Display On Step1 Enrollment Process ENDS ###########
+
+Wed, 6 Mar 2013 10:58:03 IST  ########## Start Enter Student Information On Step1 Page STARTS ###########
+
+Wed, 6 Mar 2013 10:58:03 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:58:28 IST  Enter First Name --> Test
+
+Wed, 6 Mar 2013 10:58:28 IST  Enter Last Name  --> box
+
+Wed, 6 Mar 2013 10:58:28 IST  Enter Email  --> mail065739555@pennfoster.com
+
+Wed, 6 Mar 2013 10:58:28 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 10:58:28 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 10:58:28 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 10:58:28 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 10:58:28 IST  ########## Start Enter Student Information On Step1 Page ENDS ###########
+
+Wed, 6 Mar 2013 10:58:28 IST  ########## Start Redirect To ThankYou Page And Click Enroll OnLine STARTS ###########
+
+Wed, 6 Mar 2013 10:58:28 IST Verify thankyou page displayed  - PASS 
+
+Wed, 6 Mar 2013 10:58:35 IST Click on Enroll OnLine Link  - PASS 
+
+Wed, 6 Mar 2013 10:58:36 IST  ########## Start Redirect To ThankYou Page And Click Enroll OnLine ENDS ###########
+
+Wed, 6 Mar 2013 10:58:36 IST  ########## Start Verify Element Display On Personal Information Page STARTS ###########
+
+Wed, 6 Mar 2013 10:58:38 IST Verify textboxes and Labels display on Personal Information Page  - PASS 
+
+Wed, 6 Mar 2013 10:58:38 IST  ########## Start Verify Element Display On Personal Information Page ENDS ###########
+
+Wed, 6 Mar 2013 10:58:38 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:58:38 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 10:58:53 IST  Enter First Name --> Test
+
+Wed, 6 Mar 2013 10:58:53 IST  Enter Last Name  --> box
+
+Wed, 6 Mar 2013 10:58:53 IST  Enter Email  --> mail065739555@pennfoster.com
+
+Wed, 6 Mar 2013 10:58:53 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 10:58:53 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 10:58:53 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 10:58:53 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 10:58:55 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 10:59:04 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:59:04 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 10:59:04 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 10:59:04 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 10:59:04 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 10:59:04 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 10:59:04 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 10:59:04 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 10:59:05 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:59:05 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 10:59:05 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 10:59:06 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:59:06 IST Select savings account option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 10:59:06 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 10:59:06 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 10:59:08 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 10:59:08 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 10:59:09 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 10:59:09 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 10:59:09 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 11:21:36 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 11:21:39 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 11:21:39 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 11:21:46 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 11:21:46 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 11:21:57 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 11:21:57 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 11:21:57 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 11:21:57 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 11:21:58 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 11:22:06 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 11:22:07 IST  Enter Last Name  --> boy
+
+Wed, 6 Mar 2013 11:22:07 IST  Enter Email  --> mail062136504@pennfoster.com
+
+Wed, 6 Mar 2013 11:22:07 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 11:22:07 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 11:22:07 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 11:22:07 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 11:22:07 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 11:22:32 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 11:22:32 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 11:22:32 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 11:22:32 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 11:22:32 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 11:22:32 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 11:22:32 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 11:22:32 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 11:22:32 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 11:22:32 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 11:22:32 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 11:22:34 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 11:22:35 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 11:22:35 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 11:22:35 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 11:22:38 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 11:22:38 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 11:22:38 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 11:22:43 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 11:22:43 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 11:22:43 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 11:22:43 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 11:22:43 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 11:22:43 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 11:22:43 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 11:22:47 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 11:22:47 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 11:22:47 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 11:22:48 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 11:22:48 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 11:22:48 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 11:23:26 IST  Final Student ID is 40392651 - Pass
+
+Wed, 6 Mar 2013 11:23:26 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 11:23:26 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 11:26:30 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 11:26:33 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 11:26:33 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 11:26:39 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 11:26:39 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 11:26:46 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 11:26:46 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 11:26:46 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 11:26:46 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 11:26:47 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 11:26:55 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 11:26:55 IST  Enter Last Name  --> boz
+
+Wed, 6 Mar 2013 11:26:55 IST  Enter Email  --> mail062630029@pennfoster.com
+
+Wed, 6 Mar 2013 11:26:55 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 11:26:55 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 11:26:55 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 11:26:55 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 11:26:55 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 11:27:09 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 11:27:09 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 11:27:09 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 11:27:09 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 11:27:09 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 11:27:09 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 11:27:09 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 11:27:09 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 11:27:10 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 11:27:10 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 11:27:10 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 11:27:12 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 11:27:12 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 11:27:12 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 11:27:12 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 11:27:15 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 11:27:15 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 11:27:15 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 11:27:20 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 11:27:20 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 11:27:20 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 11:27:20 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 11:27:20 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 11:27:20 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 11:27:20 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 11:27:24 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 11:27:24 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 11:27:24 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 11:27:24 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 11:27:25 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 11:27:25 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 11:27:55 IST  Final Student ID is 40392678 - Pass
+
+Wed, 6 Mar 2013 11:27:55 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 11:27:55 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 12:41:01 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 12:41:06 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 12:41:06 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 12:41:13 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 12:41:13 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 12:41:27 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 12:41:28 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 12:41:28 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 12:41:28 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 12:41:28 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 12:41:37 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 12:41:37 IST  Enter Last Name  --> bpa
+
+Wed, 6 Mar 2013 12:41:37 IST  Enter Email  --> mail064101158@pennfoster.com
+
+Wed, 6 Mar 2013 12:41:37 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 12:41:37 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 12:41:37 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 12:41:37 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 12:41:37 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 12:41:50 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 12:41:50 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 12:41:50 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 12:41:50 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 12:41:50 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 12:41:50 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 12:41:51 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 12:41:51 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 12:41:51 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:41:51 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 12:41:51 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 12:41:53 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:41:53 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:41:53 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 12:41:53 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 12:41:56 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:41:56 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 12:41:56 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 12:42:01 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 12:42:01 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 12:42:01 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 12:42:01 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 12:42:01 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 12:42:01 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 12:42:01 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 12:42:06 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 12:42:06 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:42:06 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:42:06 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:42:07 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 12:42:07 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 12:42:23 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 12:45:08 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 12:45:16 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 12:45:16 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 12:45:22 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 12:45:22 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 12:45:37 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 12:45:37 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 12:45:37 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 12:45:37 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 12:45:37 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 12:45:46 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 12:45:46 IST  Enter Last Name  --> bpb
+
+Wed, 6 Mar 2013 12:45:46 IST  Enter Email  --> mail064508071@pennfoster.com
+
+Wed, 6 Mar 2013 12:45:46 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 12:45:46 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 12:45:46 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 12:45:46 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 12:45:46 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 12:45:59 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 12:45:59 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 12:45:59 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 12:45:59 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 12:45:59 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 12:45:59 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 12:45:59 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 12:45:59 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 12:45:59 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:45:59 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 12:45:59 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 12:46:02 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:46:02 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:46:02 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 12:46:02 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 12:46:05 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:46:05 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 12:46:05 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 12:46:09 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 12:46:10 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 12:46:10 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 12:46:10 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 12:46:10 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 12:46:10 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 12:46:10 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 12:46:14 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 12:46:14 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:46:14 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:46:14 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:46:15 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 12:46:15 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 12:46:30 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 12:53:32 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 12:53:36 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 12:53:36 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 12:53:43 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 12:53:43 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 12:53:55 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 12:53:55 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 12:53:55 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 12:53:56 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 12:53:56 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 12:54:04 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 12:54:04 IST  Enter Last Name  --> bpc
+
+Wed, 6 Mar 2013 12:54:04 IST  Enter Email  --> mail065332082@pennfoster.com
+
+Wed, 6 Mar 2013 12:54:04 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 12:54:04 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 12:54:04 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 12:54:04 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 12:54:04 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 12:54:18 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 12:54:18 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 12:54:18 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 12:54:18 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 12:54:18 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 12:54:18 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 12:54:18 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 12:54:18 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 12:54:19 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:54:19 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 12:54:19 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 12:54:21 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:54:21 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:54:21 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 12:54:21 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 12:54:24 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 12:54:24 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 12:54:24 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 12:54:29 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 12:54:29 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 12:54:29 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 12:54:29 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 12:54:29 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 12:54:29 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 12:54:29 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 12:54:33 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 12:54:33 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:54:34 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:54:34 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 12:54:34 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 12:54:34 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 12:55:06 IST  Final Student ID is 40392900 - Pass
+
+Wed, 6 Mar 2013 12:55:06 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 12:55:06 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 12:59:59 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 13:00:06 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 13:00:06 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:00:12 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:00:12 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:00:19 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 13:00:19 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 13:00:19 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:00:19 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:00:19 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 13:00:29 IST  Enter First Name --> TestQAE
+
+Wed, 6 Mar 2013 13:00:30 IST  Enter Last Name  --> bpd
+
+Wed, 6 Mar 2013 13:00:30 IST  Enter Email  --> mail065959287@pennfoster.com
+
+Wed, 6 Mar 2013 13:00:30 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 13:00:30 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 13:00:30 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 13:00:30 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 13:00:30 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 13:00:43 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:00:43 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:00:44 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+
+Wed, 6 Mar 2013 13:00:44 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 13:00:44 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:00:44 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 13:00:44 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 13:00:44 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 13:00:44 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:00:44 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 13:00:44 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 13:00:46 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:00:46 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:00:46 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 13:00:46 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 13:00:49 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:00:49 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 13:00:49 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 13:00:54 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 13:00:54 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 13:00:54 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 13:00:54 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 13:00:54 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 13:00:54 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 13:00:54 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 13:00:58 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 13:00:58 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:00:58 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:00:59 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:00:59 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 13:00:59 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 13:01:29 IST  Final Student ID is 40392918 - Pass
+
+Wed, 6 Mar 2013 13:01:30 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 13:01:30 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 13:08:50 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 13:08:53 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 13:08:53 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:09:00 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:09:00 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:09:05 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 13:09:05 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 13:09:05 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:09:05 IST  ########## Start Get Number Of Course Available STARTS ###########
+
+Wed, 6 Mar 2013 13:09:05 IST Total number of Course under Receive Information (No course) is --> 185 - Pass
+
+Wed, 6 Mar 2013 13:09:08 IST  ########## Start Get Number Of Course Available ENDS ###########
+
+Wed, 6 Mar 2013 13:09:08 IST  ########## Start Select Course From Available Courses STARTS ###########
+
+Wed, 6 Mar 2013 13:09:08 IST  Select a course from dropdown - Pass
+
+Wed, 6 Mar 2013 13:09:13 IST  Click on Continue button - Pass
+
+Wed, 6 Mar 2013 13:09:13 IST  ########## Start Select Course From Available Courses ENDS ###########
+
+Wed, 6 Mar 2013 13:09:13 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:09:14 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 13:09:22 IST  Enter First Name --> Final
+
+Wed, 6 Mar 2013 13:09:22 IST  Enter Last Name  --> bpe
+
+Wed, 6 Mar 2013 13:09:23 IST  Enter Email  --> mail060849967@pennfoster.com
+
+Wed, 6 Mar 2013 13:09:23 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 13:09:23 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 13:09:23 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 13:09:23 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 13:09:23 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 13:09:34 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:09:34 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:09:35 IST Verify Course Name display on page i.e. A.S. DEGREE INTERIOR DESIGN - PASS
+
+Wed, 6 Mar 2013 13:09:35 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 13:09:35 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:09:35 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 13:09:35 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 13:09:35 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 13:09:35 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:09:35 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 13:09:35 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 13:09:37 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:09:37 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:09:37 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 13:09:37 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 13:09:40 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:09:40 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 13:09:40 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 13:09:45 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 13:09:45 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 13:09:45 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 13:09:45 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 13:09:45 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 13:09:45 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 13:09:45 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 13:09:49 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 13:09:49 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:09:49 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:09:49 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:09:50 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 13:09:50 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 13:10:06 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 13:15:42 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 13:15:49 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 13:15:49 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:15:56 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:15:56 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:16:02 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 13:16:02 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 13:16:02 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:16:02 IST  ########## Start Get Number Of Course Available STARTS ###########
+
+Wed, 6 Mar 2013 13:16:02 IST Total number of Course under Receive Information (No course) is --> 185 - Pass
+
+Wed, 6 Mar 2013 13:16:05 IST  ########## Start Get Number Of Course Available ENDS ###########
+
+Wed, 6 Mar 2013 13:16:05 IST  ########## Start Select Course From Available Courses STARTS ###########
+
+Wed, 6 Mar 2013 13:16:05 IST  Select a course from dropdown - Pass
+
+Wed, 6 Mar 2013 13:16:10 IST  Click on Continue button - Pass
+
+Wed, 6 Mar 2013 13:16:10 IST  ########## Start Select Course From Available Courses ENDS ###########
+
+Wed, 6 Mar 2013 13:16:10 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:16:11 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 13:16:29 IST  Enter First Name --> Final
+
+Wed, 6 Mar 2013 13:16:29 IST  Enter Last Name  --> bpf
+
+Wed, 6 Mar 2013 13:16:29 IST  Enter Email  --> mail061542013@pennfoster.com
+
+Wed, 6 Mar 2013 13:16:29 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 13:16:29 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 13:16:29 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 13:16:29 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 13:16:29 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 13:16:42 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:16:42 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:16:42 IST Verify Course Name display on page i.e. A.S. DEGREE INTERIOR DESIGN - PASS
+
+Wed, 6 Mar 2013 13:16:42 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 13:16:42 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:16:42 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 13:16:42 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 13:16:43 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 13:16:43 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:16:43 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 13:16:43 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 13:16:45 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:16:46 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:16:46 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 13:16:46 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 13:16:48 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 13:22:05 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 13:22:08 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 13:22:08 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:22:14 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:22:14 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:22:20 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 13:22:20 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 13:22:20 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:22:20 IST  ########## Start Get Number Of Course Available STARTS ###########
+
+Wed, 6 Mar 2013 13:22:20 IST Total number of Course under Receive Information (No course) is --> 185 - Pass
+
+Wed, 6 Mar 2013 13:22:23 IST  ########## Start Get Number Of Course Available ENDS ###########
+
+Wed, 6 Mar 2013 13:22:23 IST  ########## Start Select Course From Available Courses STARTS ###########
+
+Wed, 6 Mar 2013 13:22:23 IST  Select a course from dropdown - Pass
+
+Wed, 6 Mar 2013 13:22:28 IST  Click on Continue button - Pass
+
+Wed, 6 Mar 2013 13:22:28 IST  ########## Start Select Course From Available Courses ENDS ###########
+
+Wed, 6 Mar 2013 13:22:28 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:22:29 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 13:22:38 IST  Enter First Name --> Final
+
+Wed, 6 Mar 2013 13:22:38 IST  Enter Last Name  --> bpg
+
+Wed, 6 Mar 2013 13:22:38 IST  Enter Email  --> mail062204891@pennfoster.com
+
+Wed, 6 Mar 2013 13:22:38 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 13:22:38 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 13:22:38 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 13:22:38 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 13:22:38 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 13:22:50 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:22:50 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:22:50 IST Verify Course Name display on page i.e. A.S. DEGREE INTERIOR DESIGN - PASS
+
+Wed, 6 Mar 2013 13:22:51 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 13:22:51 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:22:51 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 13:22:51 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 13:22:51 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 13:22:51 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:22:51 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 13:22:51 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 13:22:53 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:22:53 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:22:53 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 13:22:53 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 13:22:56 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:22:56 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 13:22:56 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 13:23:01 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 13:23:01 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 13:23:01 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 13:23:01 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 13:23:01 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 13:23:01 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 13:23:01 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 13:23:05 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 13:23:05 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:23:05 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:23:06 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:23:06 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 13:23:06 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 13:23:45 IST  Final Student ID not genrated application display only is Congratulations page
+
+Wed, 6 Mar 2013 13:23:45 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 13:23:45 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 13:24:14 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 13:24:17 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 13:24:17 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:24:24 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:24:24 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:24:29 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 13:24:29 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 13:24:29 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:24:29 IST  ########## Start Get Number Of Course Available STARTS ###########
+
+Wed, 6 Mar 2013 13:24:29 IST Total number of Course under Receive Information (No course) is --> 185 - Pass
+
+Wed, 6 Mar 2013 13:24:32 IST  ########## Start Get Number Of Course Available ENDS ###########
+
+Wed, 6 Mar 2013 13:24:32 IST  ########## Start Select Course From Available Courses STARTS ###########
+
+Wed, 6 Mar 2013 13:24:32 IST  Select a course from dropdown - Pass
+
+Wed, 6 Mar 2013 13:24:37 IST  Click on Continue button - Pass
+
+Wed, 6 Mar 2013 13:24:37 IST  ########## Start Select Course From Available Courses ENDS ###########
+
+Wed, 6 Mar 2013 13:24:37 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:24:37 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 13:24:47 IST  Enter First Name --> Final
+
+Wed, 6 Mar 2013 13:24:47 IST  Enter Last Name  --> bph
+
+Wed, 6 Mar 2013 13:24:47 IST  Enter Email  --> mail062414272@pennfoster.com
+
+Wed, 6 Mar 2013 13:24:47 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 13:24:47 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 13:24:47 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 13:24:47 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 13:24:47 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 13:25:01 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:25:01 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:25:01 IST Verify Course Name display on page i.e. A.S. DEGREE INTERIOR DESIGN - PASS
+
+Wed, 6 Mar 2013 13:25:01 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 13:25:01 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:25:01 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 13:25:01 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 13:25:01 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 13:25:01 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:25:01 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 13:25:01 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 13:25:03 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:25:03 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:25:03 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 13:25:03 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 13:25:06 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:25:06 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 13:25:06 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 13:25:11 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 13:25:11 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 13:25:11 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 13:25:11 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 13:25:11 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 13:25:11 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 13:25:11 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 13:25:15 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 13:25:16 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:25:16 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:25:16 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:25:17 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 13:25:17 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 13:25:55 IST  Final Student ID not genrated application display only is Congratulations page
+
+Wed, 6 Mar 2013 13:25:55 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 13:25:55 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 13:56:28 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 13:56:32 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 13:56:33 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:56:39 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:56:39 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 13:56:44 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 13:56:44 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 13:56:44 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 13:56:44 IST  ########## Start Get Number Of Course Available STARTS ###########
+
+Wed, 6 Mar 2013 13:56:44 IST Total number of Course under Receive Information (No course) is --> 185 - Pass
+
+Wed, 6 Mar 2013 13:56:47 IST  ########## Start Get Number Of Course Available ENDS ###########
+
+Wed, 6 Mar 2013 13:56:47 IST  ########## Start Select Course From Available Courses STARTS ###########
+
+Wed, 6 Mar 2013 13:56:48 IST  Select a course from dropdown - Pass
+
+Wed, 6 Mar 2013 13:56:52 IST  Click on Continue button - Pass
+
+Wed, 6 Mar 2013 13:56:52 IST  ########## Start Select Course From Available Courses ENDS ###########
+
+Wed, 6 Mar 2013 13:56:52 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:56:53 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 13:57:01 IST  Enter First Name --> Final
+
+Wed, 6 Mar 2013 13:57:01 IST  Enter Last Name  --> bpi
+
+Wed, 6 Mar 2013 13:57:01 IST  Enter Email  --> mail065627926@pennfoster.com
+
+Wed, 6 Mar 2013 13:57:01 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 13:57:01 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 13:57:01 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 13:57:01 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 13:57:01 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 13:57:16 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:57:16 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 13:57:16 IST Verify Course Name display on page i.e. A.S. DEGREE INTERIOR DESIGN - PASS
+
+Wed, 6 Mar 2013 13:57:16 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 13:57:16 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 13:57:16 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 13:57:16 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 13:57:16 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 13:57:16 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:57:16 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 13:57:16 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 13:57:18 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:57:18 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:57:18 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 13:57:18 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 13:57:21 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 13:57:21 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 13:57:21 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 13:57:26 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 13:57:26 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 13:57:26 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 13:57:26 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 13:57:27 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 13:57:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 13:57:27 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 13:57:31 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 13:57:31 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:57:31 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:57:31 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 13:57:32 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 13:57:32 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 13:58:31 IST  Final Student ID not genrated application display only is Congratulations page
+
+Wed, 6 Mar 2013 13:58:31 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 13:58:31 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 14:21:13 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 14:21:17 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 14:21:17 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 14:21:23 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 14:21:23 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 14:21:29 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 14:21:29 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 14:21:29 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 14:21:29 IST  ########## Start Get Number Of Course Available STARTS ###########
+
+Wed, 6 Mar 2013 14:21:29 IST Total number of Course under Receive Information (No course) is --> 185 - Pass
+
+Wed, 6 Mar 2013 14:21:32 IST  ########## Start Get Number Of Course Available ENDS ###########
+
+Wed, 6 Mar 2013 14:21:32 IST  ########## Start Select Course From Available Courses STARTS ###########
+
+Wed, 6 Mar 2013 14:21:32 IST  Select a course from dropdown - Pass
+
+Wed, 6 Mar 2013 14:21:37 IST  Click on Continue button - Pass
+
+Wed, 6 Mar 2013 14:21:37 IST  ########## Start Select Course From Available Courses ENDS ###########
+
+Wed, 6 Mar 2013 14:21:37 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 14:21:38 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 14:21:48 IST  Enter First Name --> Final
+
+Wed, 6 Mar 2013 14:21:48 IST  Enter Last Name  --> bpj
+
+Wed, 6 Mar 2013 14:21:48 IST  Enter Email  --> mail062112682@pennfoster.com
+
+Wed, 6 Mar 2013 14:21:48 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 14:21:48 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 14:21:48 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 14:21:48 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 14:21:48 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 14:22:05 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 14:22:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 14:22:06 IST Verify Course Name display on page i.e. A.S. DEGREE INTERIOR DESIGN - PASS
+
+Wed, 6 Mar 2013 14:22:06 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 14:22:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 14:22:06 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 14:22:06 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 14:22:06 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 14:22:06 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 14:22:06 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 14:22:06 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 14:22:08 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 14:22:08 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 14:22:08 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 14:22:08 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 14:22:11 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 14:22:11 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 14:22:11 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 14:22:17 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 14:22:17 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 14:22:17 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 14:22:17 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 14:22:17 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 14:22:17 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 14:22:17 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 14:22:22 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 14:22:22 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 14:22:22 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 14:22:22 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 14:22:23 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 14:22:23 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 14:22:51 IST  ########## Stop Browser Session ###########
+
+Wed, 6 Mar 2013 14:22:53 IST  ########## Start browser session STARTS ###########
+
+Wed, 6 Mar 2013 14:22:58 IST  ########## Start browser session ENDS ###########
+
+Wed, 6 Mar 2013 14:22:58 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 14:23:04 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 14:23:04 IST  ########## Start Launch Home Page STARTS ###########
+
+Wed, 6 Mar 2013 14:23:10 IST Click on Receive Information (No course) - Pass
+
+Wed, 6 Mar 2013 14:23:10 IST  Penn Foster School Image Verify - Pass
+
+Wed, 6 Mar 2013 14:23:10 IST  ########## Start Launch Home Page ENDS ###########
+
+Wed, 6 Mar 2013 14:23:10 IST  ########## Start Get Number Of Course Available STARTS ###########
+
+Wed, 6 Mar 2013 14:23:11 IST Total number of Course under Receive Information (No course) is --> 185 - Pass
+
+Wed, 6 Mar 2013 14:23:14 IST  ########## Start Get Number Of Course Available ENDS ###########
+
+Wed, 6 Mar 2013 14:23:14 IST  ########## Start Select Course From Available Courses STARTS ###########
+
+Wed, 6 Mar 2013 14:23:14 IST  Select a course from dropdown - Pass
+
+Wed, 6 Mar 2013 14:23:19 IST  Click on Continue button - Pass
+
+Wed, 6 Mar 2013 14:23:19 IST  ########## Start Select Course From Available Courses ENDS ###########
+
+Wed, 6 Mar 2013 14:23:19 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 14:23:19 IST  Enter Information on Step1 page - Pass
+
+Wed, 6 Mar 2013 14:23:30 IST  Enter First Name --> Final
+
+Wed, 6 Mar 2013 14:23:30 IST  Enter Last Name  --> bpk
+
+Wed, 6 Mar 2013 14:23:30 IST  Enter Email  --> mail062253370@pennfoster.com
+
+Wed, 6 Mar 2013 14:23:30 IST  Enter Phone Number  --> (248)246-1109
+
+Wed, 6 Mar 2013 14:23:30 IST  Enter Address  --> 925 Oak St
+
+Wed, 6 Mar 2013 14:23:30 IST  Enter City  --> Scranton
+
+Wed, 6 Mar 2013 14:23:30 IST  Enter Zip  --> 18515
+
+Wed, 6 Mar 2013 14:23:30 IST Enter DOB on personal Inforation page MM:DD:YYY format --> 04101987
+
+Wed, 6 Mar 2013 14:23:42 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 14:23:42 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+
+Wed, 6 Mar 2013 14:23:42 IST Verify Course Name display on page i.e. A.S. DEGREE INTERIOR DESIGN - PASS
+
+Wed, 6 Mar 2013 14:23:42 IST Verify Promo COde Link display on Page - PASS
+
+Wed, 6 Mar 2013 14:23:42 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+
+Wed, 6 Mar 2013 14:23:42 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+
+Wed, 6 Mar 2013 14:23:42 IST Verify Step Text - PASS
+
+Wed, 6 Mar 2013 14:23:42 IST Verify Footer Image Secure Transaction - PASS
+
+Wed, 6 Mar 2013 14:23:42 IST Verify Mode of Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 14:23:42 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+
+Wed, 6 Mar 2013 14:23:42 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+
+Wed, 6 Mar 2013 14:23:44 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 14:23:44 IST Select creadit card option display on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 14:23:44 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+
+Wed, 6 Mar 2013 14:23:44 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+
+Wed, 6 Mar 2013 14:23:47 IST Verify form display under creadit card on Payment Information Page - PASS
+
+Wed, 6 Mar 2013 14:23:47 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+
+Wed, 6 Mar 2013 14:23:47 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+
+Wed, 6 Mar 2013 14:23:52 IST Enter information in creadit card form
+
+Wed, 6 Mar 2013 14:23:52 IST Enter Credit Card number in creadit card form is -- > 4111111111111111
+
+Wed, 6 Mar 2013 14:23:52 IST Enter CVV number in creadit card form is -- > 000
+
+Wed, 6 Mar 2013 14:23:52 IST Select Expiry date of creadit card - PASS 
+
+Wed, 6 Mar 2013 14:23:53 IST Click on Proceed to Final Step button - PASS 
+
+Wed, 6 Mar 2013 14:23:53 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+
+Wed, 6 Mar 2013 14:23:53 IST  ########## Start Enter CreditCard Information STARTS ###########
+
+Wed, 6 Mar 2013 14:23:57 IST Verify redirect user to review & submit page - PASS 
+
+Wed, 6 Mar 2013 14:23:57 IST Information Display under Personal Information Heading - PASS 
+
+Wed, 6 Mar 2013 14:23:57 IST Information Display under Program Information Heading - PASS 
+
+Wed, 6 Mar 2013 14:23:57 IST Information Display under Payment Information Heading - PASS 
+
+Wed, 6 Mar 2013 14:23:58 IST  ########## Start Enter CreditCard Information ENDS ###########
+
+Wed, 6 Mar 2013 14:23:58 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+
+Wed, 6 Mar 2013 14:24:38 IST  Final Student ID not genrated application display only is Congratulations page
+
+Wed, 6 Mar 2013 14:24:38 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+
+Wed, 6 Mar 2013 14:24:38 IST  ########## Stop Browser Session ###########
+

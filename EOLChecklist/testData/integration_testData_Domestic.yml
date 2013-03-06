@@ -87,7 +87,7 @@ DomesticURLReceiveInformationnocourse:
 # Total course contain the total number of course for those script have to be run
 
 DomesticURLEnrollNownocourse:
-  RunType: Selected
+  RunType: OneIteration
   TotalCource: "2"
   
   SelectCourse:
@@ -166,7 +166,7 @@ DomesticURLReceiveInformation:
 # Checking or Savings Account
 # Credit or Debit Card
 
-  PaymentMode: Credit or Debit Card 
+  PaymentMode: Checking or Savings Account 
 
 # Account type below mentioned are the two possible values
 # Savings
@@ -186,7 +186,7 @@ DomesticURLReceiveInformation:
 
 DomesticURLEnrollNow:
   StudentInformation:
-    FirstName: Test
+    FirstName: TestQAE
     LastName: tests
     Email: mail
     EmailExt: pennfoster.com
@@ -205,7 +205,7 @@ DomesticURLEnrollNow:
 # Checking or Savings Account
 # Credit or Debit Card 
 
-  PaymentMode: Checking or Savings Account 
+  PaymentMode: Credit or Debit Card
 
 # Account type below mentioned are the two possible values
 # Savings

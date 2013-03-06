@@ -300,7 +300,13 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 		@FindBy(xpath = "//span[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_personalData']")
 		protected WebElement PersonalDataOnElectronicSigAgreement;
 		@FindBy(xpath = "//span[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_eMail']")
-		protected WebElement EmailOnElectronicSigAgreement;		
+		protected WebElement EmailOnElectronicSigAgreement;
+		@FindBy(xpath = "//span[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_payMethod']")
+		protected WebElement PaymentOnElectronicSigAgreement;
+		@FindBy(xpath = "/html/body/table/tbody/tr[4]/td[2]")
+		protected WebElement StudentInfoOnElectronicSigAgreement;
+		@FindBy(xpath = "/html/body/table/tbody/tr[8]/td[2]")
+		protected WebElement PaymentDetailsOnElectronicSigAgreement;
 			
 //		##############  Field validation msg ##########################################
 		
@@ -1213,6 +1219,8 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			return result;
 		}
 		
+		
+		
 		public void acceptTermandConditionOnReviewAndSubmitPage()
 		{
 			Assert.assertTrue(checkboxLabelTermandConditionOnReviewAndSubmitPage.isDisplayed());
@@ -1232,28 +1240,78 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 					textboxFullNameOnElectronicSigAgreement.isDisplayed();
 					textboxEmailOnElectronicSigAgreement.isDisplayed();
 					String FullName = Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.FirstName")+ " "+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.LastName");
+					try{
 					String DOB = Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOBmonth")+ "/"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOBday")+ "/"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOByear");
 					Assert.assertTrue(StudentIDOnElectronicSigAgreement.isDisplayed());
-					Assert.assertTrue(StudentIDOnElectronicSigAgreement.getAttribute("value").contains("Student ID"));
-					Assert.assertTrue(StudentNameOnElectronicSigAgreement.isDisplayed());
-					Assert.assertTrue(StudentNameOnElectronicSigAgreement.getAttribute("value").contains(FullName));
+					Assert.assertTrue(StudentIDOnElectronicSigAgreement.getText().contains("Student ID"));
+					Assert.assertTrue(StudentNameOnElectronicSigAgreement.isDisplayed());															
+					Assert.assertTrue(StudentNameOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.FirstName").toUpperCase()));
+					Assert.assertTrue(StudentNameOnElectronicSigAgreement.getText().contains(lname.toUpperCase()));
 					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.isDisplayed());
-					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.getAttribute("value").contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.Address")));
-					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.getAttribute("value").contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.City")));
-					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.getAttribute("value").contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.ZIP")));
-					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.getAttribute("value").contains("PA"));
-					Assert.assertTrue(PersonalDataOnElectronicSigAgreement.getAttribute("value").contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.ZIP")));
-					Assert.assertTrue(PersonalDataOnElectronicSigAgreement.getAttribute("value").contains(DOB));
-					Assert.assertTrue(EmailOnElectronicSigAgreement.getAttribute("value").contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.ZIP")));
-					Assert.assertTrue(EmailOnElectronicSigAgreement.getAttribute("value").contains(email+"@"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.EmailExt")));
+					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.Address").toUpperCase()));
+					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.City").toUpperCase()));
+					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.ZIP")));
+					Assert.assertTrue(StudentAddressOnElectronicSigAgreement.getText().contains("PA"));
+					Assert.assertTrue(PersonalDataOnElectronicSigAgreement.isDisplayed());
+					Assert.assertTrue(PersonalDataOnElectronicSigAgreement.getText().contains(DOB));
+					Assert.assertTrue(EmailOnElectronicSigAgreement.getText().contains(email.toUpperCase()+"@"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.EmailExt").toUpperCase()));										
+					Assert.assertTrue(PaymentOnElectronicSigAgreement.getText().contains(courseCost.substring(13)));
+					} 
+					catch(Exception e){				
+						
+						System.out.println(e);
+						System.out.println("Error in validating fields "+e);			
+					}
 					textboxFullNameOnElectronicSigAgreement.sendKeys(FullName);
 					textboxEmailOnElectronicSigAgreement.sendKeys(email+"@"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.EmailExt"));
 					submitBtnOnElectronicSigAgreementPage.click();
 					WebDriverWait wait = new WebDriverWait(driver, 50);
 					wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Click Here to Sign')]")));
+					try{
+						String DOB = Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOBmonth")+ "/"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOBday")+ "/"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOByear");
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.isDisplayed());						
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains("Student ID"));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.isDisplayed());																		
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.FirstName").toUpperCase()));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.isDisplayed());
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.Address").toUpperCase()));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.City").toUpperCase()));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.ZIP")));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains("PA"));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.isDisplayed());
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(DOB));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(email.toUpperCase()+"@"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.EmailExt").toUpperCase()));
+						Assert.assertTrue(PaymentDetailsOnElectronicSigAgreement.getText().contains(courseCost.substring(13)));
+						} 
+						catch(Exception e){				
+							
+							System.out.println(e);
+							System.out.println("Error in validating fields "+e);			
+						}
 					ClickToSignInOnElectronicSigAgreement.click();
 					WebDriverWait wait1 = new WebDriverWait(driver, 50);
 					wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Click Here to Continue')]")));
+					try{
+						String DOB = Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOBmonth")+ "/"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOBday")+ "/"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.DOByear");
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.isDisplayed());						
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains("Student ID"));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.isDisplayed());						
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.FirstName").toUpperCase()));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.isDisplayed());
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.Address").toUpperCase()));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.City").toUpperCase()));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.ZIP")));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains("PA"));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.isDisplayed());
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(DOB));
+						Assert.assertTrue(StudentInfoOnElectronicSigAgreement.getText().contains(email.toUpperCase()+"@"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.EmailExt").toUpperCase()));
+						Assert.assertTrue(PaymentDetailsOnElectronicSigAgreement.getText().contains(courseCost.substring(13)));
+						} 
+						catch(Exception e){				
+							
+							System.out.println(e);
+							System.out.println("Error in validating fields "+e);			
+						}
 					ClickToContinueInOnElectronicSigAgreement.click();
 					clickHereLinkOnCongratulationsPage.isDisplayed();
 					Reporter.log(Utilities.logOutputFile(" Final Student ID is "+getStudentIDFromCongratulationsPage.getText()+" - Pass"));
@@ -1269,6 +1327,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				}
 			}catch(Exception e){				
 				
+				System.out.println(e);
 				WebDriverWait wait = new WebDriverWait(driver, 50);
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//b[contains(text(),'Congratulations')]")));
 				
@@ -1277,6 +1336,12 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				
 			}			
 			
+		}
+		
+		public boolean verifyDetailsOnElectronicSigAgreementPage()
+		{
+			boolean result = true;
+			return result;
 		}
 
 }

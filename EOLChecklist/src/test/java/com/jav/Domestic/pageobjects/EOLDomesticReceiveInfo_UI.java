@@ -1359,7 +1359,7 @@ public class EOLDomesticReceiveInfo_UI  extends AbstractClass{
 			fullPaymentPlanRadioLabelOnPaymentInformationPage.isDisplayed();
 			courseCost = totalAmountFullPaymentPlanRadioOnPaymentInformationPage.getText();
 			System.out.println(totalAmountFullPaymentPlanRadioOnPaymentInformationPage.getText());
-			secureTransactionImageFooterOnPaymentInformationPage.isDisplayed();
+//			secureTransactionImageFooterOnPaymentInformationPage.isDisplayed();
 			Reporter.log(Utilities.logOutputFile("Verify Mode of Payment display on Payment Information Page - PASS"));
 			
 		}
