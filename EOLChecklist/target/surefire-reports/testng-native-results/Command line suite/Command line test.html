@@ -1,0 +1,2072 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/7/93</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 07 12:10:37 IST 2013</td>
+</tr>
+<tr><td>Total time:</td><td>75 seconds (75054 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.tearDown()'><b>tearDown</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-16584061" onClick='toggleBox("Output-16584061", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16584061" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16584061">
+Thu, 7 Mar 2013 12:11:42 IST  ########## Stop Browser Session ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.tearDown(EOLDomesticEnrollNow_Test.java:185)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:43123 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:43123 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace16584061", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16584061'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.tearDown(EOLDomesticEnrollNow_Test.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:43123 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:43123 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+</pre></div></td>
+<td>0</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.tearDown()'><b>tearDown</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<br/>
+<a href="#Output-23632881" onClick='toggleBox("Output-23632881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23632881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23632881">
+Thu, 7 Mar 2013 12:11:45 IST  ########## Stop Browser Session ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Canada.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:77)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.tearDown(EOLCanadaReceiveInfo_Test.java:259)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8157 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8157 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace23632881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace23632881'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Canada.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:77)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.tearDown(EOLCanadaReceiveInfo_Test.java:259)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8157 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8157 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+</pre></div></td>
+<td>0</td>
+<td>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.tearDown()'><b>tearDown</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<br/>
+<a href="#Output-20605259" onClick='toggleBox("Output-20605259", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20605259" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20605259">
+Thu, 7 Mar 2013 12:11:47 IST  ########## Stop Browser Session ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.tearDown(EOLDomesticReceiveInfo_Test.java:270)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:10504 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:10504 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20605259", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20605259'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.tearDown(EOLDomesticReceiveInfo_Test.java:270)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:10504 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:10504 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+</pre></div></td>
+<td>0</td>
+<td>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.tearDown()'><b>tearDown</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<br/>
+<a href="#Output-3814511" onClick='toggleBox("Output-3814511", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3814511" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3814511">
+Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.tearDown(EOLDomesticReceiveInfo_nocourse_Test.java:336)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:13551 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:13551 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3814511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3814511'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.tearDown(EOLDomesticReceiveInfo_nocourse_Test.java:336)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:13551 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:13551 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+</pre></div></td>
+<td>0</td>
+<td>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.launchHomePage()'><b>launchHomePage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<br/>
+<a href="#Output-17721367" onClick='toggleBox("Output-17721367", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17721367" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17721367">
+Thu, 7 Mar 2013 12:11:30 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.launchHomePage(EOLCanadaReceiveInfo_Test.java:69)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace17721367", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace17721367'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.launchHomePage(EOLCanadaReceiveInfo_Test.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+</pre></div></td>
+<td>5</td>
+<td>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.launchHomePage()'><b>launchHomePage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<br/>
+<a href="#Output-4113411" onClick='toggleBox("Output-4113411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4113411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4113411">
+Thu, 7 Mar 2013 12:11:35 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.launchHomePage(EOLCanadaReceiveInfo_nocourse_Test.java:67)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4113411", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4113411'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.launchHomePage(EOLCanadaReceiveInfo_nocourse_Test.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+</pre></div></td>
+<td>2</td>
+<td>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage()'><b>launchHomePage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-30404183" onClick='toggleBox("Output-30404183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30404183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30404183">
+Thu, 7 Mar 2013 12:11:37 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage(EOLDomesticEnrollNow_Test.java:68)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace30404183", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace30404183'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage(EOLDomesticEnrollNow_Test.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+</pre></div></td>
+<td>1</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.launchHomePage()'><b>launchHomePage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<br/>
+<a href="#Output-19010859" onClick='toggleBox("Output-19010859", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19010859" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19010859">
+Thu, 7 Mar 2013 12:11:38 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.launchHomePage(EOLDomesticEnrollNow_nocourse_Test.java:71)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace19010859", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace19010859'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.launchHomePage(EOLDomesticEnrollNow_nocourse_Test.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+</pre></div></td>
+<td>1</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.launchHomePage()'><b>launchHomePage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<br/>
+<a href="#Output-11564649" onClick='toggleBox("Output-11564649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11564649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11564649">
+Thu, 7 Mar 2013 12:11:39 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.launchHomePage(EOLDomesticReceiveInfo_Test.java:64)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace11564649", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11564649'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.launchHomePage(EOLDomesticReceiveInfo_Test.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+</pre></div></td>
+<td>1</td>
+<td>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.launchHomePage()'><b>launchHomePage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<br/>
+<a href="#Output-3426694" onClick='toggleBox("Output-3426694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3426694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3426694">
+Thu, 7 Mar 2013 12:11:40 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.launchHomePage(EOLDomesticReceiveInfo_nocourse_Test.java:69)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3426694", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3426694'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.launchHomePage(EOLDomesticReceiveInfo_nocourse_Test.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+</pre></div></td>
+<td>0</td>
+<td>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.launchSelectedSiteCoreURL()'><b>launchSelectedSiteCoreURL</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test<br/>
+<a href="#Output-23244386" onClick='toggleBox("Output-23244386", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23244386" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23244386">
+Thu, 7 Mar 2013 12:11:41 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.SiteCoreULR_Feature_Test.launchSelectedSiteCoreURL(SiteCoreULR_Feature_Test.java:68)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace23244386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace23244386'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.SiteCoreULR_Feature_Test.launchSelectedSiteCoreURL(SiteCoreULR_Feature_Test.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+</pre></div></td>
+<td>0</td>
+<td>com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.setup()'><b>setup</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<br/>
+<a href="#Output-17680053" onClick='toggleBox("Output-17680053", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17680053" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17680053">
+Thu, 7 Mar 2013 12:10:38 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.setup()'><b>setup</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<br/>
+<a href="#Output-16134229" onClick='toggleBox("Output-16134229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16134229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16134229">
+Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.setup()'><b>setup</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-16405758" onClick='toggleBox("Output-16405758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16405758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16405758">
+Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.setup()'><b>setup</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<br/>
+<a href="#Output-3166926" onClick='toggleBox("Output-3166926", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3166926" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3166926">
+Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.setup()'><b>setup</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<br/>
+<a href="#Output-18874505" onClick='toggleBox("Output-18874505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18874505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18874505">
+Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.setup()'><b>setup</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<br/>
+<a href="#Output-26200010" onClick='toggleBox("Output-26200010", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26200010" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26200010">
+Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.setup()'><b>setup</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test<br/>
+<a href="#Output-7361470" onClick='toggleBox("Output-7361470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7361470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7361470">
+Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:29 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.VerifySiteCoreHomePage()'><b>VerifySiteCoreHomePage</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.enterCreditCardInformation()'><b>enterCreditCardInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.enterCreditCardInformation()'><b>enterCreditCardInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.enterCreditCardInformation()'><b>enterCreditCardInformation</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.enterCreditCardInformation()'><b>enterCreditCardInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.enterCreditCardInformation()'><b>enterCreditCardInformation</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.enterCreditCardInformation()'><b>enterCreditCardInformation</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.enterCreditCardInformation()'><b>enterCreditCardInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.enterRemaningInformationOnPersonalInformatoinPage()'><b>enterRemaningInformationOnPersonalInformatoinPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.enterRemaningInformationOnPersonalInformatoinPage()'><b>enterRemaningInformationOnPersonalInformatoinPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.enterRemaningInformationOnPersonalInformatoinPage()'><b>enterRemaningInformationOnPersonalInformatoinPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.enterRemaningInformationOnPersonalInformatoinPage()'><b>enterRemaningInformationOnPersonalInformatoinPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.enterRemaningInformationOnPersonalInformatoinPage()'><b>enterRemaningInformationOnPersonalInformatoinPage</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.enterRemaningInformationOnPersonalInformatoinPage()'><b>enterRemaningInformationOnPersonalInformatoinPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.enterRemaningInformationOnPersonalInformatoinPage()'><b>enterRemaningInformationOnPersonalInformatoinPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.enterStudentInformationOnStep1Page()'><b>enterStudentInformationOnStep1Page</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.enterStudentInformationOnStep1Page()'><b>enterStudentInformationOnStep1Page</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.enterStudentInformationOnStep1Page()'><b>enterStudentInformationOnStep1Page</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.enterStudentInformationOnStep1Page()'><b>enterStudentInformationOnStep1Page</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.enterStudentInformationOnStep1Page()'><b>enterStudentInformationOnStep1Page</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.getNumberOfCourseAvailable()'><b>getNumberOfCourseAvailable</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.getNumberOfCourseAvailable()'><b>getNumberOfCourseAvailable</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.getNumberOfCourseAvailable()'><b>getNumberOfCourseAvailable</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.homePageactions()'><b>homePageactions</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.homePageactions()'><b>homePageactions</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.homePageactions()'><b>homePageactions</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.homePageactions()'><b>homePageactions</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.homePageactions()'><b>homePageactions</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.homePageactions()'><b>homePageactions</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.redirectToThankYouPageAndClickEnrollOnLine()'><b>redirectToThankYouPageAndClickEnrollOnLine</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.redirectToThankYouPageAndClickEnrollOnLine()'><b>redirectToThankYouPageAndClickEnrollOnLine</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.redirectToThankYouPageAndClickEnrollOnLine()'><b>redirectToThankYouPageAndClickEnrollOnLine</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.redirectToThankYouPageAndClickEnrollOnLine()'><b>redirectToThankYouPageAndClickEnrollOnLine</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.redirectToThankYouPageAndClickEnrollOnLine()'><b>redirectToThankYouPageAndClickEnrollOnLine</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.selectCourseFromAvailableCourses()'><b>selectCourseFromAvailableCourses</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.selectCourseFromAvailableCourses()'><b>selectCourseFromAvailableCourses</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.selectCourseFromAvailableCourses()'><b>selectCourseFromAvailableCourses</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.selectModeOfPaymentandProvideInformation()'><b>selectModeOfPaymentandProvideInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.selectModeOfPaymentandProvideInformation()'><b>selectModeOfPaymentandProvideInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.selectModeOfPaymentandProvideInformation()'><b>selectModeOfPaymentandProvideInformation</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.selectModeOfPaymentandProvideInformation()'><b>selectModeOfPaymentandProvideInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.selectModeOfPaymentandProvideInformation()'><b>selectModeOfPaymentandProvideInformation</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.selectModeOfPaymentandProvideInformation()'><b>selectModeOfPaymentandProvideInformation</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.selectModeOfPaymentandProvideInformation()'><b>selectModeOfPaymentandProvideInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyEditButtonOnReviewAndSubmit()'><b>verifyEditButtonOnReviewAndSubmit</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyEditButtonOnReviewAndSubmit()'><b>verifyEditButtonOnReviewAndSubmit</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyEditButtonOnReviewAndSubmit()'><b>verifyEditButtonOnReviewAndSubmit</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyEditButtonOnReviewAndSubmit()'><b>verifyEditButtonOnReviewAndSubmit</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementDisplayOnPersonalInformationPage()'><b>verifyElementDisplayOnPersonalInformationPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementDisplayOnPersonalInformationPage()'><b>verifyElementDisplayOnPersonalInformationPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementDisplayOnPersonalInformationPage()'><b>verifyElementDisplayOnPersonalInformationPage</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementDisplayOnPersonalInformationPage()'><b>verifyElementDisplayOnPersonalInformationPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementDisplayOnPersonalInformationPage()'><b>verifyElementDisplayOnPersonalInformationPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayAfterSelectModeOfPayment()'><b>verifyElementsDisplayAfterSelectModeOfPayment</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyElementsDisplayAfterSelectModeOfPayment()'><b>verifyElementsDisplayAfterSelectModeOfPayment</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementsDisplayAfterSelectModeOfPayment()'><b>verifyElementsDisplayAfterSelectModeOfPayment</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementsDisplayAfterSelectModeOfPayment()'><b>verifyElementsDisplayAfterSelectModeOfPayment</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementsDisplayAfterSelectModeOfPayment()'><b>verifyElementsDisplayAfterSelectModeOfPayment</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementsDisplayAfterSelectModeOfPayment()'><b>verifyElementsDisplayAfterSelectModeOfPayment</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementsDisplayAfterSelectModeOfPayment()'><b>verifyElementsDisplayAfterSelectModeOfPayment</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayOnPaymentInformation()'><b>verifyElementsDisplayOnPaymentInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyElementsDisplayOnPaymentInformation()'><b>verifyElementsDisplayOnPaymentInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementsDisplayOnPaymentInformation()'><b>verifyElementsDisplayOnPaymentInformation</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementsDisplayOnPaymentInformation()'><b>verifyElementsDisplayOnPaymentInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementsDisplayOnPaymentInformation()'><b>verifyElementsDisplayOnPaymentInformation</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementsDisplayOnPaymentInformation()'><b>verifyElementsDisplayOnPaymentInformation</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementsDisplayOnPaymentInformation()'><b>verifyElementsDisplayOnPaymentInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayOnReviewAndSubmitPage()'><b>verifyElementsDisplayOnReviewAndSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyElementsDisplayOnReviewAndSubmitPage()'><b>verifyElementsDisplayOnReviewAndSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementsDisplayOnReviewAndSubmitPage()'><b>verifyElementsDisplayOnReviewAndSubmitPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementsDisplayOnReviewAndSubmitPage()'><b>verifyElementsDisplayOnReviewAndSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementsDisplayOnReviewAndSubmitPage()'><b>verifyElementsDisplayOnReviewAndSubmitPage</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementsDisplayOnReviewAndSubmitPage()'><b>verifyElementsDisplayOnReviewAndSubmitPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementsDisplayOnReviewAndSubmitPage()'><b>verifyElementsDisplayOnReviewAndSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementsDisplayOnStep1EnrollmentProcess()'><b>verifyElementsDisplayOnStep1EnrollmentProcess</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementsDisplayOnStep1EnrollmentProcess()'><b>verifyElementsDisplayOnStep1EnrollmentProcess</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementsDisplayOnStep1EnrollmentProcess()'><b>verifyElementsDisplayOnStep1EnrollmentProcess</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementsDisplayOnStep1EnrollmentProcess()'><b>verifyElementsDisplayOnStep1EnrollmentProcess</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementsDisplayOnStep1EnrollmentProcess()'><b>verifyElementsDisplayOnStep1EnrollmentProcess</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()'><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()'><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()'><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()'><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()'><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()'><b>verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()'><b>verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyredirectToPaymentInformationPage()'><b>verifyredirectToPaymentInformationPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyredirectToPaymentInformationPage()'><b>verifyredirectToPaymentInformationPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyredirectToPaymentInformationPage()'><b>verifyredirectToPaymentInformationPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyredirectToPaymentInformationPage()'><b>verifyredirectToPaymentInformationPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyredirectToPaymentInformationPage()'><b>verifyredirectToPaymentInformationPage</b><br>Test class: com.jav.Domestic.tests.SiteCoreULR_Feature_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyredirectToPaymentInformationPage()'><b>verifyredirectToPaymentInformationPage</b><br>Test class: com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyredirectToPaymentInformationPage()'><b>verifyredirectToPaymentInformationPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

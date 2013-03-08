@@ -273,7 +273,9 @@ String course;
 		protected WebElement yesLinkonDisplayOnElectronicSignature;		
 		@FindBy(linkText = "No, I prefer to have this document mailed to me, which I will sign and return via postal mail")
 		protected WebElement noLinkonDisplayOnElectronicSignature;		
-		@FindBy(xpath = "//div[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_div_MarketingContent']/span")
+//		@FindBy(xpath = "//div[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_div_MarketingContent']/span")
+//		protected WebElement getStudentIDFromCongratulationsPage;
+		@FindBy(xpath = "//span[@style='background-color: #ffff66']")
 		protected WebElement getStudentIDFromCongratulationsPage;
 		@FindBy(xpath = "//div[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_div_MarketingContent']/p/span")
 		protected WebElement getStudentIDFromCongratulationsPage2;
@@ -1253,7 +1255,7 @@ String course;
 //	##############################################################
 	
 	try{
-		proceedToStep2Button.click();
+//		proceedToStep2Button.click();
 		monthofBirthisrequired.isDisplayed();
 		dayofBirthisrequired.isDisplayed();
 		yearofBirthisrequired.isDisplayed();

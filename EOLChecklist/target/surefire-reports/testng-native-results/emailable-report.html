@@ -1,0 +1,1008 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">7</td><td class="numi">7</td><td class="numi_attn">93</td><td class="numi_attn">7</td><td class="numi">75.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m1"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m2"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1362638505116</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m3"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1362638507690</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m4"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1362638510264</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m5"><b>launchHomePage</b>  </a></td><td class="numi">1</td><td>1362638490003</td><td class="numi">5082</td></tr>
+<tr class="failedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m6"><b>launchHomePage</b>  </a></td><td class="numi">1</td><td>1362638495085</td><td class="numi">2153</td></tr>
+<tr class="failedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m7"><b>launchHomePage</b>  </a></td><td class="numi">1</td><td>1362638497238</td><td class="numi">1248</td></tr>
+<tr class="failedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m8"><b>launchHomePage</b>  </a></td><td class="numi">1</td><td>1362638498486</td><td class="numi">1357</td></tr>
+<tr class="failedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m9"><b>launchHomePage</b>  </a></td><td class="numi">1</td><td>1362638499859</td><td class="numi">1061</td></tr>
+<tr class="failedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m10"><b>launchHomePage</b>  </a></td><td class="numi">1</td><td>1362638500920</td><td class="numi">811</td></tr>
+<tr class="failedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m11"><b>launchSelectedSiteCoreURL</b>  </a></td><td class="numi">1</td><td>1362638501731</td><td class="numi">717</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m12"><b>getNumberOfCourseAvailable</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="2">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m13"><b>redirectToThankYouPageAndClickEnrollOnLine</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m14"><b>verifyredirectToPaymentInformationPage</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m15"><b>verifyElementsDisplayOnPaymentInformation</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m16"><b>getNumberOfCourseAvailable</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m17"><b>enterCreditCardInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m18"><b>enterCreditCardInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m19"><b>enterCreditCardInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m20"><b>verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">16</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m21"><b>verifyElementsDisplayAfterSelectModeOfPayment</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m22"><b>homePageactions</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m23"><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638510264</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m24"><b>verifyElementsDisplayOnStep1EnrollmentProcess</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m25"><b>verifyredirectToPaymentInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m26"><b>selectModeOfPaymentandProvideInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m27"><b>selectModeOfPaymentandProvideInformation</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m28"><b>enterStudentInformationOnStep1Page</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m29"><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638510264</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m30"><b>selectCourseFromAvailableCourses</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m31"><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m32"><b>selectModeOfPaymentandProvideInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m33"><b>enterRemaningInformationOnPersonalInformatoinPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m34"><b>selectModeOfPaymentandProvideInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m35"><b>verifyElementDisplayOnPersonalInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="2">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m36"><b>enterRemaningInformationOnPersonalInformatoinPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m37"><b>redirectToThankYouPageAndClickEnrollOnLine</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m38"><b>verifyElementsDisplayAfterSelectModeOfPayment</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m39"><b>verifyredirectToPaymentInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m40"><b>verifyElementsDisplayOnReviewAndSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m41"><b>verifyredirectToPaymentInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m42"><b>verifyElementsDisplayOnPaymentInformation</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m43"><b>homePageactions</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m44"><b>verifyElementsDisplayAfterSelectModeOfPayment</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m45"><b>homePageactions</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m46"><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638507690</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="2">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m47"><b>verifyElementsDisplayOnReviewAndSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638507690</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m48"><b>redirectToThankYouPageAndClickEnrollOnLine</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m49"><b>enterStudentInformationOnStep1Page</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m50"><b>redirectToThankYouPageAndClickEnrollOnLine</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m51"><b>verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m52"><b>verifyElementDisplayOnPersonalInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m53"><b>verifyElementsDisplayOnStep1EnrollmentProcess</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m54"><b>verifyElementsDisplayOnPaymentInformation</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m55"><b>verifyElementsDisplayOnStep1EnrollmentProcess</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m56"><b>selectCourseFromAvailableCourses</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m57"><b>verifyEditButtonOnReviewAndSubmit</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m58"><b>verifyEditButtonOnReviewAndSubmit</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m59"><b>verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638510264</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="2">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m60"><b>verifyElementsDisplayOnPaymentInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m61"><b>selectModeOfPaymentandProvideInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m62"><b>homePageactions</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m63"><b>verifyredirectToPaymentInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m64"><b>enterCreditCardInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m65"><b>verifyElementsDisplayOnPaymentInformation</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m66"><b>verifyElementsDisplayAfterSelectModeOfPayment</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m67"><b>homePageactions</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m68"><b>selectModeOfPaymentandProvideInformation</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m69"><b>enterRemaningInformationOnPersonalInformatoinPage</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m70"><b>enterStudentInformationOnStep1Page</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m71"><b>verifyElementsDisplayOnReviewAndSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m72"><b>enterRemaningInformationOnPersonalInformatoinPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m73"><b>verifyElementsDisplayOnStep1EnrollmentProcess</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m74"><b>redirectToThankYouPageAndClickEnrollOnLine</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m75"><b>verifyElementsDisplayOnStep1EnrollmentProcess</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="3">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m76"><b>enterCreditCardInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m77"><b>verifyElementsDisplayOnReviewAndSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m78"><b>selectCourseFromAvailableCourses</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m79"><b>verifyElementsDisplayAfterSelectModeOfPayment</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m80"><b>verifyElementsDisplayOnReviewAndSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638510264</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m81"><b>verifyElementsDisplayOnReviewAndSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m82"><b>verifyElementsDisplayOnPaymentInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m83"><b>verifyElementsDisplayAfterSelectModeOfPayment</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m84"><b>verifyEditButtonOnReviewAndSubmit</b>  </a></td><td class="numi">1</td><td>1362638510264</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m85"><b>verifyEditButtonOnReviewAndSubmit</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m86"><b>selectModeOfPaymentandProvideInformation</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m87"><b>enterRemaningInformationOnPersonalInformatoinPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m88"><b>enterRemaningInformationOnPersonalInformatoinPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m89"><b>verifyElementsDisplayOnPaymentInformation</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m90"><b>VerifySiteCoreHomePage</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m91"><b>verifyElementsDisplayOnReviewAndSubmitPage</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m92"><b>enterStudentInformationOnStep1Page</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m93"><b>enterStudentInformationOnStep1Page</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m94"><b>verifyElementDisplayOnPersonalInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m95"><b>enterCreditCardInformation</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m96"><b>verifyElementDisplayOnPersonalInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502480</td><td class="numi">31</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m97"><b>homePageactions</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="2">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m98"><b>getNumberOfCourseAvailable</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m99"><b>verifyElementsDisplayAfterSelectModeOfPayment</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m100"><b>enterCreditCardInformation</b>  </a></td><td class="numi">1</td><td>1362638505100</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m101"><b>verifyElementDisplayOnPersonalInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m102"><b>verifyredirectToPaymentInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502511</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m103"><b>verifyredirectToPaymentInformationPage</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m104"><b>enterRemaningInformationOnPersonalInformatoinPage</b>  </a></td><td class="numi">1</td><td>1362638502464</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_Test<td><a href="#m105"><b>setup</b>  </a></td><td class="numi">1</td><td>1362638438065</td><td class="numi">14032</td></tr>
+<tr class="passedeven"><td rowspan="1">com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test<td><a href="#m106"><b>setup</b>  </a></td><td class="numi">1</td><td>1362638452109</td><td class="numi">4363</td></tr>
+<tr class="passedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m107"><b>setup</b>  </a></td><td class="numi">1</td><td>1362638456483</td><td class="numi">3938</td></tr>
+<tr class="passedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test<td><a href="#m108"><b>setup</b>  </a></td><td class="numi">1</td><td>1362638460496</td><td class="numi">5701</td></tr>
+<tr class="passedodd"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test<td><a href="#m109"><b>setup</b>  </a></td><td class="numi">1</td><td>1362638466202</td><td class="numi">3909</td></tr>
+<tr class="passedeven"><td rowspan="1">com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test<td><a href="#m110"><b>setup</b>  </a></td><td class="numi">1</td><td>1362638470118</td><td class="numi">10438</td></tr>
+<tr class="passedodd"><td rowspan="1">com.jav.Domestic.tests.SiteCoreULR_Feature_Test<td><a href="#m111"><b>setup</b>  </a></td><td class="numi">1</td><td>1362638480560</td><td class="numi">9440</td></tr>
+</table>
+<h1>Command line test</h1>
+<a id="m1"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:tearDown</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:45 IST  ########## Stop Browser Session ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Canada.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:77)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.tearDown(EOLCanadaReceiveInfo_Test.java:259)
+<br/>35 lines not shown
+<p>Caused by org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8157 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Canada.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:77)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.tearDown(EOLCanadaReceiveInfo_Test.java:259)
+<br/>35 lines not shown
+<p>Caused by Connection to http://localhost:8157 refused</p>
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+<br/>at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+<br/>at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Canada.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:77)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.tearDown(EOLCanadaReceiveInfo_Test.java:259)
+<br/>35 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.PlainSocketImpl.socketConnect(Native Method)
+<br/>at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+<br/>at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+<br/>at java.net.Socket.connect(Socket.java:519)
+<br/>at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+<br/>at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+<br/>at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+<br/>at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Canada.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:77)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.tearDown(EOLCanadaReceiveInfo_Test.java:259)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:tearDown</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:42 IST  ########## Stop Browser Session ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.tearDown(EOLDomesticEnrollNow_Test.java:185)
+<br/>35 lines not shown
+<p>Caused by org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:43123 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.tearDown(EOLDomesticEnrollNow_Test.java:185)
+<br/>35 lines not shown
+<p>Caused by Connection to http://localhost:43123 refused</p>
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+<br/>at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+<br/>at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.tearDown(EOLDomesticEnrollNow_Test.java:185)
+<br/>35 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.PlainSocketImpl.socketConnect(Native Method)
+<br/>at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+<br/>at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+<br/>at java.net.Socket.connect(Socket.java:519)
+<br/>at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+<br/>at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+<br/>at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+<br/>at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.tearDown(EOLDomesticEnrollNow_Test.java:185)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:tearDown</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.tearDown(EOLDomesticReceiveInfo_nocourse_Test.java:336)
+<br/>35 lines not shown
+<p>Caused by org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:13551 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.tearDown(EOLDomesticReceiveInfo_nocourse_Test.java:336)
+<br/>35 lines not shown
+<p>Caused by Connection to http://localhost:13551 refused</p>
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+<br/>at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+<br/>at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.tearDown(EOLDomesticReceiveInfo_nocourse_Test.java:336)
+<br/>35 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.PlainSocketImpl.socketConnect(Native Method)
+<br/>at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+<br/>at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+<br/>at java.net.Socket.connect(Socket.java:519)
+<br/>at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+<br/>at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+<br/>at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+<br/>at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.tearDown(EOLDomesticReceiveInfo_nocourse_Test.java:336)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:tearDown</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:47 IST  ########## Stop Browser Session ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.tearDown(EOLDomesticReceiveInfo_Test.java:270)
+<br/>35 lines not shown
+<p>Caused by org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:10504 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.tearDown(EOLDomesticReceiveInfo_Test.java:270)
+<br/>35 lines not shown
+<p>Caused by Connection to http://localhost:10504 refused</p>
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+<br/>at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+<br/>at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.tearDown(EOLDomesticReceiveInfo_Test.java:270)
+<br/>35 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.PlainSocketImpl.socketConnect(Native Method)
+<br/>at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+<br/>at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+<br/>at java.net.Socket.connect(Socket.java:519)
+<br/>at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+<br/>at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+<br/>at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+<br/>at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+<br/>at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.tearDown(EOLDomesticReceiveInfo_Test.java:270)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:launchHomePage</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:38 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.launchHomePage(EOLDomesticEnrollNow_nocourse_Test.java:71)
+<br/>35 lines not shown
+<p>Caused by java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.launchHomePage(EOLDomesticEnrollNow_nocourse_Test.java:71)
+<br/>35 lines not shown
+<p>Caused by Connection reset</p>
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+<br/>at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+<br/>at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+<br/>at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+<br/>at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+<br/>at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+<br/>at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.launchHomePage(EOLDomesticEnrollNow_nocourse_Test.java:71)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:launchHomePage</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:30 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.launchHomePage(EOLCanadaReceiveInfo_Test.java:69)
+<br/>35 lines not shown
+<p>Caused by java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.launchHomePage(EOLCanadaReceiveInfo_Test.java:69)
+<br/>35 lines not shown
+<p>Caused by Connection reset</p>
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+<br/>at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+<br/>at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+<br/>at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+<br/>at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+<br/>at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+<br/>at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.launchHomePage(EOLCanadaReceiveInfo_Test.java:69)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:launchHomePage</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:35 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.launchHomePage(EOLCanadaReceiveInfo_nocourse_Test.java:67)
+<br/>35 lines not shown
+<p>Caused by java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.launchHomePage(EOLCanadaReceiveInfo_nocourse_Test.java:67)
+<br/>35 lines not shown
+<p>Caused by Connection reset</p>
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+<br/>at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+<br/>at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+<br/>at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+<br/>at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+<br/>at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+<br/>at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+<br/>at com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.launchHomePage(EOLCanadaReceiveInfo_nocourse_Test.java:67)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:launchSelectedSiteCoreURL</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:41 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.SiteCoreULR_Feature_Test.launchSelectedSiteCoreURL(SiteCoreULR_Feature_Test.java:68)
+<br/>35 lines not shown
+<p>Caused by java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.SiteCoreULR_Feature_Test.launchSelectedSiteCoreURL(SiteCoreULR_Feature_Test.java:68)
+<br/>35 lines not shown
+<p>Caused by Connection reset</p>
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+<br/>at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+<br/>at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+<br/>at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+<br/>at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+<br/>at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+<br/>at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.SiteCoreULR_Feature_Test.launchSelectedSiteCoreURL(SiteCoreULR_Feature_Test.java:68)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:launchHomePage</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:37 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage(EOLDomesticEnrollNow_Test.java:68)
+<br/>35 lines not shown
+<p>Caused by java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage(EOLDomesticEnrollNow_Test.java:68)
+<br/>35 lines not shown
+<p>Caused by Connection reset</p>
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+<br/>at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+<br/>at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+<br/>at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+<br/>at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+<br/>at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+<br/>at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage(EOLDomesticEnrollNow_Test.java:68)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:launchHomePage</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:39 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.launchHomePage(EOLDomesticReceiveInfo_Test.java:64)
+<br/>35 lines not shown
+<p>Caused by java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.launchHomePage(EOLDomesticReceiveInfo_Test.java:64)
+<br/>35 lines not shown
+<p>Caused by Connection reset</p>
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+<br/>at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+<br/>at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+<br/>at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+<br/>at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+<br/>at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+<br/>at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.launchHomePage(EOLDomesticReceiveInfo_Test.java:64)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:launchHomePage</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Thu, 7 Mar 2013 12:11:40 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+<h3>Failure</h3>
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.launchHomePage(EOLDomesticReceiveInfo_nocourse_Test.java:69)
+<br/>35 lines not shown
+<p>Caused by java.net.SocketException: Connection reset
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.launchHomePage(EOLDomesticReceiveInfo_nocourse_Test.java:69)
+<br/>35 lines not shown
+<p>Caused by Connection reset</p>
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+<br/>at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+<br/>at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+<br/>at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+<br/>at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+<br/>at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+<br/>at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+<br/>at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+<br/>at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+<br/>at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+<br/>at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+<br/>at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+<br/>at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.launchHomePage(EOLDomesticReceiveInfo_nocourse_Test.java:69)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:getNumberOfCourseAvailable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:redirectToThankYouPageAndClickEnrollOnLine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:verifyredirectToPaymentInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:verifyElementsDisplayOnPaymentInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:getNumberOfCourseAvailable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:enterCreditCardInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:enterCreditCardInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:enterCreditCardInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:verifyElementsDisplayAfterSelectModeOfPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:homePageactions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:verifyElementsDisplayOnStep1EnrollmentProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:verifyredirectToPaymentInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:selectModeOfPaymentandProvideInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:selectModeOfPaymentandProvideInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:enterStudentInformationOnStep1Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:selectCourseFromAvailableCourses</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:selectModeOfPaymentandProvideInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:enterRemaningInformationOnPersonalInformatoinPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:selectModeOfPaymentandProvideInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m35"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:verifyElementDisplayOnPersonalInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m36"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:enterRemaningInformationOnPersonalInformatoinPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m37"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:redirectToThankYouPageAndClickEnrollOnLine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m38"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:verifyElementsDisplayAfterSelectModeOfPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m39"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:verifyredirectToPaymentInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m40"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:verifyElementsDisplayOnReviewAndSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m41"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:verifyredirectToPaymentInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m42"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:verifyElementsDisplayOnPaymentInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m43"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:homePageactions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m44"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:verifyElementsDisplayAfterSelectModeOfPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m45"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:homePageactions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m46"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m47"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:verifyElementsDisplayOnReviewAndSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m48"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:redirectToThankYouPageAndClickEnrollOnLine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m49"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:enterStudentInformationOnStep1Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m50"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:redirectToThankYouPageAndClickEnrollOnLine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m51"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m52"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:verifyElementDisplayOnPersonalInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m53"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:verifyElementsDisplayOnStep1EnrollmentProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m54"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyElementsDisplayOnPaymentInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m55"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:verifyElementsDisplayOnStep1EnrollmentProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m56"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:selectCourseFromAvailableCourses</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m57"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:verifyEditButtonOnReviewAndSubmit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m58"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:verifyEditButtonOnReviewAndSubmit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m59"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m60"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:verifyElementsDisplayOnPaymentInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m61"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:selectModeOfPaymentandProvideInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m62"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:homePageactions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m63"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:verifyredirectToPaymentInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m64"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:enterCreditCardInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m65"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:verifyElementsDisplayOnPaymentInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m66"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyElementsDisplayAfterSelectModeOfPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m67"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:homePageactions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m68"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:selectModeOfPaymentandProvideInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m69"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:enterRemaningInformationOnPersonalInformatoinPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m70"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:enterStudentInformationOnStep1Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m71"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyElementsDisplayOnReviewAndSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m72"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:enterRemaningInformationOnPersonalInformatoinPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m73"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:verifyElementsDisplayOnStep1EnrollmentProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m74"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:redirectToThankYouPageAndClickEnrollOnLine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m75"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:verifyElementsDisplayOnStep1EnrollmentProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m76"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:enterCreditCardInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m77"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:verifyElementsDisplayOnReviewAndSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m78"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:selectCourseFromAvailableCourses</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m79"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:verifyElementsDisplayAfterSelectModeOfPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m80"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:verifyElementsDisplayOnReviewAndSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m81"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:verifyElementsDisplayOnReviewAndSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m82"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:verifyElementsDisplayOnPaymentInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m83"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:verifyElementsDisplayAfterSelectModeOfPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m84"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:verifyEditButtonOnReviewAndSubmit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m85"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:verifyEditButtonOnReviewAndSubmit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m86"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:selectModeOfPaymentandProvideInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m87"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:enterRemaningInformationOnPersonalInformatoinPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m88"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:enterRemaningInformationOnPersonalInformatoinPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m89"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:verifyElementsDisplayOnPaymentInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m90"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:VerifySiteCoreHomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m91"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:verifyElementsDisplayOnReviewAndSubmitPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m92"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:enterStudentInformationOnStep1Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m93"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:enterStudentInformationOnStep1Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m94"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:verifyElementDisplayOnPersonalInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m95"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:enterCreditCardInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m96"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:verifyElementDisplayOnPersonalInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m97"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:homePageactions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m98"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:getNumberOfCourseAvailable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m99"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:verifyElementsDisplayAfterSelectModeOfPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m100"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:enterCreditCardInformation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m101"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:verifyElementDisplayOnPersonalInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m102"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:verifyredirectToPaymentInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m103"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyredirectToPaymentInformationPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m104"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:enterRemaningInformationOnPersonalInformatoinPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m105"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test:setup</h2>
+<div style="padding-left:3em">
+Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m106"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test:setup</h2>
+<div style="padding-left:3em">
+Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m107"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:setup</h2>
+<div style="padding-left:3em">
+Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m108"></a><h2>com.jav.Domestic.tests.SiteCoreULR_Feature_Test:setup</h2>
+<div style="padding-left:3em">
+Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:29 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m109"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test:setup</h2>
+<div style="padding-left:3em">
+Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m110"></a><h2>com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test:setup</h2>
+<div style="padding-left:3em">
+Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m111"></a><h2>com.jav.Canada.tests.EOLCanadaReceiveInfo_Test:setup</h2>
+<div style="padding-left:3em">
+Thu, 7 Mar 2013 12:10:38 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

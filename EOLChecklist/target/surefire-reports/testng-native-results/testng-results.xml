@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="93" failed="7" total="107" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:38 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:29 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:30 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:35 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:37 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:38 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:39 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:40 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:41 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:42 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:45 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:45 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:47 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="75054" started-at="2013-03-07T06:40:37Z" finished-at="2013-03-07T06:41:52Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="75054" started-at="2013-03-07T06:40:37Z" finished-at="2013-03-07T06:41:52Z">
+      <class name="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test">
+        <test-method status="PASS" signature="initialsettings()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="initialsettings" is-config="true" duration-ms="75" started-at="2013-03-07T12:11:00Z" finished-at="2013-03-07T12:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="setup" duration-ms="5701" started-at="2013-03-07T12:11:00Z" finished-at="2013-03-07T12:11:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="launchHomePage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="launchHomePage" duration-ms="1357" started-at="2013-03-07T12:11:38Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.setup" finished-at="2013-03-07T12:11:39Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.launchHomePage(EOLDomesticEnrollNow_nocourse_Test.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:38 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method status="SKIP" signature="selectCourseFromAvailableCourses()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="selectCourseFromAvailableCourses" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.getNumberOfCourseAvailable" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCourseFromAvailableCourses -->
+        <test-method status="SKIP" signature="homePageactions()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="homePageactions" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.launchHomePage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageactions -->
+        <test-method status="SKIP" signature="getNumberOfCourseAvailable()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="getNumberOfCourseAvailable" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.homePageactions" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNumberOfCourseAvailable -->
+        <test-method status="SKIP" signature="enterRemaningInformationOnPersonalInformatoinPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="enterRemaningInformationOnPersonalInformatoinPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.selectCourseFromAvailableCourses" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRemaningInformationOnPersonalInformatoinPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayAfterSelectModeOfPayment()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="verifyElementsDisplayAfterSelectModeOfPayment" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.selectModeOfPaymentandProvideInformation" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayAfterSelectModeOfPayment -->
+        <test-method status="SKIP" signature="selectModeOfPaymentandProvideInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="selectModeOfPaymentandProvideInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyElementsDisplayOnPaymentInformation" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectModeOfPaymentandProvideInformation -->
+        <test-method status="SKIP" signature="verifyredirectToPaymentInformationPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="verifyredirectToPaymentInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.enterRemaningInformationOnPersonalInformatoinPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyredirectToPaymentInformationPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnPaymentInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="verifyElementsDisplayOnPaymentInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyredirectToPaymentInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnPaymentInformation -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnReviewAndSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="verifyElementsDisplayOnReviewAndSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.enterCreditCardInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnReviewAndSubmitPage -->
+        <test-method status="SKIP" signature="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyElementsDisplayOnReviewAndSubmitPage" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage -->
+        <test-method status="SKIP" signature="enterCreditCardInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="enterCreditCardInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test.verifyElementsDisplayAfterSelectModeOfPayment" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCreditCardInformation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test@2c84d9]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-03-07T12:11:45Z" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:45 IST  ########## Stop Browser Session ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test -->
+      <class name="com.jav.Domestic.tests.SiteCoreULR_Feature_Test">
+        <test-method status="PASS" signature="initialsettings()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="initialsettings" is-config="true" duration-ms="4" started-at="2013-03-07T12:11:20Z" finished-at="2013-03-07T12:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="setup" duration-ms="9440" started-at="2013-03-07T12:11:20Z" finished-at="2013-03-07T12:11:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:29 IST  ########## Start browser session ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="launchSelectedSiteCoreURL()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="launchSelectedSiteCoreURL" duration-ms="717" started-at="2013-03-07T12:11:41Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.setup" finished-at="2013-03-07T12:11:42Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.SiteCoreULR_Feature_Test.launchSelectedSiteCoreURL(SiteCoreULR_Feature_Test.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:41 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSelectedSiteCoreURL -->
+        <test-method status="SKIP" signature="VerifySiteCoreHomePage()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="VerifySiteCoreHomePage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.launchSelectedSiteCoreURL" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySiteCoreHomePage -->
+        <test-method status="SKIP" signature="enterStudentInformationOnStep1Page()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="enterStudentInformationOnStep1Page" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementsDisplayOnStep1EnrollmentProcess" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStudentInformationOnStep1Page -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnStep1EnrollmentProcess()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="verifyElementsDisplayOnStep1EnrollmentProcess" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.VerifySiteCoreHomePage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnStep1EnrollmentProcess -->
+        <test-method status="SKIP" signature="redirectToThankYouPageAndClickEnrollOnLine()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="redirectToThankYouPageAndClickEnrollOnLine" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.enterStudentInformationOnStep1Page" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToThankYouPageAndClickEnrollOnLine -->
+        <test-method status="SKIP" signature="enterRemaningInformationOnPersonalInformatoinPage()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="enterRemaningInformationOnPersonalInformatoinPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementDisplayOnPersonalInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRemaningInformationOnPersonalInformatoinPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnPaymentInformation()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="verifyElementsDisplayOnPaymentInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyredirectToPaymentInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnPaymentInformation -->
+        <test-method status="SKIP" signature="verifyElementDisplayOnPersonalInformationPage()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="verifyElementDisplayOnPersonalInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.redirectToThankYouPageAndClickEnrollOnLine" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementDisplayOnPersonalInformationPage -->
+        <test-method status="SKIP" signature="verifyredirectToPaymentInformationPage()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="verifyredirectToPaymentInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.enterRemaningInformationOnPersonalInformatoinPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyredirectToPaymentInformationPage -->
+        <test-method status="SKIP" signature="enterCreditCardInformation()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="enterCreditCardInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementsDisplayAfterSelectModeOfPayment" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCreditCardInformation -->
+        <test-method status="SKIP" signature="verifyElementsDisplayAfterSelectModeOfPayment()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="verifyElementsDisplayAfterSelectModeOfPayment" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.selectModeOfPaymentandProvideInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayAfterSelectModeOfPayment -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnReviewAndSubmitPage()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="verifyElementsDisplayOnReviewAndSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.enterCreditCardInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnReviewAndSubmitPage -->
+        <test-method status="SKIP" signature="verifyEditButtonOnReviewAndSubmit()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="verifyEditButtonOnReviewAndSubmit" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementsDisplayOnReviewAndSubmitPage" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonOnReviewAndSubmit -->
+        <test-method status="SKIP" signature="selectModeOfPaymentandProvideInformation()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="selectModeOfPaymentandProvideInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyElementsDisplayOnPaymentInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectModeOfPaymentandProvideInformation -->
+        <test-method status="SKIP" signature="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:50Z" depends-on-methods="com.jav.Domestic.tests.SiteCoreULR_Feature_Test.verifyEditButtonOnReviewAndSubmit" finished-at="2013-03-07T12:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jav.Domestic.tests.SiteCoreULR_Feature_Test@1786e64]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-03-07T12:11:50Z" finished-at="2013-03-07T12:11:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jav.Domestic.tests.SiteCoreULR_Feature_Test -->
+      <class name="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test">
+        <test-method status="PASS" signature="initialsettings()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="initialsettings" is-config="true" duration-ms="4" started-at="2013-03-07T12:11:06Z" finished-at="2013-03-07T12:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="setup" duration-ms="3909" started-at="2013-03-07T12:11:06Z" finished-at="2013-03-07T12:11:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="launchHomePage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="launchHomePage" duration-ms="1061" started-at="2013-03-07T12:11:39Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.setup" finished-at="2013-03-07T12:11:40Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.launchHomePage(EOLDomesticReceiveInfo_Test.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:39 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method status="SKIP" signature="enterStudentInformationOnStep1Page()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="enterStudentInformationOnStep1Page" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementsDisplayOnStep1EnrollmentProcess" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStudentInformationOnStep1Page -->
+        <test-method status="SKIP" signature="homePageactions()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="homePageactions" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.launchHomePage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageactions -->
+        <test-method status="SKIP" signature="redirectToThankYouPageAndClickEnrollOnLine()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="redirectToThankYouPageAndClickEnrollOnLine" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.enterStudentInformationOnStep1Page" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToThankYouPageAndClickEnrollOnLine -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnStep1EnrollmentProcess()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="verifyElementsDisplayOnStep1EnrollmentProcess" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.homePageactions" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnStep1EnrollmentProcess -->
+        <test-method status="SKIP" signature="verifyredirectToPaymentInformationPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="verifyredirectToPaymentInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.enterRemaningInformationOnPersonalInformatoinPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyredirectToPaymentInformationPage -->
+        <test-method status="SKIP" signature="verifyElementDisplayOnPersonalInformationPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="verifyElementDisplayOnPersonalInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.redirectToThankYouPageAndClickEnrollOnLine" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementDisplayOnPersonalInformationPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnPaymentInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="verifyElementsDisplayOnPaymentInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyredirectToPaymentInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnPaymentInformation -->
+        <test-method status="SKIP" signature="enterRemaningInformationOnPersonalInformatoinPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="enterRemaningInformationOnPersonalInformatoinPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementDisplayOnPersonalInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRemaningInformationOnPersonalInformatoinPage -->
+        <test-method status="SKIP" signature="enterCreditCardInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="enterCreditCardInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementsDisplayAfterSelectModeOfPayment" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCreditCardInformation -->
+        <test-method status="SKIP" signature="verifyEditButtonOnReviewAndSubmit()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="verifyEditButtonOnReviewAndSubmit" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementsDisplayOnReviewAndSubmitPage" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonOnReviewAndSubmit -->
+        <test-method status="SKIP" signature="verifyElementsDisplayAfterSelectModeOfPayment()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="verifyElementsDisplayAfterSelectModeOfPayment" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.selectModeOfPaymentandProvideInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayAfterSelectModeOfPayment -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnReviewAndSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="verifyElementsDisplayOnReviewAndSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.enterCreditCardInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnReviewAndSubmitPage -->
+        <test-method status="SKIP" signature="selectModeOfPaymentandProvideInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="selectModeOfPaymentandProvideInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyElementsDisplayOnPaymentInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectModeOfPaymentandProvideInformation -->
+        <test-method status="SKIP" signature="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:47Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.verifyEditButtonOnReviewAndSubmit" finished-at="2013-03-07T12:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test@1b16e52]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-03-07T12:11:47Z" finished-at="2013-03-07T12:11:47Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test.tearDown(EOLDomesticReceiveInfo_Test.java:270)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:10504 refused
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:10504 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:47 IST  ########## Stop Browser Session ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test -->
+      <class name="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test">
+        <test-method status="PASS" signature="initialsettings()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="initialsettings" is-config="true" duration-ms="7" started-at="2013-03-07T12:11:10Z" finished-at="2013-03-07T12:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="setup" duration-ms="10438" started-at="2013-03-07T12:11:10Z" finished-at="2013-03-07T12:11:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="launchHomePage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="launchHomePage" duration-ms="811" started-at="2013-03-07T12:11:40Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.setup" finished-at="2013-03-07T12:11:41Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.launchHomePage(EOLDomesticReceiveInfo_nocourse_Test.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:40 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnStep1EnrollmentProcess()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="verifyElementsDisplayOnStep1EnrollmentProcess" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.selectCourseFromAvailableCourses" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnStep1EnrollmentProcess -->
+        <test-method status="SKIP" signature="homePageactions()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="homePageactions" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.launchHomePage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageactions -->
+        <test-method status="SKIP" signature="selectCourseFromAvailableCourses()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="selectCourseFromAvailableCourses" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.getNumberOfCourseAvailable" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCourseFromAvailableCourses -->
+        <test-method status="SKIP" signature="getNumberOfCourseAvailable()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="getNumberOfCourseAvailable" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.homePageactions" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNumberOfCourseAvailable -->
+        <test-method status="SKIP" signature="enterRemaningInformationOnPersonalInformatoinPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="enterRemaningInformationOnPersonalInformatoinPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementDisplayOnPersonalInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRemaningInformationOnPersonalInformatoinPage -->
+        <test-method status="SKIP" signature="verifyElementDisplayOnPersonalInformationPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="verifyElementDisplayOnPersonalInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.redirectToThankYouPageAndClickEnrollOnLine" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementDisplayOnPersonalInformationPage -->
+        <test-method status="SKIP" signature="enterStudentInformationOnStep1Page()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="enterStudentInformationOnStep1Page" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementsDisplayOnStep1EnrollmentProcess" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStudentInformationOnStep1Page -->
+        <test-method status="SKIP" signature="redirectToThankYouPageAndClickEnrollOnLine()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="redirectToThankYouPageAndClickEnrollOnLine" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.enterStudentInformationOnStep1Page" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToThankYouPageAndClickEnrollOnLine -->
+        <test-method status="SKIP" signature="selectModeOfPaymentandProvideInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="selectModeOfPaymentandProvideInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementsDisplayOnPaymentInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectModeOfPaymentandProvideInformation -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnPaymentInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="verifyElementsDisplayOnPaymentInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyredirectToPaymentInformationPage" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnPaymentInformation -->
+        <test-method status="SKIP" signature="verifyElementsDisplayAfterSelectModeOfPayment()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="verifyElementsDisplayAfterSelectModeOfPayment" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.selectModeOfPaymentandProvideInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayAfterSelectModeOfPayment -->
+        <test-method status="SKIP" signature="enterCreditCardInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="enterCreditCardInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementsDisplayAfterSelectModeOfPayment" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCreditCardInformation -->
+        <test-method status="SKIP" signature="verifyredirectToPaymentInformationPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="verifyredirectToPaymentInformationPage" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.enterRemaningInformationOnPersonalInformatoinPage" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyredirectToPaymentInformationPage -->
+        <test-method status="SKIP" signature="verifyEditButtonOnReviewAndSubmit()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="verifyEditButtonOnReviewAndSubmit" duration-ms="0" started-at="2013-03-07T12:11:50Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyElementsDisplayOnReviewAndSubmitPage" finished-at="2013-03-07T12:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonOnReviewAndSubmit -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnReviewAndSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="verifyElementsDisplayOnReviewAndSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:50Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.enterCreditCardInformation" finished-at="2013-03-07T12:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnReviewAndSubmitPage -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-03-07T12:11:50Z" finished-at="2013-03-07T12:11:50Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.tearDown(EOLDomesticReceiveInfo_nocourse_Test.java:336)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:13551 refused
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:13551 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test@18385e3]" name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:50Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test.verifyEditButtonOnReviewAndSubmit" finished-at="2013-03-07T12:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage -->
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test -->
+      <class name="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test">
+        <test-method status="PASS" signature="initialsettings()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="initialsettings" is-config="true" duration-ms="265" started-at="2013-03-07T12:10:37Z" finished-at="2013-03-07T12:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="setup" duration-ms="14032" started-at="2013-03-07T12:10:38Z" finished-at="2013-03-07T12:10:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:10:38 IST  ########## Start browser session STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="launchHomePage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="launchHomePage" duration-ms="5082" started-at="2013-03-07T12:11:30Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.setup" finished-at="2013-03-07T12:11:35Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.launchHomePage(EOLCanadaReceiveInfo_Test.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:30 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method status="SKIP" signature="enterStudentInformationOnStep1Page()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="enterStudentInformationOnStep1Page" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementsDisplayOnStep1EnrollmentProcess" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStudentInformationOnStep1Page -->
+        <test-method status="SKIP" signature="redirectToThankYouPageAndClickEnrollOnLine()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="redirectToThankYouPageAndClickEnrollOnLine" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.enterStudentInformationOnStep1Page" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToThankYouPageAndClickEnrollOnLine -->
+        <test-method status="SKIP" signature="homePageactions()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="homePageactions" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.launchHomePage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageactions -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnStep1EnrollmentProcess()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="verifyElementsDisplayOnStep1EnrollmentProcess" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.homePageactions" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnStep1EnrollmentProcess -->
+        <test-method status="SKIP" signature="verifyElementDisplayOnPersonalInformationPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="verifyElementDisplayOnPersonalInformationPage" duration-ms="31" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.redirectToThankYouPageAndClickEnrollOnLine" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementDisplayOnPersonalInformationPage -->
+        <test-method status="SKIP" signature="verifyredirectToPaymentInformationPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="verifyredirectToPaymentInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.enterRemaningInformationOnPersonalInformatoinPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyredirectToPaymentInformationPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnPaymentInformation()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="verifyElementsDisplayOnPaymentInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyredirectToPaymentInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnPaymentInformation -->
+        <test-method status="SKIP" signature="enterRemaningInformationOnPersonalInformatoinPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="enterRemaningInformationOnPersonalInformatoinPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementDisplayOnPersonalInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRemaningInformationOnPersonalInformatoinPage -->
+        <test-method status="SKIP" signature="selectModeOfPaymentandProvideInformation()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="selectModeOfPaymentandProvideInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementsDisplayOnPaymentInformation" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectModeOfPaymentandProvideInformation -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnReviewAndSubmitPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="verifyElementsDisplayOnReviewAndSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.enterCreditCardInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnReviewAndSubmitPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayAfterSelectModeOfPayment()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="verifyElementsDisplayAfterSelectModeOfPayment" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.selectModeOfPaymentandProvideInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayAfterSelectModeOfPayment -->
+        <test-method status="SKIP" signature="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage" duration-ms="16" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyEditButtonOnReviewAndSubmit" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage -->
+        <test-method status="SKIP" signature="enterCreditCardInformation()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="enterCreditCardInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementsDisplayAfterSelectModeOfPayment" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCreditCardInformation -->
+        <test-method status="SKIP" signature="verifyEditButtonOnReviewAndSubmit()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="verifyEditButtonOnReviewAndSubmit" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.verifyElementsDisplayOnReviewAndSubmitPage" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonOnReviewAndSubmit -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_Test@16672d6]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-03-07T12:11:45Z" finished-at="2013-03-07T12:11:45Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Canada.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:77)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_Test.tearDown(EOLCanadaReceiveInfo_Test.java:259)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8157 refused
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8157 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:45 IST  ########## Stop Browser Session ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jav.Canada.tests.EOLCanadaReceiveInfo_Test -->
+      <class name="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test">
+        <test-method status="PASS" signature="initialsettings()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="initialsettings" is-config="true" duration-ms="11" started-at="2013-03-07T12:10:52Z" finished-at="2013-03-07T12:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="setup" duration-ms="4363" started-at="2013-03-07T12:10:52Z" finished-at="2013-03-07T12:10:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="launchHomePage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="launchHomePage" duration-ms="2153" started-at="2013-03-07T12:11:35Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.setup" finished-at="2013-03-07T12:11:37Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Canada.fixture.BaseFixture.launchUrl(BaseFixture.java:72)
+	at com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.launchHomePage(EOLCanadaReceiveInfo_nocourse_Test.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:35 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method status="SKIP" signature="getNumberOfCourseAvailable()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="getNumberOfCourseAvailable" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.homePageactions" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNumberOfCourseAvailable -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnStep1EnrollmentProcess()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="verifyElementsDisplayOnStep1EnrollmentProcess" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.selectCourseFromAvailableCourses" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnStep1EnrollmentProcess -->
+        <test-method status="SKIP" signature="selectCourseFromAvailableCourses()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="selectCourseFromAvailableCourses" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.getNumberOfCourseAvailable" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCourseFromAvailableCourses -->
+        <test-method status="SKIP" signature="homePageactions()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="homePageactions" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.launchHomePage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageactions -->
+        <test-method status="SKIP" signature="verifyElementDisplayOnPersonalInformationPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="verifyElementDisplayOnPersonalInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.redirectToThankYouPageAndClickEnrollOnLine" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementDisplayOnPersonalInformationPage -->
+        <test-method status="SKIP" signature="enterStudentInformationOnStep1Page()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="enterStudentInformationOnStep1Page" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementsDisplayOnStep1EnrollmentProcess" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStudentInformationOnStep1Page -->
+        <test-method status="SKIP" signature="enterRemaningInformationOnPersonalInformatoinPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="enterRemaningInformationOnPersonalInformatoinPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementDisplayOnPersonalInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRemaningInformationOnPersonalInformatoinPage -->
+        <test-method status="SKIP" signature="redirectToThankYouPageAndClickEnrollOnLine()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="redirectToThankYouPageAndClickEnrollOnLine" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.enterStudentInformationOnStep1Page" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToThankYouPageAndClickEnrollOnLine -->
+        <test-method status="SKIP" signature="verifyredirectToPaymentInformationPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="verifyredirectToPaymentInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.enterRemaningInformationOnPersonalInformatoinPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyredirectToPaymentInformationPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnPaymentInformation()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="verifyElementsDisplayOnPaymentInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyredirectToPaymentInformationPage" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnPaymentInformation -->
+        <test-method status="SKIP" signature="enterCreditCardInformation()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="enterCreditCardInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementsDisplayAfterSelectModeOfPayment" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCreditCardInformation -->
+        <test-method status="SKIP" signature="verifyElementsDisplayAfterSelectModeOfPayment()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="verifyElementsDisplayAfterSelectModeOfPayment" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.selectModeOfPaymentandProvideInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayAfterSelectModeOfPayment -->
+        <test-method status="SKIP" signature="selectModeOfPaymentandProvideInformation()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="selectModeOfPaymentandProvideInformation" duration-ms="0" started-at="2013-03-07T12:11:45Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementsDisplayOnPaymentInformation" finished-at="2013-03-07T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectModeOfPaymentandProvideInformation -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnReviewAndSubmitPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="verifyElementsDisplayOnReviewAndSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:47Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.enterCreditCardInformation" finished-at="2013-03-07T12:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnReviewAndSubmitPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-03-07T12:11:50Z" finished-at="2013-03-07T12:11:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()[pri:0, instance:com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test@2808b3]" name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:50Z" depends-on-methods="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test.verifyElementsDisplayOnReviewAndSubmitPage" finished-at="2013-03-07T12:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage -->
+      </class> <!-- com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test -->
+      <class name="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test">
+        <test-method status="PASS" signature="initialsettings()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="initialsettings" is-config="true" duration-ms="11" started-at="2013-03-07T12:10:56Z" finished-at="2013-03-07T12:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="setup" duration-ms="3938" started-at="2013-03-07T12:10:56Z" finished-at="2013-03-07T12:11:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="launchHomePage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="launchHomePage" duration-ms="1248" started-at="2013-03-07T12:11:37Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.setup" finished-at="2013-03-07T12:11:38Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:242)
+	at com.jav.Domestic.fixture.BaseFixture.launchUrl(BaseFixture.java:85)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage(EOLDomesticEnrollNow_Test.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:37 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method status="SKIP" signature="verifyredirectToPaymentInformationPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="verifyredirectToPaymentInformationPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.enterRemaningInformationOnPersonalInformatoinPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyredirectToPaymentInformationPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnPaymentInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="verifyElementsDisplayOnPaymentInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyredirectToPaymentInformationPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnPaymentInformation -->
+        <test-method status="SKIP" signature="homePageactions()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="homePageactions" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageactions -->
+        <test-method status="SKIP" signature="enterRemaningInformationOnPersonalInformatoinPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="enterRemaningInformationOnPersonalInformatoinPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.homePageactions" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRemaningInformationOnPersonalInformatoinPage -->
+        <test-method status="SKIP" signature="enterCreditCardInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="enterCreditCardInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayAfterSelectModeOfPayment" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCreditCardInformation -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-03-07T12:11:42Z" finished-at="2013-03-07T12:11:42Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
+	at com.jav.Domestic.fixture.BaseFixture.stopBrowserSession(BaseFixture.java:90)
+	at com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.tearDown(EOLDomesticEnrollNow_Test.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:43123 refused
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:43123 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Thu, 7 Mar 2013 12:11:42 IST  ########## Stop Browser Session ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="selectModeOfPaymentandProvideInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="selectModeOfPaymentandProvideInformation" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayOnPaymentInformation" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectModeOfPaymentandProvideInformation -->
+        <test-method status="SKIP" signature="verifyElementsDisplayOnReviewAndSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="verifyElementsDisplayOnReviewAndSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.enterCreditCardInformation" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnReviewAndSubmitPage -->
+        <test-method status="SKIP" signature="verifyElementsDisplayAfterSelectModeOfPayment()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="verifyElementsDisplayAfterSelectModeOfPayment" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.selectModeOfPaymentandProvideInformation" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayAfterSelectModeOfPayment -->
+        <test-method status="SKIP" signature="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@6e3d60]" name="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage" duration-ms="0" started-at="2013-03-07T12:11:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayOnReviewAndSubmitPage" finished-at="2013-03-07T12:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage -->
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticEnrollNow_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

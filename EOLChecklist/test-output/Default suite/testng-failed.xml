@@ -3,25 +3,37 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test">
+      <class name="com.jav.Domestic.tests.SiteCoreULR_Feature_Test">
         <methods>
-          <include name="enterCreditCardInformation"/>
-          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
-          <include name="setup"/>
-          <include name="homePageactions"/>
           <include name="verifyElementsDisplayOnPaymentInformation"/>
-          <include name="launchHomePage"/>
-          <include name="selectModeOfPaymentandProvideInformation"/>
-          <include name="tearDown"/>
-          <include name="selectCourseFromAvailableCourses"/>
-          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
-          <include name="initialsettings"/>
-          <include name="verifyredirectToPaymentInformationPage"/>
-          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="enterCreditCardInformationAfterCreditCardSelection"/>
+          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
+          <include name="enterStudentInformationOnStep1Page"/>
           <include name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage"/>
-          <include name="getNumberOfCourseAvailable"/>
+          <include name="verifyElementsDisplayedOnReviewAndSubmitPage"/>
+          <include name="verifyElementDisplayOnPersonalInformationPage"/>
+          <include name="verifyUserNavigatedtoEnrollNowSiteCoreHomepage"/>
+          <include name="verifyElementsDisplayOnStep1EnrollmentProcess"/>
+          <include name="verifyandClickOnTermAndConditionsOnReviewandSubmitPage"/>
+          <include name="verifyElementsDisplayedAfterSelectModeOfPayment"/>
+          <include name="tearDown"/>
+          <include name="VerifySiteCoreHomePage"/>
+          <include name="launchSelectedSiteCoreURL"/>
+          <include name="setup"/>
+          <include name="verifyEditButtonOnReviewAndSubmit"/>
+          <include name="redirectToThankYouPageAndClickEnrollOnLine"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+          <include name="selectModeOfPaymentandProvideInformation"/>
+          <include name="enterAllInformationOnPersonalInformatoinPage"/>
+          <include name="verifyElementsDisplayOnPaymentInformationPage"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="verifyRedirectToPaymentInformationPage"/>
+          <include name="initialsettings"/>
+          <include name="enterCreditCardInformation"/>
+          <include name="selectModeOfPaymentandFillInformation"/>
         </methods>
-      </class> <!-- com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test -->
+      </class> <!-- com.jav.Domestic.tests.SiteCoreULR_Feature_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

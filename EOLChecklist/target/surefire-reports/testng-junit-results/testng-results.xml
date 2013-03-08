@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:38 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:52 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:10:56 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:00 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:06 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:10 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:20 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:29 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:30 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:35 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:37 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:38 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:39 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:40 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:41 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:42 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:45 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:45 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:47 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Thu, 7 Mar 2013 12:11:50 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="140" started-at="2013-03-07T06:41:54Z" finished-at="2013-03-07T06:41:54Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="140" started-at="2013-03-07T06:41:54Z" finished-at="2013-03-07T06:41:54Z">
+      <class name="com.jav.EOLChecklist.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.jav.EOLChecklist.AppTest)]" name="testApp" duration-ms="0" started-at="2013-03-07T12:11:54Z" finished-at="2013-03-07T12:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.jav.EOLChecklist.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -35,7 +35,22 @@ SiteCoreApp:
     City: Scranton
     State: Pennsylvania
     ZIP: "18515"  
-    
+    DOBmonth: "04"
+    DOBday: "10"
+    DOByear: "1987"
+    CreditCardNumber: "4111111111111111"
+    CVV: "000"  
+  
+  PaymentMode: Credit or Debit Card   
+
+# Account type below mentioned are the two possible values
+# Savings
+# Checking
+
+  AccountType: Savings
+  RoutingNumber: "031300135"
+  AccountNumber: "123456789"
+  SignDocElectronically: "yes"
     
 ##########################################################################################
 #
@@ -51,8 +66,8 @@ SiteCoreApp:
 # Total course contain the total number of course for those script have to be run
 
 DomesticURLReceiveInformationnocourse:
-  RunType: Selected
-  TotalCource: "2"
+  RunType: OneIteration
+  TotalCource: "6"
   
   SelectCourse:
     Cource1: RETAIL MANAGEMENT A.S. DEGREE SEMESTER ONE

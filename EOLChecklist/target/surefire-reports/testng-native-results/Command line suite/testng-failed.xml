@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test">
+        <methods>
+          <include name="homePageactions"/>
+          <include name="verifyElementsDisplayOnStep1EnrollmentProcess"/>
+          <include name="initialsettings"/>
+          <include name="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage"/>
+          <include name="verifyElementDisplayOnPersonalInformationPage"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+          <include name="verifyEditButtonOnReviewAndSubmit"/>
+          <include name="setup"/>
+          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
+          <include name="enterStudentInformationOnStep1Page"/>
+          <include name="launchHomePage"/>
+          <include name="tearDown"/>
+          <include name="enterCreditCardInformation"/>
+          <include name="verifyElementsDisplayOnPaymentInformation"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="redirectToThankYouPageAndClickEnrollOnLine"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="selectModeOfPaymentandProvideInformation"/>
+        </methods>
+      </class> <!-- com.jav.Canada.tests.EOLCanadaReceiveInfo_Test -->
+      <class name="com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test">
+        <methods>
+          <include name="enterCreditCardInformation"/>
+          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
+          <include name="setup"/>
+          <include name="homePageactions"/>
+          <include name="verifyElementsDisplayOnPaymentInformation"/>
+          <include name="launchHomePage"/>
+          <include name="selectModeOfPaymentandProvideInformation"/>
+          <include name="tearDown"/>
+          <include name="selectCourseFromAvailableCourses"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+          <include name="initialsettings"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage"/>
+          <include name="getNumberOfCourseAvailable"/>
+        </methods>
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticEnrollNow_nocourse_Test -->
+      <class name="com.jav.Domestic.tests.SiteCoreULR_Feature_Test">
+        <methods>
+          <include name="verifyElementsDisplayOnPaymentInformation"/>
+          <include name="tearDown"/>
+          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
+          <include name="VerifySiteCoreHomePage"/>
+          <include name="enterStudentInformationOnStep1Page"/>
+          <include name="launchSelectedSiteCoreURL"/>
+          <include name="setup"/>
+          <include name="verifyEditButtonOnReviewAndSubmit"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="redirectToThankYouPageAndClickEnrollOnLine"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+          <include name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage"/>
+          <include name="verifyElementDisplayOnPersonalInformationPage"/>
+          <include name="selectModeOfPaymentandProvideInformation"/>
+          <include name="verifyElementsDisplayOnStep1EnrollmentProcess"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="initialsettings"/>
+          <include name="enterCreditCardInformation"/>
+        </methods>
+      </class> <!-- com.jav.Domestic.tests.SiteCoreULR_Feature_Test -->
+      <class name="com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test">
+        <methods>
+          <include name="verifyElementsDisplayOnPaymentInformation"/>
+          <include name="verifyElementsDisplayOnStep1EnrollmentProcess"/>
+          <include name="verifyElementDisplayOnPersonalInformationPage"/>
+          <include name="selectModeOfPaymentandProvideInformation"/>
+          <include name="launchHomePage"/>
+          <include name="initialsettings"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="homePageactions"/>
+          <include name="enterCreditCardInformation"/>
+          <include name="enterStudentInformationOnStep1Page"/>
+          <include name="tearDown"/>
+          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
+          <include name="verifyEditButtonOnReviewAndSubmit"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+          <include name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="redirectToThankYouPageAndClickEnrollOnLine"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticReceiveInfo_Test -->
+      <class name="com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage"/>
+          <include name="selectModeOfPaymentandProvideInformation"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+          <include name="launchHomePage"/>
+          <include name="verifyElementDisplayOnPersonalInformationPage"/>
+          <include name="verifyElementsDisplayOnPaymentInformation"/>
+          <include name="enterCreditCardInformation"/>
+          <include name="selectCourseFromAvailableCourses"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="redirectToThankYouPageAndClickEnrollOnLine"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="homePageactions"/>
+          <include name="enterStudentInformationOnStep1Page"/>
+          <include name="setup"/>
+          <include name="getNumberOfCourseAvailable"/>
+          <include name="initialsettings"/>
+          <include name="verifyElementsDisplayOnStep1EnrollmentProcess"/>
+          <include name="verifyEditButtonOnReviewAndSubmit"/>
+          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
+        </methods>
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticReceiveInfo_nocourse_Test -->
+      <class name="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test">
+        <methods>
+          <include name="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage"/>
+          <include name="launchHomePage"/>
+          <include name="selectModeOfPaymentandProvideInformation"/>
+          <include name="setup"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="enterCreditCardInformation"/>
+          <include name="initialsettings"/>
+          <include name="homePageactions"/>
+          <include name="tearDown"/>
+          <include name="verifyElementsDisplayOnPaymentInformation"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+        </methods>
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticEnrollNow_Test -->
+      <class name="com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test">
+        <methods>
+          <include name="selectModeOfPaymentandProvideInformation"/>
+          <include name="setup"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="launchHomePage"/>
+          <include name="enterStudentInformationOnStep1Page"/>
+          <include name="tearDown"/>
+          <include name="initialsettings"/>
+          <include name="getNumberOfCourseAvailable"/>
+          <include name="verifyElementsDisplayOnStep1EnrollmentProcess"/>
+          <include name="enterCreditCardInformation"/>
+          <include name="redirectToThankYouPageAndClickEnrollOnLine"/>
+          <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage"/>
+          <include name="homePageactions"/>
+          <include name="verifyElementsDisplayOnPaymentInformation"/>
+          <include name="verifyElementDisplayOnPersonalInformationPage"/>
+          <include name="selectCourseFromAvailableCourses"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+        </methods>
+      </class> <!-- com.jav.Canada.tests.EOLCanadaReceiveInfo_nocourse_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
