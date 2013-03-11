@@ -284,7 +284,7 @@ public class EOLDomesticReceiveInfo_nocourse_Test {
 
 	@Test(dependsOnMethods = "verifyElementsDisplayOnReviewAndSubmitPage")
 	public void verifyEditButtonOnReviewAndSubmit() {
-		if (Utilities.getYamlValue("DomesticURLEnrollNownocourse.RunType")
+		if (Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.RunType")
 				.equalsIgnoreCase("AllCources")) {
 			Reporter.log(Utilities
 					.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page STARTS ###########"));

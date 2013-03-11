@@ -266,7 +266,7 @@ public class SiteCoreULR_Feature_Test {
 //		Reporter.log(Utilities
 //				.logOutputFile(" ########## Start browser session ENDS ###########"));
 //		Reporter.log(Utilities.logOutputFile(" ########## Start Launch Home Page STARTS ###########"));
-//		test.launchUrl(URL);
+//		test.launchUrl(test.getYamlVal("SiteCoreApp.URL1"));
 //		Utilities.hardWait(4);
 //		Reporter.log(Utilities.logOutputFile(" ########## Start Launch Home Page ENDS ###########"));
 //
@@ -389,7 +389,7 @@ public class SiteCoreULR_Feature_Test {
 	public void tearDown() {
 		Reporter.log(Utilities
 				.logOutputFile(" ########## Stop Browser Session ###########"));
-//		test.stopBrowserSession();
+		test.stopBrowserSession();
 	}
 
 }

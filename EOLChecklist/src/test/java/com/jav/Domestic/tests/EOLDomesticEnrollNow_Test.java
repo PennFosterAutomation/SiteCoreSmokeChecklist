@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import com.jav.Domestic.fixture.*;
 import com.jav.Domestic.util.*;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -167,6 +168,35 @@ public class EOLDomesticEnrollNow_Test {
 		Reporter.log(Utilities.logOutputFile(" ########## Start Enter CreditCard Information ENDS ###########"));
 	}
 	
+//	@Test(dependsOnMethods = "verifyElementsDisplayOnReviewAndSubmitPage")
+//	public void verifyEditButtonOnReviewAndSubmit() {
+//		Reporter.log(Utilities
+//				.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page STARTS ###########"));
+//		test.clickPersonalInfoEditButtonOnReviewAndSubmit();
+//		test.enterInformationAfterEditOnPersonalInformationPage(preFix, Fname,
+//				Lname, Mail, EmailExt, Phone, Address, City, State, Zip,
+//				DOBmonth, DOBday, DOByear);
+//		verifyredirectToPaymentInformationPage();
+//		verifyElementsDisplayOnPaymentInformation();
+//		selectModeOfPaymentandProvideInformation();
+//		verifyElementsDisplayAfterSelectModeOfPayment();
+//		enterCreditCardInformation();
+//		test.clickProgramInfoEditButtonOnReviewAndSubmit();
+//		verifyredirectToPaymentInformationPage();
+//		verifyElementsDisplayOnPaymentInformation();
+//		selectModeOfPaymentandProvideInformation();
+//		verifyElementsDisplayAfterSelectModeOfPayment();
+//		enterCreditCardInformation();
+//		test.clickPaymentInfoEditButtonOnReviewAndSubmit();
+//		verifyredirectToPaymentInformationPage();
+//		verifyElementsDisplayOnPaymentInformation();
+//		selectModeOfPaymentandProvideInformation();
+//		verifyElementsDisplayAfterSelectModeOfPayment();
+//		enterCreditCardInformation();
+//		Reporter.log(Utilities
+//				.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page ENDS ###########"));
+//
+//	}
 		
 	@Test(dependsOnMethods = "verifyElementsDisplayOnReviewAndSubmitPage")
 	public void verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()

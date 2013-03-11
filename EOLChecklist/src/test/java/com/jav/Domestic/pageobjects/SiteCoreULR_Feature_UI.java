@@ -264,6 +264,8 @@ String course;
 		protected WebElement ClickToSignInOnElectronicSigAgreement;
 		@FindBy(xpath = "//span[contains(text(),'Click Here to Continue')]")
 		protected WebElement ClickToContinueInOnElectronicSigAgreement;
+		@FindBy(xpath = "//img[@alt='Error Image']")
+		protected WebElement ErrorImageOnElectronicSigAgreement;
 		@FindBy(xpath = "//div[@class='step_name']")
 		protected WebElement ElectronicSignatureAgreementText;
 		@FindBy(xpath = "//input[@value='rdo_Sign']")
@@ -304,6 +306,8 @@ String course;
 		protected WebElement StudentInfoOnElectronicSigAgreement;
 		@FindBy(xpath = "/html/body/table/tbody/tr[8]/td[2]")
 		protected WebElement PaymentDetailsOnElectronicSigAgreement;
+		@FindBy(xpath = "/html/body/table/tbody/tr/td/div/p[1]")
+		protected WebElement ErrorTextOnElectronicSigAgreement;
 		
 //		##############  Field validation msg ####################
 		
@@ -395,7 +399,7 @@ String course;
 			WebDriverWait wait = new WebDriverWait(driver, 50);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_div_ProgramName1']")));
 			courseName = defaultCourseName.getText();
-			System.out.println("default course name is " +courseName);
+			//System.out.println("default course name is " +courseName);
         }
 		
 		public void verifyUserNavigatedtoEnrollNowSiteCoreHomepage()
@@ -409,7 +413,7 @@ String course;
 			WebDriverWait wait = new WebDriverWait(driver, 50);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_div_ProgramName1']")));
 			courseName = defaultCourseName.getText();
-			System.out.println("default course name is " +courseName);
+			//System.out.println("default course name is " +courseName);
         }
 		
 		
@@ -459,7 +463,7 @@ String course;
 						
 					
 				}catch(Exception e){
-					System.out.println("Unable to Find Element on Step1 page --> "+e);
+					//System.out.println("Unable to Find Element on Step1 page --> "+e);
 				}						
         }
 		
@@ -483,7 +487,7 @@ String course;
 				
 			}catch(Exception e)
 			{
-				System.out.println("Error in validating all empty message on Step1 page " + e);
+				//System.out.println("Error in validating all empty message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 		
@@ -494,7 +498,7 @@ String course;
 		firstNameTextBoxOnStep1Page.getAttribute("value");
 		Assert.assertTrue(firstNameTextBoxOnStep1Page.getAttribute("value").equalsIgnoreCase(Fname));
 	}catch(Exception e){
-		System.out.println("Error in validating all first name message on Step1 page " + e);
+		//System.out.println("Error in validating all first name message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 	
@@ -503,7 +507,7 @@ String course;
 		emailTextBoxOnStep1Page.click();
 		Assert.assertTrue(lastNameTextBoxOnStep1Page.getAttribute("value").equalsIgnoreCase(Lname));
 	}catch(Exception e){
-		System.out.println("Error in validating all last name message on Step1 page " + e);
+		//System.out.println("Error in validating all last name message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 	
@@ -518,7 +522,7 @@ String course;
 	zipTextBoxOnStep1Page.sendKeys(Zip);
 	otherPhoneTypeRadioButton.click();
 	}catch(Exception e){
-		System.out.println("Error in validating all email message on Step1 page " + e);
+		//System.out.println("Error in validating all email message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 	
@@ -530,7 +534,7 @@ String course;
 	okButtonValidationPopUp.click();
 	emailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 	}catch(Exception e){
-		System.out.println("Error in validating all email required message on Step1 page " + e);
+		//System.out.println("Error in validating all email required message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 	
@@ -541,7 +545,7 @@ String course;
 	okButtonValidationPopUp.click();
 	reTypeEmailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 	}catch(Exception e){
-		System.out.println("Error in validating all email required message on Step1 page " + e);
+		//System.out.println("Error in validating all email required message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 	
@@ -558,7 +562,7 @@ String course;
 	emailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 	reTypeEmailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 	}catch(Exception e){
-		System.out.println("Error in validating all email does not match message on Step1 page " + e);
+		//System.out.println("Error in validating all email does not match message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 
@@ -573,7 +577,7 @@ String course;
 	okButtonValidationPopUp.click();
 	primaryPhoneTextBoxOnStep1Page.sendKeys(Phone);
 	}catch(Exception e){
-		System.out.println("Error in validating phone number message on Step1 page " + e);
+		//System.out.println("Error in validating phone number message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 	
@@ -584,7 +588,7 @@ String course;
 	okButtonValidationPopUp.click();
 	address1TextBoxOnStep1Page.sendKeys(Address);
 	}catch(Exception e){
-		System.out.println("Error in validating address message on Step1 page " + e);
+		//System.out.println("Error in validating address message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 	
@@ -595,7 +599,7 @@ String course;
 	okButtonValidationPopUp.click();
 	cityTextBoxOnStep1Page.sendKeys(City);
 	}catch(Exception e){
-		System.out.println("Error in validating city message on Step1 page " + e);
+		//System.out.println("Error in validating city message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 	
@@ -607,7 +611,7 @@ String course;
 	okButtonValidationPopUp.click();
 	zipTextBoxOnStep1Page.sendKeys(Zip);
 	}catch(Exception e){
-		System.out.println("Error in validating zip message on Step1 page " + e);
+		//System.out.println("Error in validating zip message on Step1 page " + e);
 		okButtonValidationPopUp.click();
 	}
 
@@ -765,7 +769,7 @@ String course;
 
 		}catch(Exception e)
 		{
-			System.out.println("Unable to varify element on Personal Information Page --> "+e);
+			//System.out.println("Unable to varify element on Personal Information Page --> "+e);
 			Reporter.log(Utilities.logOutputFile("Verify textboxes and Labels display on Personal Information Page  - FAIL "));
 
 		}										
@@ -800,7 +804,7 @@ String course;
 			
 		}catch(Exception e)
 		{
-			System.out.println("Error in validating all empty message on Step1 page " + e);
+			//System.out.println("Error in validating all empty message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -812,7 +816,7 @@ String course;
 			firstNameTextBoxOnStep1Page.getAttribute("value");
 			Assert.assertTrue(firstNameTextBoxOnStep1Page.getAttribute("value").equalsIgnoreCase(Fname));
 		}catch(Exception e){
-			System.out.println("Error in validating all first name message on Step1 page " + e);
+			//System.out.println("Error in validating all first name message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -821,7 +825,7 @@ String course;
 			emailTextBoxOnStep1Page.click();
 			Assert.assertTrue(lastNameTextBoxOnStep1Page.getAttribute("value").equalsIgnoreCase(Lname));
 		}catch(Exception e){
-			System.out.println("Error in validating all last name message on Step1 page " + e);
+			//System.out.println("Error in validating all last name message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -843,7 +847,7 @@ String course;
 		zipTextBoxOnStep1Page.sendKeys(Zip);
 		otherPhoneTypeRadioButton.click();
 		}catch(Exception e){
-			System.out.println("Error in validating all email message on Step1 page " + e);
+			//System.out.println("Error in validating all email message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -855,7 +859,7 @@ String course;
 		okButtonValidationPopUp.click();
 		emailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 		}catch(Exception e){
-			System.out.println("Error in validating all email required message on Step1 page " + e);
+			//System.out.println("Error in validating all email required message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -866,7 +870,7 @@ String course;
 		okButtonValidationPopUp.click();
 		reTypeEmailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 		}catch(Exception e){
-			System.out.println("Error in validating all email required message on Step1 page " + e);
+			//System.out.println("Error in validating all email required message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -883,7 +887,7 @@ String course;
 		emailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 		reTypeEmailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 		}catch(Exception e){
-			System.out.println("Error in validating all email does not match message on Step1 page " + e);
+			//System.out.println("Error in validating all email does not match message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 
@@ -898,7 +902,7 @@ String course;
 		okButtonValidationPopUp.click();
 		primaryPhoneTextBoxOnStep1Page.sendKeys(Phone);
 		}catch(Exception e){
-			System.out.println("Error in validating phone number message on Step1 page " + e);
+			//System.out.println("Error in validating phone number message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -909,7 +913,7 @@ String course;
 		okButtonValidationPopUp.click();
 		address1TextBoxOnStep1Page.sendKeys(Address);
 		}catch(Exception e){
-			System.out.println("Error in validating address message on Step1 page " + e);
+			//System.out.println("Error in validating address message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -920,7 +924,7 @@ String course;
 		okButtonValidationPopUp.click();
 		cityTextBoxOnStep1Page.sendKeys(City);
 		}catch(Exception e){
-			System.out.println("Error in validating city message on Step1 page " + e);
+			//System.out.println("Error in validating city message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 		
@@ -934,7 +938,7 @@ String course;
 		okButtonValidationPopUp.click();
 		zipTextBoxOnStep1Page.sendKeys(Zip);
 		}catch(Exception e){
-			System.out.println("Error in validating zip message on Step1 page " + e);
+			//System.out.println("Error in validating zip message on Step1 page " + e);
 			okButtonValidationPopUp.click();
 		}
 
@@ -960,7 +964,7 @@ String course;
 //			Utilities.hardWait(3);
 //			okButtonValidationPopUp.click();
 //		} catch (Exception e) {
-//			System.out.println("Ok button is not displayed" +e);
+//			//System.out.println("Ok button is not displayed" +e);
 //		}
 
 		
@@ -1022,7 +1026,7 @@ String course;
 //			genderisRequired.isDisplayed();
 //			okButtonValidationPopUp.click();
 //		}catch(Exception e){
-//			System.out.println("Error in validating all empty messages on Personal Information Page "+e);
+//			//System.out.println("Error in validating all empty messages on Personal Information Page "+e);
 //			okButtonValidationPopUp.click();
 //			
 //		}
@@ -1046,7 +1050,7 @@ String course;
 
 
 		}catch(Exception e){
-			System.out.println("Error in validating Month required messages on Personal Information Page "+e);
+			//System.out.println("Error in validating Month required messages on Personal Information Page "+e);
 			okButtonValidationPopUp.click();
 
 		}
@@ -1060,7 +1064,7 @@ String course;
 
 
 		}catch(Exception e){
-			System.out.println("Error in validating Day required messages on Personal Information Page "+e);
+			//System.out.println("Error in validating Day required messages on Personal Information Page "+e);
 			okButtonValidationPopUp.click();
 
 		}
@@ -1074,7 +1078,7 @@ String course;
 
 
 		}catch(Exception e){
-			System.out.println("Error in validating Year required messages on Personal Information Page "+e);
+			//System.out.println("Error in validating Year required messages on Personal Information Page "+e);
 			okButtonValidationPopUp.click();
 
 		}
@@ -1125,7 +1129,7 @@ String course;
 		fullPaymentPlanRadioOnPaymentInformationPage.isDisplayed();
 		fullPaymentPlanRadioLabelOnPaymentInformationPage.isDisplayed();
 		courseCost = totalAmountFullPaymentPlanRadioOnPaymentInformationPage.getText();
-		System.out.println(totalAmountFullPaymentPlanRadioOnPaymentInformationPage.getText());
+		//System.out.println(totalAmountFullPaymentPlanRadioOnPaymentInformationPage.getText());
 //		secureTransactionImageFooterOnPaymentInformationPage.isDisplayed();
 		Reporter.log(Utilities.logOutputFile("Verify Mode of Payment display on Payment Information Page - PASS"));
 		
@@ -1161,7 +1165,7 @@ String course;
 
 			return true;
 		}else{
-			System.out.println(str);
+			//System.out.println(str);
 		}
 		
 		
@@ -1181,7 +1185,7 @@ String course;
 			Assert.assertTrue(accountNumbersavingsAccountOnPaymentInformationPage.isDisplayed());
 		}catch(Exception e)
 		{
-			System.out.println("Unable to verify Elements display on Payment Information Page --> "+e);
+			//System.out.println("Unable to verify Elements display on Payment Information Page --> "+e);
 		}
 			
 			
@@ -1223,7 +1227,7 @@ String course;
 
 		}catch(Exception e)
 		{
-			System.out.println("Unable to verify Elements display on Payment Information Page --> "+e);
+			//System.out.println("Unable to verify Elements display on Payment Information Page --> "+e);
 		}
 		}
 	}
@@ -1254,7 +1258,7 @@ String course;
                         
                     try{
                             String firstName = textboxFirstNameCreditCardOnPaymentInformationPage.getAttribute("value");
-                            System.out.println("firstname is" +firstName);
+                            //System.out.println("firstname is" +firstName);
 			textboxFirstNameCreditCardOnPaymentInformationPage.clear();
                             String lastName = textboxLastNameCreditCardOnPaymentInformationPage.getAttribute("value");
                             textboxLastNameCreditCardOnPaymentInformationPage.clear();
@@ -1288,7 +1292,7 @@ String course;
 
 			
 		}catch(Exception e){
-			System.out.println("Error in validating all empty messages on Payment Information Page "+e);
+			//System.out.println("Error in validating all empty messages on Payment Information Page "+e);
 			okbuttonDisplayonPaymentInfoPage.click();
 			
 		}
@@ -1311,7 +1315,7 @@ String course;
 
 			
 		}catch(Exception e){
-			System.out.println("Error in validating Enter first name messages on Payment Information Page "+e);
+			//System.out.println("Error in validating Enter first name messages on Payment Information Page "+e);
 			okbuttonDisplayonPaymentInfoPage.click();
 			
 		}
@@ -1326,7 +1330,7 @@ String course;
 
 			
 		}catch(Exception e){
-			System.out.println("Error in validating Enter last name messages on Payment Information Page "+e);
+			//System.out.println("Error in validating Enter last name messages on Payment Information Page "+e);
 			okbuttonDisplayonPaymentInfoPage.click();
 			
 		}
@@ -1341,7 +1345,7 @@ String course;
 
 			
 		}catch(Exception e){
-			System.out.println("Error in validating Enter address messages on Payment Information Page "+e);
+			//System.out.println("Error in validating Enter address messages on Payment Information Page "+e);
 			okbuttonDisplayonPaymentInfoPage.click();
 			
 		}
@@ -1356,7 +1360,7 @@ String course;
 
 			
 		}catch(Exception e){
-			System.out.println("Error in validating city messages on Payment Information Page "+e);
+			//System.out.println("Error in validating city messages on Payment Information Page "+e);
 			okbuttonDisplayonPaymentInfoPage.click();
 			
 		}
@@ -1371,7 +1375,7 @@ String course;
 
 			
 		}catch(Exception e){
-			System.out.println("Error in validating zip code messages on Payment Information Page "+e);
+			//System.out.println("Error in validating zip code messages on Payment Information Page "+e);
 			okbuttonDisplayonPaymentInfoPage.click();
 			
 		}
@@ -1385,7 +1389,7 @@ String course;
 
 			
 		}catch(Exception e){
-			System.out.println("Error in validating Enter Credit Card no. messages on Payment Information Page "+e);
+			//System.out.println("Error in validating Enter Credit Card no. messages on Payment Information Page "+e);
 			okbuttonDisplayonPaymentInfoPage.click();
 			
 		}
@@ -1398,7 +1402,7 @@ String course;
 			textboxCVVCreditCardOnPaymentInformationPage.sendKeys(CVV);
                             
 		}catch(Exception e){
-			System.out.println("Error in validating Enter CVV no. messages on Payment Information Page "+e);
+			//System.out.println("Error in validating Enter CVV no. messages on Payment Information Page "+e);
 			okbuttonDisplayonPaymentInfoPage.click();	
 		}
 		
@@ -1441,7 +1445,7 @@ String course;
 		}
 		else
 		{
-			System.out.println(p1.getText());
+			//System.out.println(p1.getText());
 			result = false;
 			Reporter.log(Utilities.logOutputFile("Information Display under Personal Information Heading - FAIL "));
 
@@ -1459,7 +1463,7 @@ String course;
 		}
 		else
 		{
-			System.out.println(p2.getText());
+			//System.out.println(p2.getText());
 			result = false;
 			Reporter.log(Utilities.logOutputFile("Information Display under Program Information Heading - FAIL "));
 
@@ -1477,7 +1481,7 @@ String course;
 			}
 			else
 			{
-				System.out.println(p3.getText());
+				//System.out.println(p3.getText());
 				result = false;
 				Reporter.log(Utilities.logOutputFile("Information Display under Payment Information Heading - FAIL "));
 
@@ -1493,7 +1497,7 @@ String course;
 			}
 			else
 			{
-				System.out.println(p3.getText());
+				//System.out.println(p3.getText());
 				result = false;
 				Reporter.log(Utilities.logOutputFile("Information Display under Payment Information Heading - FAIL "));
 
@@ -1507,7 +1511,7 @@ String course;
 		try{
 
 			List<WebElement> editButton = driver.findElements(By.xpath(".//input[@value='Edit']"));
-			System.out.println(editButton.size());
+			//System.out.println(editButton.size());
 						
 			Assert.assertTrue(editButton.size()==3);		
 			
@@ -1518,8 +1522,8 @@ String course;
 			Assert.assertTrue(m.getText().contains(Lname));	
 			
 			m = check.get(2);
-                            System.out.println("actual address is : " +m.getText());
-                            System.out.println("expected address is : " +Address);
+                            //System.out.println("actual address is : " +m.getText());
+                            //System.out.println("expected address is : " +Address);
 			Assert.assertTrue(m.getText().contains(Address));	
 			
 			m = check.get(3);
@@ -1546,7 +1550,7 @@ String course;
 					+Utilities.getYamlValue("SiteCoreApp.StudentInformation.DOByear")));
 						
 			m = check.get(10);
-			System.out.println(m.getText());
+			//System.out.println(m.getText());
 			Assert.assertTrue(m.getText().contains(courseName));	
 			
 			m = check.get(11);
@@ -1564,7 +1568,7 @@ String course;
 				Assert.assertTrue(m.getText().contains("XXXXXXXXXXXX1111"));				
 			}else{
 				m = check.get(17);
-				System.out.println("#### "+m.getText());
+				//System.out.println("#### "+m.getText());
 				String accountnumber = Utilities.getYamlValue("SiteCoreApp.AccountNumber");
 				Assert.assertTrue(m.getText().contains("XXX") && m.getText().
 						contains(accountnumber.subSequence(accountnumber.length()-4, accountnumber.length())));
@@ -1575,11 +1579,11 @@ String course;
 			if (Utilities.getYamlValue("SiteCoreApp.PaymentMode").equalsIgnoreCase("Credit or Debit Card"))
 			{
 				m = check.get(19);
-				System.out.println("#### "+m.getText());
+				//System.out.println("#### "+m.getText());
 				Assert.assertTrue(m.getText().contains("$0.00"));				
 			}else{
 				m = check.get(18);
-				System.out.println("#### "+m.getText());
+				//System.out.println("#### "+m.getText());
 				String accountnumber = Utilities.getYamlValue("SiteCoreApp.AccountNumber");
 				Assert.assertTrue(m.getText().contains("$0.00"));
 			}
@@ -1588,7 +1592,7 @@ String course;
 		}catch(Exception e){
 			for(WebElement FetchValue : check)
 			{
-				System.out.println(FetchValue.getText());
+				//System.out.println(FetchValue.getText());
 			}
 			
 		}
@@ -1612,16 +1616,16 @@ String course;
 			noLinkonDisplayOnElectronicSignature.isDisplayed();						
 			noLinkonDisplayOnElectronicSignature.click();
 			clickHereLinkOnCongratulationsPage.isDisplayed();
-			Reporter.log(Utilities.logOutputFile(" Final Student ID is "+getStudentIDFromCongratulationsPage.getText()+" - Pass"));
+			Reporter.log(Utilities.logOutputFile(" Final Student ID is "+getStudentIDFromCongratulationsPage.getText()+" for recieve info - Pass"));
 			
-			System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
+			//System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
 		}catch(Exception e){				
 			
 			WebDriverWait wait = new WebDriverWait(driver, 50);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//b[contains(text(),'Congratulations')]")));
 			
 			txtCongratulationsOnReviewAndSubmitPage.isDisplayed();
-			Reporter.log(Utilities.logOutputFile(" Final Student ID not genrated application display only is Congratulations page"));
+			Reporter.log(Utilities.logOutputFile(" Final Student ID not genrated for Recieve info link, application display only is Congratulations page"));
 			
 		}			
 		
@@ -1649,6 +1653,9 @@ String course;
 				try{
 				String DOB = Utilities.getYamlValue("SiteCoreApp.StudentInformation.DOBmonth")+ "/"+Utilities.getYamlValue("SiteCoreApp.StudentInformation.DOBday")+ "/"+Utilities.getYamlValue("SiteCoreApp.StudentInformation.DOByear");
 				Assert.assertTrue(StudentIDOnElectronicSigAgreement.isDisplayed());
+				if(StudentIDOnElectronicSigAgreement.isDisplayed()){
+				Reporter.log(Utilities.logOutputFile(" Final "+StudentIDOnElectronicSigAgreement.getText()+" - Pass"));
+				}
 				Assert.assertTrue(StudentIDOnElectronicSigAgreement.getText().contains("Student ID"));
 				Assert.assertTrue(StudentNameOnElectronicSigAgreement.isDisplayed());															
 				Assert.assertTrue(StudentNameOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("SiteCoreApp.StudentInformation.FirstName").toUpperCase()));
@@ -1666,7 +1673,7 @@ String course;
 				catch(Exception e){				
 					
 					System.out.println(e);
-					System.out.println("Error in validating fields "+e);			
+					//System.out.println("Error in validating fields "+e);			
 				}
 				textboxFullNameOnElectronicSigAgreement.sendKeys(FullName);
 				textboxEmailOnElectronicSigAgreement.sendKeys(email+"@"+Utilities.getYamlValue("SiteCoreApp.StudentInformation.EmailExt"));
@@ -1692,7 +1699,7 @@ String course;
 					catch(Exception e){				
 						
 						System.out.println(e);
-						System.out.println("Error in validating fields "+e);			
+						//System.out.println("Error in validating fields "+e);			
 					}
 				ClickToSignInOnElectronicSigAgreement.click();
 				WebDriverWait wait1 = new WebDriverWait(driver, 50);
@@ -1716,20 +1723,31 @@ String course;
 					catch(Exception e){				
 						
 						System.out.println(e);
-						System.out.println("Error in validating fields "+e);			
+						//System.out.println("Error in validating fields "+e);			
 					}
+				String ID = StudentInfoOnElectronicSigAgreement.getText();
+				String StudentID = ID.substring(0, 20);
+				//System.out.println(ID.substring(0, 20));
 				ClickToContinueInOnElectronicSigAgreement.click();
-				clickHereLinkOnCongratulationsPage.isDisplayed();
-				Reporter.log(Utilities.logOutputFile(" Final Student ID is "+getStudentIDFromCongratulationsPage.getText()+" - Pass"));
-				
-				System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
+				try {
+					clickHereLinkOnCongratulationsPage.isDisplayed();
+					Reporter.log(Utilities.logOutputFile(" Final "+getStudentIDFromCongratulationsPage.getText()+" for Enroll Link - Pass"));
+					
+					//System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
+				} catch (Exception e) {
+					System.out.println(e);
+					Reporter.log(Utilities.logOutputFile(" Final "+StudentID+" - Pass"));
+					Reporter.log(Utilities.logOutputFile("ID Generated and Exception Page displayed on final Enroll"));
+
+				}
+
 				
 			} else {
 			noLinkonDisplayOnElectronicSignature.click();
 			clickHereLinkOnCongratulationsPage.isDisplayed();
-			Reporter.log(Utilities.logOutputFile(" Final Student ID is "+getStudentIDFromCongratulationsPage.getText()+" - Pass"));
+			Reporter.log(Utilities.logOutputFile(" Final Student ID is "+getStudentIDFromCongratulationsPage.getText()+" for enroll link - Pass"));
 			
-			System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
+			//System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
 			}
 		}catch(Exception e){				
 			
@@ -1738,7 +1756,7 @@ String course;
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//b[contains(text(),'Congratulations')]")));
 			
 			txtCongratulationsOnReviewAndSubmitPage.isDisplayed();
-			Reporter.log(Utilities.logOutputFile(" Final Student ID not genrated application display only is Congratulations page"));
+			Reporter.log(Utilities.logOutputFile(" Final Student ID not genrated for enroll link, application display only is Congratulations page"));
 			
 		}			
 		
