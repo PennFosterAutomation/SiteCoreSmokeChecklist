@@ -98,9 +98,9 @@ public class EOLDomesticEnrollNow_Test {
 		  State = test.getYamlVal("DomesticURLEnrollNow.StudentInformation.State");
 		  Zip = test.getYamlVal("DomesticURLEnrollNow.StudentInformation.ZIP");		
 		  
-		 String DOBmonth = test.getYamlVal("DomesticURLEnrollNow.StudentInformation.DOBmonth");
-		 String DOBday = test.getYamlVal("DomesticURLEnrollNow.StudentInformation.DOBday");
-		 String DOByear = test.getYamlVal("DomesticURLEnrollNow.StudentInformation.DOByear");
+		 DOBmonth = test.getYamlVal("DomesticURLEnrollNow.StudentInformation.DOBmonth");
+		 DOBday = test.getYamlVal("DomesticURLEnrollNow.StudentInformation.DOBday");
+		 DOByear = test.getYamlVal("DomesticURLEnrollNow.StudentInformation.DOByear");
 		 test.enterInformationOnPersonalInformationPage(preFix, Fname, Lname, Mail, EmailExt, Phone, Address, City, State, Zip , DOBmonth, DOBday, DOByear);	
 		 Reporter.log(Utilities.logOutputFile(" ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########"));
 
@@ -168,37 +168,37 @@ public class EOLDomesticEnrollNow_Test {
 		Reporter.log(Utilities.logOutputFile(" ########## Start Enter CreditCard Information ENDS ###########"));
 	}
 	
-//	@Test(dependsOnMethods = "verifyElementsDisplayOnReviewAndSubmitPage")
-//	public void verifyEditButtonOnReviewAndSubmit() {
-//		Reporter.log(Utilities
-//				.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page STARTS ###########"));
-//		test.clickPersonalInfoEditButtonOnReviewAndSubmit();
-//		test.enterInformationAfterEditOnPersonalInformationPage(preFix, Fname,
-//				Lname, Mail, EmailExt, Phone, Address, City, State, Zip,
-//				DOBmonth, DOBday, DOByear);
-//		verifyredirectToPaymentInformationPage();
-//		verifyElementsDisplayOnPaymentInformation();
-//		selectModeOfPaymentandProvideInformation();
-//		verifyElementsDisplayAfterSelectModeOfPayment();
-//		enterCreditCardInformation();
-//		test.clickProgramInfoEditButtonOnReviewAndSubmit();
-//		verifyredirectToPaymentInformationPage();
-//		verifyElementsDisplayOnPaymentInformation();
-//		selectModeOfPaymentandProvideInformation();
-//		verifyElementsDisplayAfterSelectModeOfPayment();
-//		enterCreditCardInformation();
-//		test.clickPaymentInfoEditButtonOnReviewAndSubmit();
-//		verifyredirectToPaymentInformationPage();
-//		verifyElementsDisplayOnPaymentInformation();
-//		selectModeOfPaymentandProvideInformation();
-//		verifyElementsDisplayAfterSelectModeOfPayment();
-//		enterCreditCardInformation();
-//		Reporter.log(Utilities
-//				.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page ENDS ###########"));
-//
-//	}
-		
 	@Test(dependsOnMethods = "verifyElementsDisplayOnReviewAndSubmitPage")
+	public void verifyEditButtonOnReviewAndSubmit() {
+		Reporter.log(Utilities
+				.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page STARTS ###########"));
+		test.clickPersonalInfoEditButtonOnReviewAndSubmit();
+		test.enterInformationAfterEditOnPersonalInformationPage(preFix, Fname,
+				Lname, Mail, EmailExt, Phone, Address, City, State, Zip,
+				DOBmonth, DOBday, DOByear);
+		verifyredirectToPaymentInformationPage();
+		verifyElementsDisplayOnPaymentInformation();
+		selectModeOfPaymentandProvideInformation();
+		verifyElementsDisplayAfterSelectModeOfPayment();
+		enterCreditCardInformation();
+		test.clickProgramInfoEditButtonOnReviewAndSubmit();
+		verifyredirectToPaymentInformationPage();
+		verifyElementsDisplayOnPaymentInformation();
+		selectModeOfPaymentandProvideInformation();
+		verifyElementsDisplayAfterSelectModeOfPayment();
+		enterCreditCardInformation();
+		test.clickPaymentInfoEditButtonOnReviewAndSubmit();
+		verifyredirectToPaymentInformationPage();
+		verifyElementsDisplayOnPaymentInformation();
+		selectModeOfPaymentandProvideInformation();
+		verifyElementsDisplayAfterSelectModeOfPayment();
+		enterCreditCardInformation();
+		Reporter.log(Utilities
+				.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page ENDS ###########"));
+
+	}
+		
+	@Test(dependsOnMethods = "verifyEditButtonOnReviewAndSubmit")
 	public void verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()
 	{		
 		Reporter.log(Utilities.logOutputFile(" ########## Start Verify Elements Display On Review and Submit Page STARTS ###########"));

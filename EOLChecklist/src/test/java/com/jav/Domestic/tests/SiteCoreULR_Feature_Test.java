@@ -45,11 +45,6 @@ public class SiteCoreULR_Feature_Test {
 	@BeforeClass
 	public void initialsettings() {
 		test.setUpDataFile("testData/integration_testData_Domestic.yml");
-		if (Utilities.getYamlValue("SiteCoreApp.RunType")
-				.equalsIgnoreCase("OneIteration")) {
-			Utilities.createExcel();
-		}
-
 	}
 
 	@Test
@@ -253,27 +248,9 @@ public class SiteCoreULR_Feature_Test {
 		test.clickonTermAndConditionsonReviewandSubmitPage();
 		Reporter.log(Utilities
 				.logOutputFile(" ########## Start Verify Elements Display On Review and Submit Page ENDS ###########"));
-//		test.stopBrowserSession();
 	}
 
-	
-//	@Test(dependsOnMethods = "verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage")
-//	public void startBrowserAndlaunchSameURL() {
-//		Reporter.log(Utilities
-//				.logOutputFile(" ########## Start browser session STARTS ###########"));
-//		test.startBrowserSession();
-//		Utilities.hardWait(5);
-//		Reporter.log(Utilities
-//				.logOutputFile(" ########## Start browser session ENDS ###########"));
-//		Reporter.log(Utilities.logOutputFile(" ########## Start Launch Home Page STARTS ###########"));
-//		test.launchUrl(test.getYamlVal("SiteCoreApp.URL1"));
-//		Utilities.hardWait(4);
-//		Reporter.log(Utilities.logOutputFile(" ########## Start Launch Home Page ENDS ###########"));
-//
-//	}
 
-	
-	
 	@Test(dependsOnMethods = "verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage")
 	public void verifyUserNavigatedtoEnrollNowSiteCoreHomepage() throws InterruptedException {
 		Reporter.log(Utilities.logOutputFile(" ########## Start Launch Home Page STARTS ###########"));

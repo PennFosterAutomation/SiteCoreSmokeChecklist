@@ -68,6 +68,7 @@ public class BaseFixture {
 		int ajax_timeout = Integer.parseInt(getYamlVal("ajax_timeout"));
         driver.manage().timeouts().implicitlyWait(ajax_timeout, TimeUnit.SECONDS);
         initPageObjects();
+        driver.manage().window().maximize();
 
 	}
 	
