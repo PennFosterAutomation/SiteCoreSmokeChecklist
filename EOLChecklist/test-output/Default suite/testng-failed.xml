@@ -3,37 +3,28 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jav.Domestic.tests.SiteCoreULR_Feature_Test">
+      <class name="com.jav.Canada.tests.EOLCanadaReceiveInfo_Test">
         <methods>
-          <include name="verifyElementsDisplayOnPaymentInformation"/>
-          <include name="enterCreditCardInformationAfterCreditCardSelection"/>
+          <include name="homePageactions"/>
+          <include name="verifyElementsDisplayOnStep1EnrollmentProcess"/>
+          <include name="initialsettings"/>
+          <include name="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage"/>
+          <include name="verifyElementDisplayOnPersonalInformationPage"/>
+          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
+          <include name="verifyEditButtonOnReviewAndSubmit"/>
+          <include name="setup"/>
           <include name="enterRemaningInformationOnPersonalInformatoinPage"/>
           <include name="enterStudentInformationOnStep1Page"/>
-          <include name="verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage"/>
-          <include name="verifyElementsDisplayedOnReviewAndSubmitPage"/>
-          <include name="verifyElementDisplayOnPersonalInformationPage"/>
-          <include name="verifyUserNavigatedtoEnrollNowSiteCoreHomepage"/>
-          <include name="verifyElementsDisplayOnStep1EnrollmentProcess"/>
-          <include name="verifyandClickOnTermAndConditionsOnReviewandSubmitPage"/>
-          <include name="verifyElementsDisplayedAfterSelectModeOfPayment"/>
+          <include name="launchHomePage"/>
           <include name="tearDown"/>
-          <include name="VerifySiteCoreHomePage"/>
-          <include name="launchSelectedSiteCoreURL"/>
-          <include name="setup"/>
-          <include name="verifyEditButtonOnReviewAndSubmit"/>
-          <include name="redirectToThankYouPageAndClickEnrollOnLine"/>
-          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
-          <include name="verifyElementsDisplayAfterSelectModeOfPayment"/>
-          <include name="selectModeOfPaymentandProvideInformation"/>
-          <include name="enterAllInformationOnPersonalInformatoinPage"/>
-          <include name="verifyElementsDisplayOnPaymentInformationPage"/>
-          <include name="verifyredirectToPaymentInformationPage"/>
-          <include name="verifyRedirectToPaymentInformationPage"/>
-          <include name="initialsettings"/>
           <include name="enterCreditCardInformation"/>
-          <include name="selectModeOfPaymentandFillInformation"/>
+          <include name="verifyElementsDisplayOnPaymentInformation"/>
+          <include name="verifyElementsDisplayOnReviewAndSubmitPage"/>
+          <include name="redirectToThankYouPageAndClickEnrollOnLine"/>
+          <include name="verifyredirectToPaymentInformationPage"/>
+          <include name="selectModeOfPaymentandProvideInformation"/>
         </methods>
-      </class> <!-- com.jav.Domestic.tests.SiteCoreULR_Feature_Test -->
+      </class> <!-- com.jav.Canada.tests.EOLCanadaReceiveInfo_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

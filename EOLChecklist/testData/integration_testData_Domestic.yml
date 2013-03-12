@@ -26,7 +26,7 @@ SiteCoreApp:
   URL3: "http://stage.www.pennfoster.edu/urm.aspx?source=Q084006&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Apparel-and-Textile/Dressmaking-and-Design-Career-Diploma.aspx?semkey=Q084006"
   
   StudentInformation:
-    FirstName: Test
+    FirstName: TestA
     LastName: tests
     Email: mail
     EmailExt: pennfoster.com

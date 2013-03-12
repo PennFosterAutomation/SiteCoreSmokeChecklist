@@ -27,8 +27,7 @@ String course;
         this.driver = driver;
     }
     
-
-             
+           
 		@FindBy(xpath = "//a[@id='ctl18_lnkHeaderEnroll']")
 		protected WebElement enrollNowLinkOnSiteCoreHomePage;
 		
@@ -248,8 +247,7 @@ String course;
 		protected WebElement enrollTermandConditionOnReviewAndSubmitPage;
 		@FindBy(xpath = "//b[contains(text(),'Congratulations')]")
 		protected WebElement txtCongratulationsOnReviewAndSubmitPage;
-		
-		
+				
 //		############  Electronic Signature Page   ####################################
 		
 		@FindBy(xpath = "//div[@class='step_name']")
@@ -333,8 +331,7 @@ String course;
 		protected WebElement firstNameisRequired;
 		@FindBy(xpath = "//li[contains(text(),'Last Name is Required')]")
 		protected WebElement lastNameisRequired;
-		
-		
+			
 //		########### Message validation Personal Information Page  ######################
 		
 		@FindBy(xpath = "//li[contains(text(),'Month of Birth is required')]")
@@ -348,16 +345,13 @@ String course;
 		@FindBy(xpath = "//li[contains(text(),'Gender is Required')]")
 		protected WebElement genderisRequired;
 		
-		
 //		#########  Thank You Page ########################
-		
 		
 		@FindBy(xpath = "//b[contains(text(),'Thank You!')]")
 		protected WebElement thnakyouPageAfterStep1FormPage;		
 		@FindBy(xpath = "//u[contains(text(),'Enroll online')]")
 		protected WebElement enrollOnlineLinkThnakyouPageAfterStep1FormPage;	
 		
-
 //		########### Message validation Payment Information Page  ######################
 		
 		@FindBy(xpath = "//li[contains(text(),'Please enter the first name on your credit or debit card')]")
@@ -380,7 +374,6 @@ String course;
 		protected WebElement enteryourexpirationyear;		
 		@FindBy(xpath = "//input[@id='ctl00_ctl00_MasterContentPlaceHolder_NestedMasterContentPlaceHolder_Form_btnCloseModal']")
 		protected WebElement okbuttonDisplayonPaymentInfoPage;
-		
 		
 		static String StudentFilename;
 		String lname;
@@ -1653,9 +1646,9 @@ String course;
 				try{
 				String DOB = Utilities.getYamlValue("SiteCoreApp.StudentInformation.DOBmonth")+ "/"+Utilities.getYamlValue("SiteCoreApp.StudentInformation.DOBday")+ "/"+Utilities.getYamlValue("SiteCoreApp.StudentInformation.DOByear");
 				Assert.assertTrue(StudentIDOnElectronicSigAgreement.isDisplayed());
-				if(StudentIDOnElectronicSigAgreement.isDisplayed()){
-				Reporter.log(Utilities.logOutputFile(" Final "+StudentIDOnElectronicSigAgreement.getText()+" - Pass"));
-				}
+//				if(StudentIDOnElectronicSigAgreement.isDisplayed()){
+//				Reporter.log(Utilities.logOutputFile(" Final "+StudentIDOnElectronicSigAgreement.getText()+" - Pass"));
+//				}
 				Assert.assertTrue(StudentIDOnElectronicSigAgreement.getText().contains("Student ID"));
 				Assert.assertTrue(StudentNameOnElectronicSigAgreement.isDisplayed());															
 				Assert.assertTrue(StudentNameOnElectronicSigAgreement.getText().contains(Utilities.getYamlValue("SiteCoreApp.StudentInformation.FirstName").toUpperCase()));
