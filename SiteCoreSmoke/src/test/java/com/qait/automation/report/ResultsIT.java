@@ -152,47 +152,82 @@ public class ResultsIT {
 
     public void replaceEmailReport()
     {
-    	try
-        {
-        File file = new File("./target/surefire-reports/emailable-report.html");
-        BufferedReader reader = new BufferedReader(new FileReader(file));
-        String line = "", oldtext = "";
-        while((line = reader.readLine()) != null)
+    	
+    	if (getTestName().contains("SelectedCourse")){
+        	try
             {
-            oldtext += line + "\r\n";
+            File file = new File("./target/surefire-reports/emailable-report.html");
+            BufferedReader reader = new BufferedReader(new FileReader(file));
+            String line = "", oldtext = "";
+            while((line = reader.readLine()) != null)
+                {
+                oldtext += line + "\r\n";
+            }
+            reader.close();
+            // replace a word in a file
+            //String newtext = oldtext.replaceAll("drink", "Love");
+           
+            //To replace a line in a file
+            String newtext = oldtext.replaceAll("Parameter #11", "Course Name EOL"); 
+            String renewtext = newtext.replaceAll("Parameter #2", "Time to Complete");
+            
+            newtext = renewtext.replaceAll("Parameter #3", "Chat Now");
+            renewtext = newtext.replaceAll("Parameter #4", "Program");        
+            newtext = renewtext.replaceAll("Parameter #5", "Phone Number Option");       
+            renewtext = newtext.replaceAll("Parameter #6", "GA Script");       
+            newtext = renewtext.replaceAll("Parameter #7", "SiteCore Form");       
+            renewtext = newtext.replaceAll("Parameter #9", "Course Code");       
+            newtext = renewtext.replaceAll("Parameter #10", "Program of Interest");       
+            renewtext = newtext.replaceAll("Parameter #1", "Course Name");      
+
+            newtext = renewtext.replaceAll("ffff00&quot;&gt;", "ffff00\">");       
+            renewtext = newtext.replaceAll("Warning&lt;/p&gt;", "Warning</p>");       
+            newtext = renewtext.replaceAll("&quot;color", "\"color"); 
+            renewtext = newtext.replaceAll("&lt;p", "<p");       
+            newtext = renewtext.replaceAll("Parameter #8", "Phone Number");       
+
+            
+            
+            FileWriter writer = new FileWriter("./target/surefire-reports/emailable-report.html");
+            writer.write(newtext);writer.close();
         }
-        reader.close();
-        // replace a word in a file
-        //String newtext = oldtext.replaceAll("drink", "Love");
-       
-        //To replace a line in a file
-        String newtext = oldtext.replaceAll("Parameter #11", "Course Name EOL"); 
-        String renewtext = newtext.replaceAll("Parameter #2", "Time to Complete");
-        
-        newtext = renewtext.replaceAll("Parameter #3", "Chat Now");
-        renewtext = newtext.replaceAll("Parameter #4", "Program");        
-        newtext = renewtext.replaceAll("Parameter #5", "Phone Number Option");       
-        renewtext = newtext.replaceAll("Parameter #6", "GA Script");       
-        newtext = renewtext.replaceAll("Parameter #7", "SiteCore Form");       
-        renewtext = newtext.replaceAll("Parameter #9", "Course Code");       
-        newtext = renewtext.replaceAll("Parameter #10", "Program of Interest");       
-        renewtext = newtext.replaceAll("Parameter #1", "Course Name");      
+        catch (IOException ioe)
+            {
+            ioe.printStackTrace();
+        }
+    	}
+    	
+    	if (getTestName().contains("FloodLight")){
+        	try
+            {
+            File file = new File("./target/surefire-reports/emailable-report.html");
+            BufferedReader reader = new BufferedReader(new FileReader(file));
+            String line = "", oldtext = "";
+            while((line = reader.readLine()) != null)
+                {
+                oldtext += line + "\r\n";
+            }
+            reader.close();
+            // replace a word in a file
+            //String newtext = oldtext.replaceAll("drink", "Love");
+           
+            //To replace a line in a file
+            String newtext = oldtext.replaceAll("Parameter #1", "Course Name"); 
+            String renewtext = newtext.replaceAll("Parameter #2", "Program of Interest");
+            
+            newtext = renewtext.replaceAll("Parameter #3", "Course Name On EOL");
+            renewtext = newtext.replaceAll("Parameter #4", "SiteCore Form");        
+                  
+            
+            FileWriter writer = new FileWriter("./target/surefire-reports/emailable-report.html");
+            writer.write(renewtext);writer.close();
+        }
+        catch (IOException ioe)
+            {
+            ioe.printStackTrace();
+        }    		
 
-        newtext = renewtext.replaceAll("ffff00&quot;&gt;", "ffff00\">");       
-        renewtext = newtext.replaceAll("Warning&lt;/p&gt;", "Warning</p>");       
-        newtext = renewtext.replaceAll("&quot;color", "\"color"); 
-        renewtext = newtext.replaceAll("&lt;p", "<p");       
-        newtext = renewtext.replaceAll("Parameter #8", "Phone Number");       
-
-        
-        
-        FileWriter writer = new FileWriter("./target/surefire-reports/emailable-report.html");
-        writer.write(newtext);writer.close();
-    }
-    catch (IOException ioe)
-        {
-        ioe.printStackTrace();
-    }
+    	}
     }
     
     
