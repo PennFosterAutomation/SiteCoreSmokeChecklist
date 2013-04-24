@@ -315,7 +315,6 @@ public class SelectedCourse_SmokeCheckpoint_Test {
 	}
 
 	public void verifyRequestOrGetInfoandEnrollNow(String CourseNameEOL, String CnameEOL) {
-		if (program.equalsIgnoreCase("y")) {
 		
 			if (sitecoreForm.equalsIgnoreCase("n"))
 		{
@@ -347,7 +346,7 @@ public class SelectedCourse_SmokeCheckpoint_Test {
 			Reporter.log(Utilities.blankLine(""));
 			
 			}
-		}
+		
 		
 
 	}
