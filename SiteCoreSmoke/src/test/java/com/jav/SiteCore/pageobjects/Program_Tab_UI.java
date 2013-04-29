@@ -181,14 +181,14 @@ public class Program_Tab_UI extends AbstractClass {
 	protected WebElement globalEnrollNowIcon;
 	@FindBy(xpath = "//*[@id='ctl20_lnkHeaderGetInfo']")
 	protected WebElement globalGetInfoButton;
-	@FindBy(xpath = "//span[contains(text(),'REQUEST INFO')]")
+	@FindBy(xpath = "//span[contains(text(),'GET INFO')]")
 	protected WebElement requestInfoButton;
 		
 	@FindBy(xpath = "//b[contains(text(),'Thank You!')]")
 	protected WebElement thnakyouPageAfterStep1FormPage;
 	@FindBy(xpath = "//input[@value='Send Information']")
 	protected WebElement sendInformationEOL;
-	@FindBy(xpath = "(//option[@selected='selected'])[1]")
+	@FindBy(xpath = "//select[@name='Courseid']//option[@selected='selected']")
 	protected WebElement getDropDownValueFromProgramOfIntrest;
 	@FindBy(xpath = "//input[@id='phcontent_0_btnSubmit']")
 	protected WebElement step2ButtonSiteCore;
@@ -794,7 +794,16 @@ public void verifyRequestInfo(String CnameEOL){
 
 	public void verifyRequiredfields()
 	{
-		enrollsubmit.click();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}	
 		alert = driver.switchTo().alert();
 //		System.out.println("alert text is:"+alert.getText());
         Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
@@ -838,8 +847,16 @@ public void verifyRequestInfo(String CnameEOL){
 //		Select sel1 = new Select(courseidfield);
 //		sel1.selectByVisibleText("High School with a Health Care Concentration");
 		fnamefield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}		alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("First Name"));
 		alert.accept();
@@ -849,8 +866,16 @@ public void verifyRequestInfo(String CnameEOL){
 		//* Verify for Last name *//
 		fnamefield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.FirstName"));
 		lnamefield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}		alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Last Name"));
 		alert.accept();
@@ -859,7 +884,20 @@ public void verifyRequestInfo(String CnameEOL){
 		//* Verify for Address *//
 		lnamefield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.LastName"));
 		addressfield.clear();
-		enrollsubmit.click();
+		
+		
+		
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}
+		
 		alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Address"));
@@ -870,8 +908,16 @@ public void verifyRequestInfo(String CnameEOL){
 		//* Verify for City *//
 		addressfield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.Address"));
 		cityfield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}		alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("City"));
 		alert.accept();
@@ -881,8 +927,16 @@ public void verifyRequestInfo(String CnameEOL){
 		//* Verify for State *//
 		cityfield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.City"));
 		sel.selectByVisibleText("Select a State");
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}		alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("State"));
 		alert.accept();	
@@ -892,8 +946,16 @@ public void verifyRequestInfo(String CnameEOL){
 		//* Verify for ZIP *//
 		sel.selectByVisibleText(Utilities.getYamlValue("SiteCoreApp.StudentInformation.State"));
 		zipfield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}		alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Zip"));
 		alert.accept();
@@ -903,7 +965,17 @@ public void verifyRequestInfo(String CnameEOL){
 		//* Verify for Email *//
 		zipfield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.ZIP"));
 		emailfield.clear();
-		enrollsubmit.click();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}
+		
 		alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Email"));
@@ -914,8 +986,16 @@ public void verifyRequestInfo(String CnameEOL){
 		//* Verify for Phone *//
 		emailfield.sendKeys("test123@pennfoster.edu");
 		phonenumberfield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}		alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Phone"));
 		alert.accept();
@@ -924,8 +1004,17 @@ public void verifyRequestInfo(String CnameEOL){
 
 		
 		phonenumberfield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.PrimaryPhone"));
-		enrollsubmit.click();
-	}
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}
+		}
 	
 	public void verifyThankyouPage(String CnameEOL){
 		WebDriverWait wait = new WebDriverWait(driver, 50 );
@@ -940,9 +1029,22 @@ public void verifyRequestInfo(String CnameEOL){
 		Assert.assertTrue(GetCourseNameEOL.getText().equalsIgnoreCase(CnameEOL));
 		Reporter.log(Utilities.logOutputFile(" Verify EOL display correct course name as selected at sitecore - PASS "));
 
-		driver.navigate().back();
-		Utilities.hardWait(2);
-		driver.navigate().back();
+		
+		
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			System.out.println("ENTER in IE");
+			driver.navigate().back();
+			Utilities.hardWait(2);
+			driver.navigate().back();
+			Utilities.hardWait(2);
+			driver.navigate().back();
+			
+		}else{
+			driver.navigate().back();
+			Utilities.hardWait(2);
+			driver.navigate().back();
+			
+		}
 		wait = new WebDriverWait(driver, 50 );
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Get Info')]")));
 		Reporter.log(Utilities.logOutputFile(" Verify user readirect back to Sitecore - PASS "));
@@ -1163,9 +1265,20 @@ public void verifyRequestInfo(String CnameEOL){
 		Assert.assertTrue(step2TabOnEnrollmentFormForDomestic.isDisplayed());
 		Assert.assertTrue(step3TabOnEnrollmentFormForDomestic.isDisplayed());
 
-		driver.navigate().back();
-		Utilities.hardWait(2);
-		driver.navigate().back();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			System.out.println("ENTER in IE");
+			driver.navigate().back();
+			Utilities.hardWait(2);
+			driver.navigate().back();
+			Utilities.hardWait(2);
+			driver.navigate().back();
+			
+		}else{
+			driver.navigate().back();
+			Utilities.hardWait(2);
+			driver.navigate().back();
+			
+		}
 		wait = new WebDriverWait(driver, 50 );
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Get Info')]")));
 		Reporter.log(Utilities.logOutputFile(" Verify navigate back to SiteCore - PASS "));
