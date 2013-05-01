@@ -121,7 +121,8 @@ public class ChatNowPageHeader_UI extends AbstractClass {
 			if (displayed.contains("none")) {
 				Assert.assertTrue(displayed.contains("none"));
 				System.out.println("chat is disabled for header");
-				Reporter.log(Utilities.logOutputFile("chatnow is disabled and not clicked - FAIL"));
+				Reporter.log(Utilities.logOutputFile("<p style=\"color: #000000; background-color: #ffff00\">Chatnow is disabled and not clicked - Warning</p>"));
+
 			} else {
 				// TODO Auto-generated catch block
 				chatNowHeader.click();
@@ -206,7 +207,7 @@ public class ChatNowPageHeader_UI extends AbstractClass {
 			if (displayed.contains("none")) {
 				Assert.assertTrue(displayed.contains("none"));
 				System.out.println("chat is disabled for footer");
-				Reporter.log(Utilities.logOutputFile("chatnow is disabled and not clicked for footer - PASS"));
+				Reporter.log(Utilities.logOutputFile("<p style=\"color: #000000; background-color: #ffff00\">Chatnow is disabled and not clicked - Warning</p>"));
 			} else {
 				// TODO Auto-generated catch block
 

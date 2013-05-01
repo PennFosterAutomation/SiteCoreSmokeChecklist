@@ -99,13 +99,22 @@ public class SelectedCourse_SmokeCheckpoint_Test {
 
 			verifyPhoneNumber(PhoneNumber);
 			verifyGoogleAnalyticsScript(CourseCode);
-			verifyChatNowHeader();
-			verifyChatNowFooter();
+			
+			if (!Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+				verifyChatNowHeader();
+				verifyChatNowFooter();
+			}
+			
+			
 			verifyTimeToComplete();
 			verifyRequestOrGetInfoandEnrollNow( programofinterest, CnameEOL);
 			verifyAllSevenTabsForCourses();
 
 			System.out.println("########## EXIT CLASS ##########");
+			Reporter.log(Utilities.blankLine(""));
+			Reporter.log(Utilities.blankLine(""));
+			Reporter.log(Utilities
+					.logOutputFile("   ########## Course course checkpoint completed ##########   "));
 		} catch (IOException e) {
 			System.out.println(e);
 		} finally {

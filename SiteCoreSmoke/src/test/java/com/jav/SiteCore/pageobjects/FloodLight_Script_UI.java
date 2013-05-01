@@ -18,7 +18,7 @@ import com.jav.SiteCore.util.Utilities;
 public class FloodLight_Script_UI extends AbstractClass {
 
 	Alert alert;
-WebDriver driver;
+	WebDriver driver;
 	
 	ReadWriteExcelFile writeResult = new ReadWriteExcelFile("ChecklistConfig.xls");
 
@@ -48,7 +48,7 @@ WebDriver driver;
 	protected WebElement globalEnrollNowButton;
 	@FindBy(xpath = "//input[@id='phcontent_0_btnSubmit']")
 	protected WebElement step2ButtonEOL;
-	@FindBy(xpath = "(//option[@selected='selected'])[1]")
+	@FindBy(xpath = "//select[@name='Courseid']//option[@selected='selected']")
 	protected WebElement getDropDownValueFromProgramOfIntrest;
 	@FindBy(xpath = "//input[@value='Proceed To Step 2']")
 	protected WebElement step2ButtonEOLEnable;
@@ -168,7 +168,7 @@ WebDriver driver;
 	protected WebElement GetCourseNameEOL; 
 	@FindBy(css = "input[value='OK']")
 	protected WebElement okButtonValidationPopUp;
-	@FindBy(xpath = "//span[contains(text(),'REQUEST INFO')]")
+	@FindBy(xpath = "//span[contains(text(),'GET INFO')]")
 	protected WebElement requestInfoButton;
 	@FindBy(xpath = "//input[@id='phcontent_0_btnSubmit']")
 	protected WebElement sendInformationButtonEOL;
@@ -284,7 +284,16 @@ WebDriver driver;
 	
 	public void verifyRequiredfields()
 	{
-		enrollsubmit.click();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			
 		alert = driver.switchTo().alert();
 //		System.out.println("alert text is:"+alert.getText());
         Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
@@ -321,8 +330,16 @@ WebDriver driver;
 
 		
 		fnamefield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("First Name"));
 		alert.accept();
@@ -332,8 +349,16 @@ WebDriver driver;
 		//* Verify for Last name *//
 		fnamefield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.FirstName"));
 		lnamefield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Last Name"));
 		alert.accept();
@@ -342,8 +367,16 @@ WebDriver driver;
 		//* Verify for Address *//
 		lnamefield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.LastName"));
 		addressfield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Address"));
 		alert.accept();
@@ -353,8 +386,16 @@ WebDriver driver;
 		//* Verify for City *//
 		addressfield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.Address"));
 		cityfield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("City"));
 		alert.accept();
@@ -364,8 +405,16 @@ WebDriver driver;
 		//* Verify for State *//
 		cityfield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.City"));
 		sel.selectByVisibleText("Select a State");
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("State"));
 		alert.accept();	
@@ -375,8 +424,16 @@ WebDriver driver;
 		//* Verify for ZIP *//
 		sel.selectByVisibleText(Utilities.getYamlValue("SiteCoreApp.StudentInformation.State"));
 		zipfield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Zip"));
 		alert.accept();
@@ -386,8 +443,16 @@ WebDriver driver;
 		//* Verify for Email *//
 		zipfield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.ZIP"));
 		emailfield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Email"));
 		alert.accept();
@@ -397,8 +462,16 @@ WebDriver driver;
 		//* Verify for Phone *//
 		emailfield.sendKeys("test123@pennfoster.edu");
 		phonenumberfield.clear();
-		enrollsubmit.click();
-		alert = driver.switchTo().alert();
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}			alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("You must enter a value in the following fields"));
         Assert.assertTrue(alert.getText().contains("Phone"));
 		alert.accept();
@@ -407,8 +480,17 @@ WebDriver driver;
 
 		
 		phonenumberfield.sendKeys(Utilities.getYamlValue("SiteCoreApp.StudentInformation.PrimaryPhone"));
-		enrollsubmit.click();
-	}
+		if (Utilities.getYamlValue("browser").equalsIgnoreCase("iexplore")){
+			enrollsubmit.click();
+			Utilities.hardWait(2);
+
+		}
+		else
+		{
+			enrollsubmit.click();
+
+		}	
+		}
 
 	public void verifyStep1Page(String CnameEOL){
 		WebDriverWait wait = new WebDriverWait(driver, 50 );
@@ -577,7 +659,7 @@ WebDriver driver;
 		}
 //		#####################################################	
 		
-
+System.out.println("***********************************************");
 		wait = new WebDriverWait(driver, 50);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='lnkPromoCode']")));
 		

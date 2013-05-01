@@ -29,6 +29,14 @@ public class WhichProgramIsRightForMe_UI  extends AbstractClass{
 		protected WebElement pennFosterLogo1;
 		@FindBy(xpath = "//div[@class='unit module module-program-finder yellow']")
 		protected WebElement programChoiceList;
+		@FindBy(xpath = "//span[contains(text(),'SELECT A PROGRAM')]")
+		protected WebElement selectArrowonHomepage;
+		@FindBy(xpath = "html/body/ul[2]/li[2]/a")
+		protected WebElement selectMostPapoularPro;
+		
+		
+		
+		
 		@FindBy(xpath = "//span[contains(text(),'Level of education completed')]")
 		protected WebElement completedLevelOfEducationSelectLabel;
 		@FindBy(linkText = "No High School")
@@ -63,13 +71,21 @@ public class WhichProgramIsRightForMe_UI  extends AbstractClass{
         }
 		
 		public void verifyProgramChoiceOnHomePage()
-        {       		
+        { 			
 			Assert.assertTrue(programChoiceList.isDisplayed());  
 			Reporter.log(Utilities.logOutputFile(" Program choice on home page Verify - Pass"));
         }
 		
 		public void clickLevelOfEducationCompletedOnHomePage()
-        {       		
+        {       
+			selectArrowonHomepage.click();
+			WebDriverWait wait = new WebDriverWait(driver, 50);
+    		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'MOST POPULAR PROGRAMS')]")));
+    		Utilities.hardWait(3);
+//    		selectMostPapoularPro.click();
+    		driver.findElement(By.linkText("MOST POPULAR PROGRAMS")).click();
+    		 wait = new WebDriverWait(driver, 50);
+    		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'MOST POPULAR PROGRAMS')]")));
 			completedLevelOfEducationSelectLabel.click();			
 			Reporter.log(Utilities.logOutputFile("Click on level of education selected - Pass"));
         }

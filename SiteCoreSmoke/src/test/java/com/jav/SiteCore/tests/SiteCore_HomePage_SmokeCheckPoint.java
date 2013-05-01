@@ -270,7 +270,7 @@ public class SiteCore_HomePage_SmokeCheckPoint {
 	public void tearDown() {
 		Reporter.log(Utilities
 				.logOutputFile(" ########## Stop Browser Session ###########"));
-		test.stopBrowserSession();
+//		test.stopBrowserSession();
 	}
 	
 }
