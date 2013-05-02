@@ -22,6 +22,16 @@ public class ChatNowPageHeader_Fixture  extends SearchFunctionalityHomePageHeade
 		ChatNow.verifyChatNowHeader();		
 	}
 	
+	public void verifyChatNowHeaderIE()
+	{
+		ChatNow.verifyChatNowHeaderIE();		
+	}
+	
+	public void verifyChatNowFooterIE()
+	{
+		ChatNow.verifyChatNowFooterIE();		
+	}
+	
 	public void verifyChatNowFooter()
 	{
 		ChatNow.verifyChatNowFooter();		

@@ -112,6 +112,83 @@ public class ChatNowPageHeader_UI extends AbstractClass {
 	
 	}
 
+	public void verifyChatNowHeaderIE() {
+		
+		driver.navigate().refresh();
+		System.out.println("ENTER");
+		Utilities.hardWait(5);
+			String displayed = chatNowHeader.getAttribute("style");
+//			System.out.println("display is " + displayed);
+			if (displayed.contains("none")) {
+				Assert.assertTrue(displayed.contains("none"));
+				System.out.println("chat is disabled for header");
+				Reporter.log(Utilities.logOutputFile("Chatnow is disabled and not clicked - PASS"));
+
+			} else {
+				// TODO Auto-generated catch block
+				chatNowHeader.click();
+				Reporter.log(Utilities.logOutputFile(" chatnow buttons displays and clicked - PASS"));
+
+				Reporter.log(Utilities.logOutputFile(" chatnow header clicked - PASS"));
+				// Get Parent window handle
+				Utilities.hardWait(3);
+				String winHandleBefore = driver.getWindowHandle();
+				for (String winHandle : driver.getWindowHandles()) {
+					driver.switchTo().window(winHandle);
+				}
+//				System.out.println(driver.getTitle());
+				driver.switchTo().frame(driver.findElement(By.id("initialtextFrame")));
+				String str = driver.findElement(By.xpath("//p[@class='lpFormHeading']")).getText();
+				Reporter.log(Utilities.logOutputFile(" Switch to popup - PASS"));
+				Reporter.log(Utilities.logOutputFile(" Text display in chat now popup is '"+str+"' - PASS"));
+
+			
+				
+				Assert.assertTrue(str.contains("To help us serve you better, please provide some information before we begin your chat"));
+				
+					Assert.assertTrue(chatpopupWhatisyounameLabel.isDisplayed());
+					Reporter.log(Utilities.logOutputFile(" Verify Name Label - PASS"));
+
+					Assert.assertTrue(chatPopUpNameTextBox.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Name textbox - PASS"));
+
+					Assert.assertTrue(chatpopUpEmailAddressText.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Adderss TextBox - PASS"));
+
+					Assert.assertTrue(chatPopUpEmailTextBox.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Email TextBox - PASS"));
+
+					Assert.assertTrue(chatPopUpRadioHeadingText.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Radio button heading displays - PASS"));
+
+					Assert.assertTrue(chatPopUpYesRadioOption.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Radio button YES displays - PASS"));
+
+					Assert.assertTrue(chatPopUpNoRadioOption.isDisplayed());
+					Reporter.log(Utilities.logOutputFile(" Verify Radio button NO displays - PASS"));
+					
+//					Assert.assertTrue(chatPopUpStartChatButton.isDisplayed());	
+
+					driver.switchTo().defaultContent();
+	
+					Reporter.log(Utilities.logOutputFile(" Close chat now popup - PASS"));
+
+					driver.close();
+					driver.switchTo().window(winHandleBefore);
+					Utilities.hardWait(4);
+					System.out.println(driver.getTitle());
+					Assert.assertTrue(chatNowHeader.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Back to default content - PASS"));
+
+				
+					
+			}
+
+		
+
+	}
+	
+	
 	public void verifyChatNowHeader() {
 		driver.navigate().refresh();
 		System.out.println("ENTER");
@@ -198,6 +275,77 @@ public class ChatNowPageHeader_UI extends AbstractClass {
 
 		
 	}
+	
+	public void verifyChatNowFooterIE() {
+		
+		driver.navigate().refresh();
+		Utilities.hardWait(5);
+			String displayed = chatNowFooter.getAttribute("style");
+//			System.out.println("display is " + displayed);
+			if (displayed.contains("none")) {
+				Assert.assertTrue(displayed.contains("none"));
+				System.out.println("chat is disabled for footer");
+				Reporter.log(Utilities.logOutputFile("Chatnow is disabled at footer and not clicked - PASS"));
+			} else {
+				// TODO Auto-generated catch block
+
+				chatNowFooter.click();
+				Reporter.log(Utilities.logOutputFile("chatnow footer clicked - PASS"));
+				// Get Parent window handle
+				String winHandleBefore = driver.getWindowHandle();
+				for (String winHandle : driver.getWindowHandles()) {
+					driver.switchTo().window(winHandle);
+				}
+//				System.out.println(driver.getTitle());
+				driver.switchTo().frame(driver.findElement(By.id("initialtextFrame")));
+				System.out.println(driver.findElement(By.xpath("//p[@class='lpFormHeading']")).getText());
+				String str = driver.findElement(By.xpath("//p[@class='lpFormHeading']")).getText();
+				Reporter.log(Utilities.logOutputFile(" Text display in chat now popup is '"+str+"' - PASS"));
+
+				
+				Assert.assertTrue(str.contains("To help us serve you better, please provide some information before we begin your chat."));
+				
+					Assert.assertTrue(chatpopupWhatisyounameLabel.isDisplayed());
+					Reporter.log(Utilities.logOutputFile(" Verify Name Label - PASS"));
+
+					Assert.assertTrue(chatPopUpNameTextBox.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Name textbox - PASS"));
+
+					Assert.assertTrue(chatpopUpEmailAddressText.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Adderss TextBox - PASS"));
+
+					Assert.assertTrue(chatPopUpEmailTextBox.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Email TextBox - PASS"));
+
+					Assert.assertTrue(chatPopUpRadioHeadingText.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Radio button heading displays - PASS"));
+
+					Assert.assertTrue(chatPopUpYesRadioOption.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Verify Radio button YES displays - PASS"));
+
+					Assert.assertTrue(chatPopUpNoRadioOption.isDisplayed());
+					Reporter.log(Utilities.logOutputFile(" Verify Radio button NO displays - PASS"));
+					
+					driver.switchTo().defaultContent();
+//					Assert.assertTrue(chatPopUpStartChatButton.isDisplayed());	
+					
+					
+					driver.close();
+					driver.switchTo().window(winHandleBefore);	
+					Reporter.log(Utilities.logOutputFile(" Switch to chat now popup - PASS"));
+
+					Utilities.hardWait(3);
+//					System.out.println(driver.getTitle());
+					Assert.assertTrue(chatNowFooter.isDisplayed());	
+					Reporter.log(Utilities.logOutputFile(" Chat now button displays - PASS"));
+				
+			}
+	}
+	
+		
+	
+
+	
 	
 	public void verifyChatNowFooter() {
 		driver.navigate().refresh();
