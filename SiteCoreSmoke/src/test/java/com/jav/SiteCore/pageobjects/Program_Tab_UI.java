@@ -62,7 +62,7 @@ public class Program_Tab_UI extends AbstractClass {
 	protected WebElement ToolsandTipsHeadingOverviewHeading;
 	@FindBy(xpath = "//a[contains(text(),'Tuition')]")
 	protected WebElement TuitionandpaymentTab ;
-	@FindBy(xpath = "//a[contains(text(),'Careers')]")
+	@FindBy(xpath = "//nav[@class='navigation collapse sub-nav-0001']/ul/li[5]")
 	protected WebElement CareersTab ;
 	@FindBy(xpath = "//nav[@class='navigation collapse sub-nav-0001']/ul/li[6]")
 	protected WebElement FAQTab ;
@@ -631,6 +631,20 @@ public class Program_Tab_UI extends AbstractClass {
 	
 	public void verifyGoogleAnalyticsScript(String CourseCodefetch){
 		String GetCategory = driver.findElement(By.xpath("(//a[@class='active'])[2]")).getText();
+		
+		if (GetCategory.contains("ALTERNATIVE/HOLISTIC/NATURAL MEDICINE"))
+
+		{
+			GetCategory="Alternative Holistic Natural Medicine";
+		}
+		
+		
+		if (GetCategory.contains("DRAWING, PAINTING, AND VISUAL ARTS"))
+
+		{
+			GetCategory="Drawing Painting and Visual Arts";
+		}
+		
 		String CompleteSourceCode = driver.getPageSource();
 		String SaturatedScript = Utilities.getScript(CompleteSourceCode, "var _gaq = _gaq || []");
 		Reporter.log(Utilities.logOutputFile(" GA script find in page source - PASS "));
@@ -651,8 +665,11 @@ public class Program_Tab_UI extends AbstractClass {
 
 		Assert.assertTrue(DomainName.equals(".pennfoster.edu"));
 		Reporter.log(Utilities.logOutputFile(" GA script Domain Name displays - PASS "));
+		
+		System.out.println("GetCategory"+GetCategory);
+		System.out.println("Category"+Category);
 
-		Assert.assertTrue(GetCategory.equalsIgnoreCase(Category));
+		Assert.assertTrue(GetCategory.equalsIgnoreCase(Category.trim()));
 		Reporter.log(Utilities.logOutputFile(" GA script Category for course displays - PASS "));
 
 		Assert.assertTrue(FinalFunction.length()>10);

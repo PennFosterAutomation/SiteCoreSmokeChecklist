@@ -94,9 +94,10 @@ public class ChatNowPageHeader_UI extends AbstractClass {
 	public void verifyPhoneNumber(String PhoneNumber){
 
  		WebDriverWait wait = new WebDriverWait(driver, 50);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Overview')]")));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul[@class='breadcrumb hidden-tablet hidden-phone']/li[3]")));
 		Utilities.hardWait(3);
  		System.out.println(globalPhoneNumer.getText());
+ 		System.out.println(PhoneNumber);
 			Assert.assertTrue(globalPhoneNumer.getText().equalsIgnoreCase(PhoneNumber));
 			Reporter.log(Utilities.logOutputFile(" Verify appication displays phone number '"+PhoneNumber+"' for Global Page -  PASS"));			
 
