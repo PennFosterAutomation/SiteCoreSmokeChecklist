@@ -62,11 +62,11 @@ public class Program_Tab_UI extends AbstractClass {
 	protected WebElement ToolsandTipsHeadingOverviewHeading;
 	@FindBy(xpath = "//a[contains(text(),'Tuition')]")
 	protected WebElement TuitionandpaymentTab ;
-	@FindBy(xpath = "//a[@id='ctl23_linkCareers']")
+	@FindBy(xpath = "//a[contains(text(),'Careers')]")
 	protected WebElement CareersTab ;
-	@FindBy(xpath = "//a[@id='ctl23_linkFAQ']")
+	@FindBy(xpath = "//nav[@class='navigation collapse sub-nav-0001']/ul/li[6]")
 	protected WebElement FAQTab ;
-	@FindBy(xpath = "//a[@id='ctl23_linkAccreditation']")
+	@FindBy(xpath = "//a[contains(text(),'Accreditation')]")
 	protected WebElement AccreditationTab ;
 	@FindBy(xpath = "//div[@class='program_name']")
 	protected WebElement GetCourseNameEOL ;
@@ -173,13 +173,13 @@ public class Program_Tab_UI extends AbstractClass {
 	protected WebElement GlobalPhoneNumber;
 	@FindBy(xpath = "//a[contains(text(),'Who is')]")
 	protected WebElement WhoIsItForTab;
-	@FindBy(xpath = "//a[@id='ctl23_linkOutline']")
+	@FindBy(xpath = "//nav[@class='navigation collapse sub-nav-0001']/ul/li[3]")
 	protected WebElement ProgramOutLineTab;	
-	@FindBy(xpath = "//a[@id='ctl18_lnkHeaderEnroll']")
+	@FindBy(xpath = "(//a[@class='btn btn-yellow btn-square'])[2]")
 	protected WebElement globalEnrollNowButton;
 	@FindBy(xpath = "//span[contains(text(),'ENROLL NOW ')]")
 	protected WebElement globalEnrollNowIcon;
-	@FindBy(xpath = "//*[@id='ctl20_lnkHeaderGetInfo']")
+	@FindBy(xpath = "//a[@class='btn-blue btn-gloss']")
 	protected WebElement globalGetInfoButton;
 	@FindBy(xpath = "//span[contains(text(),'GET INFO')]")
 	protected WebElement requestInfoButton;
@@ -630,7 +630,7 @@ public class Program_Tab_UI extends AbstractClass {
 	}
 	
 	public void verifyGoogleAnalyticsScript(String CourseCodefetch){
-		String GetCategory = driver.findElement(By.xpath("//a[@id='ctl22_rptBreadcrumb_link_1']")).getText();
+		String GetCategory = driver.findElement(By.xpath("(//a[@class='active'])[2]")).getText();
 		String CompleteSourceCode = driver.getPageSource();
 		String SaturatedScript = Utilities.getScript(CompleteSourceCode, "var _gaq = _gaq || []");
 		Reporter.log(Utilities.logOutputFile(" GA script find in page source - PASS "));
