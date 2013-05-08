@@ -2,6 +2,7 @@ package com.jav.SiteCore.pageobjects;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -76,16 +77,25 @@ public class WhichProgramIsRightForMe_UI  extends AbstractClass{
 			Reporter.log(Utilities.logOutputFile(" Program choice on home page Verify - Pass"));
         }
 		
+//		public void clickLevelOfEducationCompletedOnHomePage()
+//        {       
+//			selectArrowonHomepage.click();
+//			WebDriverWait wait = new WebDriverWait(driver, 50);
+//    		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'MOST POPULAR PROGRAMS')]")));
+//    		Utilities.hardWait(3);
+////    		selectMostPapoularPro.click();
+//    		driver.findElement(By.linkText("MOST POPULAR PROGRAMS")).click();
+//    		 wait = new WebDriverWait(driver, 50);
+//    		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'MOST POPULAR PROGRAMS')]")));
+//			completedLevelOfEducationSelectLabel.click();			
+//			Reporter.log(Utilities.logOutputFile("Click on level of education selected - Pass"));
+//        }
+		
 		public void clickLevelOfEducationCompletedOnHomePage()
-        {       
-			selectArrowonHomepage.click();
-			WebDriverWait wait = new WebDriverWait(driver, 50);
-    		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'MOST POPULAR PROGRAMS')]")));
+        {       		
+    		driver.findElement(By.xpath(".//*[@id='ctl18_aDefaultC']")).click();
     		Utilities.hardWait(3);
-//    		selectMostPapoularPro.click();
-    		driver.findElement(By.linkText("MOST POPULAR PROGRAMS")).click();
-    		 wait = new WebDriverWait(driver, 50);
-    		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'MOST POPULAR PROGRAMS')]")));
+
 			completedLevelOfEducationSelectLabel.click();			
 			Reporter.log(Utilities.logOutputFile("Click on level of education selected - Pass"));
         }
@@ -119,13 +129,18 @@ public class WhichProgramIsRightForMe_UI  extends AbstractClass{
 		
 		public void clickWhatInterestYouMostOnHomePage()
         {
-			Utilities.hardWait(2);
+			JavascriptExecutor jse = (JavascriptExecutor)driver;
+			jse.executeScript("window.scrollBy(0,250)", "");
+			Utilities.hardWait(3);
 			whatIneterestYouMostLabel.click();
+			Utilities.hardWait(3);
+
 			Reporter.log(Utilities.logOutputFile("click What Interest You Most On Home Page - Pass"));
         }
 		
 		public void selectMostInerestedField()
 		{
+			
 			WebDriverWait wait = new WebDriverWait(driver, 50);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Accounting and Finance")));
 //			accountingAndFinancelink.click();
@@ -170,6 +185,11 @@ public class WhichProgramIsRightForMe_UI  extends AbstractClass{
 			Reporter.log(Utilities.logOutputFile("verify programs found- Pass"));
 			System.out.println(	driver.findElement(By.xpath("//div[@class='row filter-result-container']")).getAttribute("childElementCount"));
 			System.out.println(	driver.findElement(By.xpath("//div[@class='row filter-result-container']")).getText());
+			
+			driver.findElement(By.xpath("//a[contains(text(),'Home')]")).click();
+			Utilities.hardWait(3);
+
+			
 			
 		}
 }
