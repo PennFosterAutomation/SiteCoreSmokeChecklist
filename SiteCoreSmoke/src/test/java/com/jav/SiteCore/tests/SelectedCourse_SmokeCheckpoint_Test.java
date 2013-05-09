@@ -111,7 +111,7 @@ public class SelectedCourse_SmokeCheckpoint_Test {
 			verifyChatNowHeader();
 			verifyChatNowFooter();
 			verifyTimeToComplete();
-			verifyRequestOrGetInfoandEnrollNow( programofinterest, CnameEOL);
+//			verifyRequestOrGetInfoandEnrollNow( programofinterest, CnameEOL);
 			verifyAllSevenTabsForCourses();
 
 			System.out.println("########## EXIT CLASS ##########");

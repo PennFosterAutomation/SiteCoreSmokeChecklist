@@ -11,6 +11,7 @@ import com.jav.SiteCore.util.Utilities;
 import com.jav.SiteCore.pageobjects.EnrollNowUi;
 import com.jav.SiteCore.pageobjects.FloodLight_Script_UI;
 import com.jav.SiteCore.pageobjects.Program_Tab_UI;
+import com.jav.SiteCore.pageobjects.URM_URL_Link_UI;
 import com.jav.SiteCore.pageobjects.WhichProgramIsRightForMe_UI;
 import com.jav.SiteCore.pageobjects.TimeToCompleteCarrerSchools_UI;
 import com.jav.SiteCore.pageobjects.SearchFunctionalityHomePageHeader_UI;
@@ -29,6 +30,7 @@ public class BaseFixture {
 	Program_Tab_UI Program;
 	EnrollNowUi enroll;
 	FloodLight_Script_UI FScript;
+	URM_URL_Link_UI URM;
 	
 	public void startBrowserSession()
 	{
@@ -67,6 +69,7 @@ public class BaseFixture {
 		Program = new Program_Tab_UI(driver);
 		enroll = new EnrollNowUi(driver);
 		FScript = new FloodLight_Script_UI(driver);
+		URM = new URM_URL_Link_UI(driver);
 	}
 	
 	public void launchUrl(String url)

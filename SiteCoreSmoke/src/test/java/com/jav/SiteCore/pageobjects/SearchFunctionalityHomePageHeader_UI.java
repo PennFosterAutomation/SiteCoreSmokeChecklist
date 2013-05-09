@@ -42,7 +42,7 @@ public class SearchFunctionalityHomePageHeader_UI  extends AbstractClass{
     	protected WebElement multipleSearchbutton;
     	@FindBy(xpath = "//a[@class='btn-blue btn-gloss large phonenumber']")
     	protected WebElement globalPhoneNumer;
-       	@FindBy(xpath = "//a[@id='ctl19_aDefaultPF']")
+       	@FindBy(xpath = "//a[contains(text(),'Home')]")
     	protected WebElement globalPennFosterImage;
        	@FindBy(xpath = "(//a[contains(text(),'Programs')])[2]")
     	protected WebElement programsAndDegreesTab;
@@ -208,15 +208,15 @@ public class SearchFunctionalityHomePageHeader_UI  extends AbstractClass{
     	
     	public void verifySearchMultiple(String Searchterm)
     	{
-//    		SearchTerm = Searchterm;
-//    		Assert.assertTrue(multipleSearchTermTextBox.isDisplayed());
-//    		multipleSearchTermTextBox.click();
-//    		multipleSearchTermTextBox.clear();
-//    		multipleSearchTermTextBox.click();
-//    		multipleSearchTermTextBox.sendKeys(SearchTerm);
-//    		multipleSearchbutton.click();
-//    		Utilities.hardWait(2);
-//    		verifySearchTermHeadingContainSearchTerm();
+    		SearchTerm = Searchterm;
+    		Assert.assertTrue(multipleSearchTermTextBox.isDisplayed());
+    		multipleSearchTermTextBox.click();
+    		multipleSearchTermTextBox.clear();
+    		multipleSearchTermTextBox.click();
+    		multipleSearchTermTextBox.sendKeys(SearchTerm);
+    		multipleSearchbutton.click();
+    		Utilities.hardWait(2);
+    		verifySearchTermHeadingContainSearchTerm();
     		
     	}
     	
@@ -597,7 +597,7 @@ public class SearchFunctionalityHomePageHeader_UI  extends AbstractClass{
 		    			addresscollegeFooterHomePage.getText().contains("Administrative Office") &&
 		    			addresscollegeFooterHomePage.getText().contains("14300 N. Northsight Blvd.") &&
 		    			addresscollegeFooterHomePage.getText().contains("Scottsdale, AZ 85260 USA") &&
-		    			addresscollegeFooterHomePage.getText().contains("1-800-275-4410") 
+		    			addresscollegeFooterHomePage.getText().contains("1-800-471-3232") 
 			    			);
 			    Assert.assertTrue(addressschoolFooterHomePage.getText().contains("Penn Foster Career School") &&
 			    		addressschoolFooterHomePage.getText().contains("Penn Foster High School") &&
